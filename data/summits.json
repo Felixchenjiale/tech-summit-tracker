@@ -43,19 +43,6 @@
       "source": "上观新闻"
     },
     {
-      "name": "西安全球先进陶瓷论坛暨半导体论坛",
-      "date": "2026-06-25 至 2026-06-26",
-      "city": "西安",
-      "venue": "西安中建假日酒店",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/5402.html",
-      "description": "聚焦先进陶瓷与半导体领域的技术创新与产业应用",
-      "scale": "展览面积1万㎡，展商200家，观众1.2万人"
-    },
-    {
       "name": "开源中国·开源世界高峰论坛（第21届）",
       "date": "2026-06-25 至 2026-06-26",
       "city": "北京",
@@ -80,19 +67,6 @@
       "url": "https://openatom.cn/",
       "description": "以'开源赋能产业，生态共筑未来'为主题，涵盖AI、操作系统、具身智能等前沿方向",
       "source": "开放原子基金会官网"
-    },
-    {
-      "name": "CEIR 中国国际具身智能机器人大会",
-      "date": "2026-06-25 至 2026-06-29",
-      "city": "新疆",
-      "venue": "新疆国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://ceirshow.com/",
-      "description": "聚焦感知、认知、决策、控制、执行五大系统核心，展示具身智能机器人最新技术",
-      "source": "CEIR官网"
     },
     {
       "name": "西安西部数字经济博览会",
@@ -128,19 +102,6 @@
       ],
       "url": "https://aicon.infoq.cn/2026/shanghai",
       "date": "2026-06-26 至 2026-06-27"
-    },
-    {
-      "name": "慕尼黑上海电子展",
-      "date": "2026-07-01 至 2026-07-03",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://m.jufair.com/information/284321.html",
-      "description": "亚洲电子行业灯塔展，聚焦半导体、传感器、连接器、汽车电子等核心领域",
-      "scale": "展览面积9万㎡，展商1568家，观众9.27万人"
     },
     {
       "name": "北京全球数字经济大会",
@@ -191,44 +152,6 @@
       "pricing": "付费",
       "url": "https://geekpark.huodongxing.com/event/4862361838000",
       "description": "智启新程·育见未来，聚焦AI在教育领域的应用与变革"
-    },
-    {
-      "name": "2026 中国电子先进封装与智造大会",
-      "date": "2026-07-09 至 2026-07-10",
-      "city": "合肥",
-      "venue": "合肥新站利港喜来登",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://bj.huodongxing.com/event/7860352489900",
-      "description": "以芯启新程·封领未来为主题，汇聚电子封装领域院士专家与企业高管"
-    },
-    {
-      "name": "中国西部电子展·成都",
-      "date": "2026-07-15 至 2026-07-17",
-      "city": "成都",
-      "venue": "成都世纪新城国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
-      "description": "西部电子行业专业展会，展示电子元器件、集成电路等全产业链产品",
-      "scale": "展览面积3.3万㎡，展商600家"
-    },
-    {
-      "name": "中国西部国际光电博览会",
-      "date": "2026-07-15 至 2026-07-17",
-      "city": "成都",
-      "venue": "成都世纪新城国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
-      "description": "展示光电产业全产业链产品与技术解决方案",
-      "scale": "展览面积4万㎡，展商800家"
     },
     {
       "name": "上海世界人工智能大会",
@@ -408,19 +331,6 @@
       "scale": "展览面积2.25万㎡，展商400家"
     },
     {
-      "name": "SIA2026 深圳国际半导体技术大会暨展览会",
-      "date": "2026-08-26 至 2026-08-28",
-      "city": "深圳",
-      "venue": "深圳国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "http://www.sia2025.com/",
-      "description": "全国权威性、专业化半导体行业品牌盛会，预计展出面积60,000平方米",
-      "source": "SIA官网"
-    },
-    {
       "name": "2026全球AI风控领袖峰会（合肥站）暨第八届数字化转型与创新峰会",
       "date": "2026-08-28",
       "city": "合肥",
@@ -431,58 +341,6 @@
       "pricing": "免费",
       "url": "https://ghrlibs.huodongxing.com/event/4864665208500",
       "description": "聚焦AI风控与数字化转型，探讨人工智能在企业中的应用"
-    },
-    {
-      "name": "CSEAC 2026 第十四届半导体设备材料及核心部件展",
-      "date": "2026-08-31 至 2026-09-02",
-      "city": "无锡",
-      "venue": "无锡太湖国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.cseac.org.cn/cn",
-      "description": "覆盖半导体全产业链的专业化、产业化、国际化平台，面积超70,000㎡",
-      "source": "品牌2026"
-    },
-    {
-      "name": "中国（北京）国际国防电子展览会",
-      "date": "2026-09-02 至 2026-09-04",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
-      "description": "展示国防电子领域最新技术与产品的专业展会",
-      "scale": "展览面积4万㎡，展商500家"
-    },
-    {
-      "name": "无锡半导体设备材料及核心部件展",
-      "date": "2026-08.31 至 2026-09-02",
-      "city": "无锡",
-      "venue": "无锡太湖国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/9583.html",
-      "description": "专注半导体设备材料及核心部件的专业展会",
-      "scale": "展览面积7万㎡，展商1300家，观众8万人"
-    },
-    {
-      "name": "中国西部半导体及集成电路产业博览会",
-      "date": "2026-09-03 至 2026-09-05",
-      "city": "西安",
-      "venue": "西安国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/8219.html",
-      "description": "西部半导体产业专业展会，展示IC设计、晶圆制造、封测等全产业链",
-      "scale": "展览面积5.2万㎡，展商1500家，观众6.5万人"
     },
     {
       "name": "深圳国际消费电子及家用电器展",
@@ -524,58 +382,6 @@
       "scale": "展览面积16万㎡，展商2512家，观众8.93万人"
     },
     {
-      "name": "深圳国际电子展暨嵌入式展",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/6100.html",
-      "description": "展示嵌入式系统与电子技术的专业展会",
-      "scale": "展览面积3万㎡，展商600家，观众6万人"
-    },
-    {
-      "name": "深圳国际半导体展暨集成电路产业创新展",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/9904.html",
-      "description": "展示半导体与集成电路产业链的专业展会",
-      "scale": "展览面积6万㎡，展商1000家，观众5万人"
-    },
-    {
-      "name": "深圳光电子创新展",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
-      "description": "展示光电子技术创新成果的专业展区",
-      "scale": "展览面积16万㎡，展商2512家"
-    },
-    {
-      "name": "深圳智能传感展",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
-      "description": "展示智能传感技术与应用解决方案",
-      "scale": "展览面积16万㎡，展商2512家"
-    },
-    {
       "name": "2026云栖大会 (APSARA CONFERENCE)",
       "date": "2026-09-09 至 2026-09-11",
       "city": "杭州",
@@ -587,19 +393,6 @@
       "url": "https://yunqi.aliyun.com/",
       "description": "中国云计算与人工智能产业发展风向标，聚焦通义千问与AI生态",
       "source": "中欧国际展览"
-    },
-    {
-      "name": "CIOE 2026 中国国际光电博览会",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.cioe.cn/",
-      "description": "全球规模领先的光电全产业链综合展，促进光电与半导体技术融合",
-      "source": "CIOE官网"
     },
     {
       "name": "北京PT展/北京国际信息通信展",
@@ -654,19 +447,6 @@
       "source": "中国工博会官网"
     },
     {
-      "name": "深圳湾芯展",
-      "date": "2026-10-14 至 2026-10-16",
-      "city": "深圳",
-      "venue": "深圳福田会展中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/3245.html",
-      "description": "中国半导体与集成电路产业规模最大、最具影响力的专业展会之一",
-      "scale": "展览面积6万㎡，展商600家，观众6万人"
-    },
-    {
       "name": "2026中国计算机大会 (CNCC2026)",
       "date": "2026-10-22 至 2026-10-24",
       "city": "成都",
@@ -692,32 +472,6 @@
       "description": "InfoQ主办的综合性技术盛会，分享技术创新和实践"
     },
     {
-      "name": "深圳亚洲电子生产设备暨微电子工业展",
-      "date": "2026-10-27 至 2026-10-29",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
-      "description": "亚洲领先的电子生产设备与微电子工业展会",
-      "scale": "展览面积8万㎡，展商600家"
-    },
-    {
-      "name": "NEPCON ASIA 2026 亚洲电子展",
-      "date": "2026-10-27 至 2026-10-29",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.nepconasia.com/",
-      "description": "联合多场工业展形成18万㎡产业矩阵，重点覆盖半导体封测、具身智能、汽车电子",
-      "source": "NEPCON ASIA官网"
-    },
-    {
       "name": "2026国际区块链和Web3.0技术创新大会",
       "date": "2026-11-06 至 2026-11-08",
       "city": "杭州",
@@ -741,58 +495,6 @@
       "pricing": "付费",
       "url": "https://jiehuiying.huodongxing.com/event/7865513882600",
       "description": "Beyond the Model. Build for Real. 全球规模最大的社区主导型技术大会"
-    },
-    {
-      "name": "中国（上海）半导体产业与应用博览会",
-      "date": "2026-11-10 至 2026-11-12",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/7220.html",
-      "description": "加强半导体产业界交流合作，加快关键核心技术突破",
-      "scale": "展览面积1.5万㎡，展商260家，观众3.5万人"
-    },
-    {
-      "name": "上海电子展-中国电子展",
-      "date": "2026-11-10 至 2026-11-12",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
-      "description": "中国电子行业历史最悠久、最具影响力的专业展会",
-      "scale": "展览面积6万㎡，展商1300家"
-    },
-    {
-      "name": "中国（北京）国际半导体博览会",
-      "date": "2026-11-12 至 2026-11-14",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/5478.html",
-      "description": "展示中国半导体产业发展成果的专业盛会",
-      "scale": "展览面积5万㎡，展商700家，观众10万人"
-    },
-    {
-      "name": "IC China 2026 第二十三届中国国际半导体博览会",
-      "date": "2026-11-12 至 2026-11-14",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.icfair.cn/",
-      "description": "以'以芯筑基新质生产力'为主题，展览面积预计5万平方米",
-      "source": "中国日报网"
     },
     {
       "name": "Hongqiao Tech Week 虹桥科技周",
@@ -844,19 +546,6 @@
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9828.html",
       "description": "高交会核心展区之一，展示AI与机器人技术成果",
-      "scale": "展览面积14.2万㎡，展商3349家，观众45.1万人"
-    },
-    {
-      "name": "深圳高交会半导体与集成电路展",
-      "date": "2026-11-26 至 2026-11-28",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安新馆）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/9315.html",
-      "description": "高交会核心展区，展示半导体与集成电路产业链",
       "scale": "展览面积14.2万㎡，展商3349家，观众45.1万人"
     },
     {
@@ -976,48 +665,6 @@
       "url": "https://www.weforum.org/"
     },
     {
-      "id": "mwc-shanghai-2026",
-      "name": "2026上海世界移动通信大会",
-      "start_date": "2026-06-24",
-      "end_date": "2026-06-26",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "付费",
-      "organizer": "GSMA",
-      "theme": "众智启新",
-      "description": "首次开设6G产业生态展区，全面聚焦6G、移动AI、具身智能、智慧医疗、智能网联汽车等，入场证888元起（有免费通行证优惠码）",
-      "status": "upcoming",
-      "register_url": "https://register.mwcshanghai.com/",
-      "source_urls": [
-        "https://register.mwcshanghai.com/"
-      ],
-      "url": "https://www.mwcshanghai.cn/"
-    },
-    {
-      "id": "beijing-semicon-2026",
-      "name": "2026中国国际半导体博览会（IC China 2026）",
-      "start_date": "2026-11-12",
-      "end_date": "2026-11-14",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "organizer": "中国半导体行业协会/中国电子信息产业发展研究院",
-      "theme": "半导体+：赋能数字经济，驱动产业未来",
-      "description": "国内半导体行业年度旗舰展会，展览面积5万㎡，聚焦IC设计、制造、封测、设备材料全产业链，观众免费预登记",
-      "status": "upcoming",
-      "register_url": "https://icfair.cn/",
-      "source_urls": [
-        "https://icfair.cn/"
-      ],
-      "url": "https://www.icfair.cn/"
-    },
-    {
       "id": "rokid-dev-2026",
       "name": "Rokid Open Day 2026 全球生态及开发者大会",
       "start_date": "2026-06-26",
@@ -1037,25 +684,6 @@
         "https://developerdoc.rokid.com/sdk?lang=zh"
       ],
       "url": "https://www.rokid.com/"
-    },
-    {
-      "id": "sz-ic-summit-2026",
-      "name": "2026中国(深圳)集成电路峰会",
-      "start_date": "2026-06-26",
-      "end_date": "2026-06-26",
-      "city": "深圳",
-      "venue": "深圳",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "organizer": "中国集成电路设计创新联盟",
-      "theme": "聚开源之力筑芯势，智造大湾区未来",
-      "description": "聚焦集成电路设计与产业协同，汇聚大湾区集成电路领域专家与企业",
-      "status": "upcoming",
-      "register_url": "",
-      "source_urls": [],
-      "url": "https://www.sica.org.cn/"
     },
     {
       "id": "gdec-2026",
@@ -1098,27 +726,6 @@
         "https://www.worldaic.com.cn"
       ],
       "url": "https://www.worldaic.com.cn/"
-    },
-    {
-      "id": "elexcon-cioe-2026",
-      "name": "elexcon深圳国际电子展+CIOE光博会+IICIE集成电路创新博览会",
-      "start_date": "2026-09-09",
-      "end_date": "2026-09-11",
-      "city": "深圳",
-      "venue": "深圳国际会展中心（宝安）",
-      "category": [
-        "硬件·芯片"
-      ],
-      "pricing": "免费",
-      "organizer": "博闻创意/中国光学光电子行业协会",
-      "theme": "All for AI, All for Green",
-      "description": "三展联动总规模34万㎡，5000+参展企业，240000+专业观众，覆盖芯片、嵌入式AI、光电、集成电路全产业链，观众免费预登记",
-      "status": "upcoming",
-      "register_url": "https://www.elexcon.com/",
-      "source_urls": [
-        "https://www.elexcon.com/"
-      ],
-      "url": "https://e.elexcon.com/"
     }
   ]
 }
