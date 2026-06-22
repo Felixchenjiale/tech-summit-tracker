@@ -9,7 +9,9 @@
       "end_date": "2026-06-24",
       "city": "上海",
       "venue": "上海世博中心",
-      "category": "云",
+      "category": [
+        "云"
+      ],
       "pricing": "免费",
       "organizer": "亚马逊云科技",
       "theme": "Agentic Now, Go Build",
@@ -27,7 +29,9 @@
       "date": "2026-06-24 至 2026-06-26",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/3206.html",
       "description": "亚洲最具影响力的移动通信产业盛会，首次推出移动AI、卫星通信、6G等前沿领域展区",
@@ -38,7 +42,9 @@
       "date": "2026-06-24 至 2026-06-26",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://www.mwcshanghai.com/",
       "description": "GSMA主办的全球移动通信盛会，聚焦6G、移动AI、具身智能、智慧医疗等前沿领域",
@@ -49,7 +55,9 @@
       "date": "2026-06-25 至 2026-06-26",
       "city": "西安",
       "venue": "西安中建假日酒店",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/5402.html",
       "description": "聚焦先进陶瓷与半导体领域的技术创新与产业应用",
@@ -60,7 +68,9 @@
       "date": "2026-06-25 至 2026-06-26",
       "city": "北京",
       "venue": "北京中关村展示中心",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "免费",
       "url": "https://www.oschina.net/",
       "description": "聚焦Agent智能体生态、算力创新发展、开源大模型技术的开源领域年度盛会",
@@ -71,7 +81,9 @@
       "date": "2026-06-25 至 2026-06-26",
       "city": "北京",
       "venue": "北京北人亦创国际会展中心",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "免费",
       "url": "https://openatom.cn/",
       "description": "以'开源赋能产业，生态共筑未来'为主题，涵盖AI、操作系统、具身智能等前沿方向",
@@ -82,7 +94,9 @@
       "date": "2026-06-25 至 2026-06-29",
       "city": "新疆",
       "venue": "新疆国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://ceirshow.com/",
       "description": "聚焦感知、认知、决策、控制、执行五大系统核心，展示具身智能机器人最新技术",
@@ -93,7 +107,9 @@
       "date": "2026-06-26 至 2026-06-28",
       "city": "西安",
       "venue": "西安国际会展中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/19382.html",
       "description": "西部数字经济领域专业展会，展示数字经济新技术、新产品和新成果",
@@ -106,7 +122,9 @@
       "end_date": "2026-06-27",
       "city": "上海",
       "venue": "上海宝华万豪酒店",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "organizer": "InfoQ",
       "theme": "大模型从\"会回答\"到\"能执行\"的技术拐点",
@@ -124,7 +142,9 @@
       "date": "2026-07-01 至 2026-07-03",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://m.jufair.com/information/284321.html",
       "description": "亚洲电子行业灯塔展，聚焦半导体、传感器、连接器、汽车电子等核心领域",
@@ -135,7 +155,9 @@
       "date": "2026-07-02 至 2026-07-05",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9262.html",
       "description": "国家级数字经济领域顶级盛会，展示大数据、云计算、AI、物联网等前沿技术",
@@ -146,7 +168,9 @@
       "date": "2026-07-08 至 2026-07-09",
       "city": "北京",
       "venue": "中关村国际技术交易中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://shuidibaoxian.huodongxing.com/event/7844984605400",
       "description": "汇聚全球AI领域头部企业，聚焦世界模型、具身智能、多智能体系统等前沿方向",
@@ -157,7 +181,9 @@
       "date": "2026-07-08 至 2026-07-09",
       "city": "成都",
       "venue": "锦宾国际酒店",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://shagualicai.huodongxing.com/event/3855745944000",
       "description": "智赋西部·数创未来，聚焦AI大模型与工业互联网融合应用"
@@ -167,7 +193,9 @@
       "date": "2026-07-08",
       "city": "北京",
       "venue": "中关村展示中心-会议中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://geekpark.huodongxing.com/event/4862361838000",
       "description": "智启新程·育见未来，聚焦AI在教育领域的应用与变革"
@@ -177,7 +205,9 @@
       "date": "2026-07-09 至 2026-07-10",
       "city": "合肥",
       "venue": "合肥新站利港喜来登",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://bj.huodongxing.com/event/7860352489900",
       "description": "以芯启新程·封领未来为主题，汇聚电子封装领域院士专家与企业高管"
@@ -187,7 +217,9 @@
       "date": "2026-07-15 至 2026-07-17",
       "city": "成都",
       "venue": "成都世纪新城国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "西部电子行业专业展会，展示电子元器件、集成电路等全产业链产品",
@@ -198,7 +230,9 @@
       "date": "2026-07-15 至 2026-07-17",
       "city": "成都",
       "venue": "成都世纪新城国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
       "description": "展示光电产业全产业链产品与技术解决方案",
@@ -209,7 +243,9 @@
       "date": "2026-07-17 至 2026-07-20",
       "city": "上海",
       "venue": "上海世博展览馆",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/8865.html",
       "description": "全球AI领域规模最大、影响力最强的年度盛会，展示AI从底层技术到产业落地完整图景",
@@ -220,7 +256,9 @@
       "date": "2026-07-17 至 2026-07-20",
       "city": "上海",
       "venue": "上海世博展览馆/徐汇西岸/浦东张江",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.worldaic.com.cn/",
       "description": "中国AI领域最高规格国际盛会，以'智能伙伴，共创未来'为主题，设140+场论坛",
@@ -231,7 +269,9 @@
       "date": "2026-07-17 至 2026-07-19",
       "city": "厦门",
       "venue": "厦门佰翔五通酒店",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "http://bdai2026.icrp.xjtu.edu.cn",
       "description": "中国工业与应用数学学会主办，聚焦大数据与人工智能领域当前研究热点",
@@ -242,7 +282,9 @@
       "date": "2026-07-31",
       "city": "线上",
       "venue": "线上活动",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://luojisiwei.huodongxing.com/event/9861370981600",
       "description": "智能无界·价值共生——AI大模型行业落地新范式"
@@ -252,7 +294,9 @@
       "date": "2026-08-03 至 2026-08-05",
       "city": "深圳",
       "venue": "深圳华侨城洲际大酒店",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://ccf.org.cn/CQCC2026",
       "description": "以'未来=量子计算+人工智能？'为主题，国内规模最大量子计算年度盛会",
@@ -263,7 +307,9 @@
       "date": "2026-08-14 至 2026-08-16",
       "city": "北京",
       "venue": "北京（具体地点待定）",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.bigcom2026.com/",
       "description": "聚焦大数据计算与通信领域，涵盖数据分析、机器学习、隐私安全等研究方向",
@@ -274,7 +320,9 @@
       "date": "2026-08-18 至 2026-08-20",
       "city": "杭州",
       "venue": "杭州国际博览中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9346.html",
       "description": "聚焦数字安防与人工智能技术的专业展会",
@@ -285,7 +333,9 @@
       "date": "2026-08-21 至 2026-08-23",
       "city": "广州",
       "venue": "广交会展馆-广州琶洲馆",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition/8893.html",
       "description": "粤港澳大湾区规模领先的综合性经贸盛会，以大科技·大消费为主题",
@@ -296,7 +346,9 @@
       "date": "2026-08-21 至 2026-08-23",
       "city": "哈尔滨",
       "venue": "哈尔滨工程大学",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://conf.ccf.org.cn/BigData2026",
       "description": "CCF大数据专家委员会承办的国内大数据领域最具影响力学术会议之一",
@@ -309,7 +361,9 @@
       "end_date": "2026-08-22",
       "city": "深圳",
       "venue": "深圳",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "organizer": "InfoQ",
       "theme": "AI Agent工程化与产业落地",
@@ -327,7 +381,9 @@
       "date": "2026-08-26 至 2026-08-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/1001.html",
       "description": "创办于2009年的老牌专业物联网展会，覆盖物联网感知层、网络层、平台层全产业链",
@@ -338,7 +394,9 @@
       "date": "2026-08-26 至 2026-08-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/10143.html",
       "description": "展示智能装备与电子制造技术的专业展会",
@@ -349,7 +407,9 @@
       "date": "2026-08-26 至 2026-08-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-28-0-1-528-0-08-1",
       "description": "聚焦智慧显示系统与商用显示应用解决方案",
@@ -360,7 +420,9 @@
       "date": "2026-08-26 至 2026-08-28",
       "city": "深圳",
       "venue": "深圳国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "http://www.sia2025.com/",
       "description": "全国权威性、专业化半导体行业品牌盛会，预计展出面积60,000平方米",
@@ -371,7 +433,9 @@
       "date": "2026-08-28",
       "city": "合肥",
       "venue": "合肥",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://ghrlibs.huodongxing.com/event/4864665208500",
       "description": "聚焦AI风控与数字化转型，探讨人工智能在企业中的应用"
@@ -381,7 +445,9 @@
       "date": "2026-08-31 至 2026-09-02",
       "city": "无锡",
       "venue": "无锡太湖国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.cseac.org.cn/cn",
       "description": "覆盖半导体全产业链的专业化、产业化、国际化平台，面积超70,000㎡",
@@ -392,7 +458,9 @@
       "date": "2026-09-02 至 2026-09-04",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "展示国防电子领域最新技术与产品的专业展会",
@@ -403,7 +471,9 @@
       "date": "2026-08.31 至 2026-09-02",
       "city": "无锡",
       "venue": "无锡太湖国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9583.html",
       "description": "专注半导体设备材料及核心部件的专业展会",
@@ -414,7 +484,9 @@
       "date": "2026-09-03 至 2026-09-05",
       "city": "西安",
       "venue": "西安国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/8219.html",
       "description": "西部半导体产业专业展会，展示IC设计、晶圆制造、封测等全产业链",
@@ -425,7 +497,9 @@
       "date": "2026-09-03 至 2026-09-06",
       "city": "深圳",
       "venue": "深圳福田会展中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "展示消费电子及智能家电产品的专业展会",
@@ -436,7 +510,9 @@
       "date": "2026-09-07 至 2026-09-09",
       "city": "上海",
       "venue": "上海国际会议中心",
-      "category": "云",
+      "category": [
+        "云"
+      ],
       "pricing": "付费",
       "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/",
       "description": "三大全球开源社区首次联合举办，推动生产级AI规模化落地",
@@ -447,7 +523,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9584.html",
       "description": "亚太地区极具影响力的通信技术专业展，覆盖光通信、激光、红外等产业链",
@@ -458,7 +536,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/6100.html",
       "description": "展示嵌入式系统与电子技术的专业展会",
@@ -469,7 +549,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9904.html",
       "description": "展示半导体与集成电路产业链的专业展会",
@@ -480,7 +562,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
       "description": "展示光电子技术创新成果的专业展区",
@@ -491,7 +575,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-81-1-0-0-0-1",
       "description": "展示智能传感技术与应用解决方案",
@@ -502,7 +588,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "杭州",
       "venue": "杭州云栖小镇",
-      "category": "云",
+      "category": [
+        "云"
+      ],
       "pricing": "免费",
       "url": "https://yunqi.aliyun.com/",
       "description": "中国云计算与人工智能产业发展风向标，聚焦通义千问与AI生态",
@@ -513,7 +601,9 @@
       "date": "2026-09-09 至 2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.cioe.cn/",
       "description": "全球规模领先的光电全产业链综合展，促进光电与半导体技术融合",
@@ -524,7 +614,9 @@
       "date": "2026-09-22 至 2026-09-24",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/3209.html",
       "description": "中国ICT领域最具影响力的国际展会，展示通信与AI融合成果",
@@ -535,7 +627,9 @@
       "date": "2026-09-23 至 2026-09-27",
       "city": "杭州",
       "venue": "杭州大会展中心（新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/2269.html",
       "description": "展示数字贸易与数字经济新业态的专业盛会",
@@ -546,7 +640,9 @@
       "date": "2026-10-12 至 2026-10-16",
       "city": "上海",
       "venue": "上海国家会展中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
       "description": "展示新一代信息技术与行业应用解决方案",
@@ -557,7 +653,9 @@
       "date": "2026-10-12 至 2026-10-16",
       "city": "上海",
       "venue": "国家会展中心（上海）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "http://www.ciif.com.cn/",
       "description": "总面积超30万平方米，工业自动化、机器人及新一代信息技术展区为亮点",
@@ -568,7 +666,9 @@
       "date": "2026-10-14 至 2026-10-16",
       "city": "深圳",
       "venue": "深圳福田会展中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/3245.html",
       "description": "中国半导体与集成电路产业规模最大、最具影响力的专业展会之一",
@@ -579,7 +679,9 @@
       "date": "2026-10-22 至 2026-10-24",
       "city": "成都",
       "venue": "成都（具体场馆待定）",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "付费",
       "url": "https://ccf.org.cn/",
       "description": "中国计算机学会年度盛会，主题'数聚产业 智算未来'，预计参会规模逾万人",
@@ -590,7 +692,9 @@
       "date": "2026-10-22 至 2026-10-24",
       "city": "上海",
       "venue": "上海",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "付费",
       "url": "https://qcon.infoq.cn/2026/shanghai",
       "description": "InfoQ主办的综合性技术盛会，分享技术创新和实践"
@@ -600,7 +704,9 @@
       "date": "2026-10-27 至 2026-10-29",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "亚洲领先的电子生产设备与微电子工业展会",
@@ -611,7 +717,9 @@
       "date": "2026-10-27 至 2026-10-29",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.nepconasia.com/",
       "description": "联合多场工业展形成18万㎡产业矩阵，重点覆盖半导体封测、具身智能、汽车电子",
@@ -622,7 +730,9 @@
       "date": "2026-11-06 至 2026-11-08",
       "city": "杭州",
       "venue": "杭州（具体地点待定）",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.bwtac-cie.com/2026",
       "description": "中国电子学会区块链分会第三届学术年会，聚焦AI+区块链、Web3.0技术",
@@ -633,7 +743,9 @@
       "date": "2026-11-08",
       "city": "上海",
       "venue": "上海（报名后可见详细地址）",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "付费",
       "url": "https://jiehuiying.huodongxing.com/event/7865513882600",
       "description": "Beyond the Model. Build for Real. 全球规模最大的社区主导型技术大会"
@@ -643,7 +755,9 @@
       "date": "2026-11-10 至 2026-11-12",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/7220.html",
       "description": "加强半导体产业界交流合作，加快关键核心技术突破",
@@ -654,7 +768,9 @@
       "date": "2026-11-10 至 2026-11-12",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "中国电子行业历史最悠久、最具影响力的专业展会",
@@ -665,7 +781,9 @@
       "date": "2026-11-12 至 2026-11-14",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/5478.html",
       "description": "展示中国半导体产业发展成果的专业盛会",
@@ -676,7 +794,9 @@
       "date": "2026-11-12 至 2026-11-14",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.icfair.cn/",
       "description": "以'以芯筑基新质生产力'为主题，展览面积预计5万平方米",
@@ -687,7 +807,9 @@
       "date": "2026-11-20 至 2026-11-22",
       "city": "上海",
       "venue": "上海国家会展中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.prnewswire.com/",
       "description": "Informa Markets China主办的全新科技盛会，聚焦AI、未来出行、数字基础设施等",
@@ -698,7 +820,9 @@
       "date": "2026-11-20 至 2026-11-22",
       "city": "北京",
       "venue": "北京国家会议中心二期",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "url": "http://www.cecc.org.cn/",
       "description": "以'锚定智能经济新风口'为主题，覆盖智能汽车、具身智能、机器人等30+赛道",
@@ -709,7 +833,9 @@
       "date": "2026-11-26 至 2026-11-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/7480.html",
       "description": "中国规模最大、最具影响力的科技类展会，有中国科技第一展之称",
@@ -720,7 +846,9 @@
       "date": "2026-11-26 至 2026-11-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "免费",
       "url": "https://www.jufair.com/exhibition/9828.html",
       "description": "高交会核心展区之一，展示AI与机器人技术成果",
@@ -731,7 +859,9 @@
       "date": "2026-11-26 至 2026-11-28",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安新馆）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "url": "https://www.jufair.com/exhibition/9315.html",
       "description": "高交会核心展区，展示半导体与集成电路产业链",
@@ -742,7 +872,9 @@
       "date": "2026-12-03 至 2026-12-05",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "云",
+      "category": [
+        "云"
+      ],
       "pricing": "付费",
       "url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
       "description": "聚焦数据中心基础设施与云计算技术应用的专业展会",
@@ -753,7 +885,9 @@
       "date": "2026-12-11 至 2026-12-13",
       "city": "青岛",
       "venue": "青岛（具体地点待定）",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "url": "https://www.icdsid.com/",
       "description": "聚焦数据科学与决策智能深度融合创新，论文由IEEE出版",
@@ -766,7 +900,9 @@
       "end_date": "2026-12-20",
       "city": "北京",
       "venue": "北京",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "organizer": "InfoQ",
       "theme": "AI原生时代系统化进化",
@@ -784,7 +920,9 @@
       "date": "2026年秋季（具体日期待定）",
       "city": "乌镇",
       "venue": "乌镇互联网国际会展中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://cn.wicinternet.org/",
       "description": "全球互联网领域顶级峰会，聚焦'人工智能+'为重点的新技术新产品新场景",
@@ -795,7 +933,9 @@
       "date": "2026年秋季（展期4天）",
       "city": "乌镇",
       "venue": "互联网之光博览中心/展览中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "免费",
       "url": "https://cn.wicinternet.org/",
       "description": "以'AI原生、智见未来'为主题，设置AI生态领航、应用赋能、基础设施等展区",
@@ -808,7 +948,9 @@
       "end_date": "2026-06-24",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "云",
+      "category": [
+        "云"
+      ],
       "pricing": "付费",
       "organizer": "字节跳动/火山引擎",
       "theme": "智能体(Agent)驱动企业重构",
@@ -827,7 +969,9 @@
       "end_date": "2026-06-25",
       "city": "大连",
       "venue": "大连国际会议中心",
-      "category": "综合",
+      "category": [
+        "综合"
+      ],
       "pricing": "付费",
       "organizer": "世界经济论坛",
       "theme": "规模化创新",
@@ -846,7 +990,9 @@
       "end_date": "2026-06-26",
       "city": "上海",
       "venue": "上海新国际博览中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "付费",
       "organizer": "GSMA",
       "theme": "众智启新",
@@ -865,7 +1011,9 @@
       "end_date": "2026-11-14",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "organizer": "中国半导体行业协会/中国电子信息产业发展研究院",
       "theme": "半导体+：赋能数字经济，驱动产业未来",
@@ -884,7 +1032,9 @@
       "end_date": "2026-06-26",
       "city": "杭州",
       "venue": "杭州",
-      "category": "开发者",
+      "category": [
+        "开发者"
+      ],
       "pricing": "免费",
       "organizer": "Rokid",
       "theme": "AR/VR、XR智能硬件",
@@ -903,7 +1053,9 @@
       "end_date": "2026-06-26",
       "city": "深圳",
       "venue": "深圳",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "organizer": "中国集成电路设计创新联盟",
       "theme": "聚开源之力筑芯势，智造大湾区未来",
@@ -920,7 +1072,9 @@
       "end_date": "2026-07-05",
       "city": "北京",
       "venue": "北京国家会议中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "免费",
       "organizer": "北京市政府/工信部等",
       "theme": "智惠无界、数联全球",
@@ -939,7 +1093,9 @@
       "end_date": "2026-07-20",
       "city": "上海",
       "venue": "世博展览馆+张江科学会堂+西岸国际会展中心",
-      "category": "AI",
+      "category": [
+        "AI"
+      ],
       "pricing": "付费",
       "organizer": "外交部/科技部/工信部等与上海市政府",
       "theme": "智能伙伴，共创未来",
@@ -958,7 +1114,9 @@
       "end_date": "2026-09-11",
       "city": "深圳",
       "venue": "深圳国际会展中心（宝安）",
-      "category": "硬件·芯片",
+      "category": [
+        "硬件·芯片"
+      ],
       "pricing": "免费",
       "organizer": "博闻创意/中国光学光电子行业协会",
       "theme": "All for AI, All for Green",
