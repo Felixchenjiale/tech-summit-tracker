@@ -209,8 +209,8 @@ function render() {
     if (activeFilters.month && getMonth(s.start_date) !== activeFilters.month) return false;
     if (activeFilters.city && s.city !== activeFilters.city) return false;
     if (activeFilters.category) {
-      const cats = (s.category || []).map(c => CAT_DISPLAY[c] || c);
-      if (!cats.includes(activeFilters.category) && !(s.category || []).includes(activeFilters.category)) return false;
+      const catArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);const cats = catArr.map(c => CAT_DISPLAY[c] || c);
+      if (!cats.includes(activeFilters.category) && !catArr.includes(activeFilters.category)) return false;
     }
     return true;
   });
@@ -232,7 +232,7 @@ function render() {
   grid.innerHTML = filtered.map(s => {
     const ended = isEnded(s);
     const dateRange = (s.start_date || '') + (s.end_date && s.end_date !== s.start_date ? ' ~ ' + s.end_date : '');
-    const tags = (s.category || []).map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
+    const tagArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);const tags = tagArr.map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
     const pricingTag = s.pricing === '付费' ? '<span class="tag tag-paid">💰 付费</span>' : '<span class="tag tag-free">🆓 免费</span>';
     const regBtn = s.register_url
       ? `<a href="${s.register_url}" target="_blank" rel="noopener" class="btn-register${ended ? ' disabled' : ''}">🔗 ${ended ? '已结束' : '去报名'}</a>`
