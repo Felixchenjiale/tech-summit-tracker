@@ -6,51 +6,83 @@
 <title>技术峰会追踪</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0e17;--card:#131a2b;--border:#1e2a42;--accent:#00d4ff;--accent2:#7c3aed;--text:#e2e8f0;--muted:#64748b;--tag-ai:#3b82f6;--tag-cloud:#8b5cf6;--tag-dev:#10b981;--tag-hw:#f59e0b;--tag-misc:#6366f1;--ended-opacity:0.45}
-body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;line-height:1.6;min-height:100vh}
-.header{padding:2rem 1.5rem 1rem;text-align:center;border-bottom:1px solid var(--border)}
-.header h1{font-size:1.8rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.25rem}
-.header .subtitle{color:var(--muted);font-size:.85rem}
-.filters{padding:1rem 1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
-.filter-group{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
-.filter-group label{color:var(--muted);font-size:.8rem;margin-right:.25rem;white-space:nowrap}
-.filter-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:9999px;font-size:.78rem;cursor:pointer;transition:all .2s}
-.filter-btn:hover{border-color:var(--accent);color:var(--text)}
-.filter-btn.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
-.clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:9999px;font-size:.78rem;cursor:pointer;margin-left:.5rem}
+:root{
+  --bg:#f5f7fa;
+  --card:#ffffff;
+  --border:#e2e8f0;
+  --accent:#2563eb;
+  --accent2:#7c3aed;
+  --text:#1e293b;
+  --text-secondary:#475569;
+  --muted:#94a3b8;
+  --tag-ai-bg:#dbeafe;--tag-ai-text:#1d4ed8;
+  --tag-cloud-bg:#ede9fe;--tag-cloud-text:#6d28d9;
+  --tag-dev-bg:#d1fae5;--tag-dev-text:#047857;
+  --tag-hw-bg:#fef3c7;--tag-hw-text:#b45309;
+  --tag-misc-bg:#e0e7ff;--tag-misc-text:#4338ca;
+  --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  --shadow-hover:0 10px 25px rgba(37,99,235,.1),0 4px 10px rgba(0,0,0,.06);
+  --radius:10px
+}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Noto Sans SC','Helvetica Neue',sans-serif;line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.header{padding:2.5rem 1.5rem 1.5rem;text-align:center;background:linear-gradient(135deg,#1e3a5f 0%,#2d1b69 100%);color:#fff}
+.header h1{font-size:1.75rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.3rem;color:#fff}
+.header .subtitle{color:rgba(255,255,255,.7);font-size:.88rem;font-weight:400}
+
+.filters{padding:1rem 1.5rem;display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.filter-group{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap}
+.filter-group label{color:var(--muted);font-size:.78rem;font-weight:600;margin-right:.2rem;white-space:nowrap;text-transform:uppercase;letter-spacing:.03em}
+.filter-btn{background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.3rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;transition:all .15s;font-weight:500}
+.filter-btn:hover{background:#e2e8f0;color:var(--text)}
+.filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:8px;font-size:.78rem;cursor:pointer;margin-left:.3rem;font-weight:500}
 .clear-btn:hover{color:var(--text);border-color:var(--accent)}
-.grid{padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem;max-width:1400px;margin:0 auto}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;transition:all .25s;position:relative;overflow:hidden}
-.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0;transition:opacity .25s}
-.card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,212,255,.08)}.card:hover::before{opacity:1}
-.card.ended{opacity:var(--ended-opacity)}
-.card.ended:hover{opacity:.7}
-.card .tags{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.6rem}
-.tag{padding:.15rem .5rem;border-radius:9999px;font-size:.7rem;font-weight:600}
-.tag-ai{background:rgba(59,130,246,.15);color:#60a5fa}
-.tag-cloud{background:rgba(139,92,246,.15);color:#a78bfa}
-.tag-dev{background:rgba(16,185,129,.15);color:#34d399}
-.tag-hw{background:rgba(245,158,11,.15);color:#fbbf24}
-.tag-misc{background:rgba(99,102,241,.15);color:#818cf8}
-.card .name{font-size:1.05rem;font-weight:700;margin-bottom:.4rem;line-height:1.4}
-.card .theme{color:var(--accent);font-size:.82rem;margin-bottom:.5rem}
-.card .desc{color:var(--muted);font-size:.8rem;margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.card .meta{display:flex;flex-wrap:wrap;gap:.5rem;font-size:.78rem;color:var(--muted);margin-bottom:.75rem;align-items:center}
-.card .meta span{display:flex;align-items:center;gap:.2rem}
+
+.grid{padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:1rem;max-width:1400px;margin:0 auto}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.3rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px);border-color:#cbd5e1}
+.card.ended{opacity:.5}
+.card.ended:hover{opacity:.65}
+
+.card .tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.65rem}
+.tag{padding:.18rem .55rem;border-radius:6px;font-size:.72rem;font-weight:600;letter-spacing:.01em}
+.tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai-text)}
+.tag-cloud{background:var(--tag-cloud-bg);color:var(--tag-cloud-text)}
+.tag-dev{background:var(--tag-dev-bg);color:var(--tag-dev-text)}
+.tag-hw{background:var(--tag-hw-bg);color:var(--tag-hw-text)}
+.tag-misc{background:var(--tag-misc-bg);color:var(--tag-misc-text)}
+
+.card .name{font-size:1.08rem;font-weight:700;margin-bottom:.35rem;line-height:1.45;color:var(--text)}
+.card .theme{color:var(--accent);font-size:.85rem;font-weight:600;margin-bottom:.45rem}
+.card .desc{color:var(--text-secondary);font-size:.84rem;margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.6}
+.card .meta{display:flex;flex-wrap:wrap;gap:.6rem;font-size:.82rem;color:var(--text-secondary);margin-bottom:.85rem;align-items:center}
+.card .meta span{display:flex;align-items:center;gap:.25rem}
 .card .actions{display:flex;gap:.5rem}
-.btn-register{display:inline-flex;align-items:center;gap:.3rem;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:.45rem 1rem;border-radius:8px;font-size:.8rem;font-weight:600;text-decoration:none;transition:all .2s;border:none;cursor:pointer}
-.btn-register:hover{opacity:.85;transform:scale(1.02)}
-.btn-register.disabled{background:var(--border);color:var(--muted);cursor:not-allowed;pointer-events:none}
+.btn-register{display:inline-flex;align-items:center;gap:.35rem;background:var(--accent);color:#fff;padding:.5rem 1.15rem;border-radius:8px;font-size:.84rem;font-weight:600;text-decoration:none;transition:all .15s;border:none;cursor:pointer}
+.btn-register:hover{background:#1d4ed8;transform:scale(1.02)}
+.btn-register.disabled{background:#e2e8f0;color:#94a3b8;cursor:not-allowed;pointer-events:none}
+
 .empty{text-align:center;padding:4rem 2rem;color:var(--muted)}
-.empty h3{font-size:1.2rem;margin-bottom:.5rem}
-.error{text-align:center;padding:3rem 2rem;color:#f87171}
+.empty h3{font-size:1.15rem;margin-bottom:.5rem;color:var(--text-secondary)}
+.error{text-align:center;padding:3rem 2rem;color:#dc2626}
 .error h3{margin-bottom:.5rem}
 .loading{text-align:center;padding:4rem 2rem;color:var(--muted)}
-.loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:1rem}
+.loading .spinner{display:inline-block;width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:.75rem}
 @keyframes spin{to{transform:rotate(360deg)}}
-.count{color:var(--muted);font-size:.8rem;text-align:center;padding:.75rem}
-.footer{text-align:center;padding:2rem;color:var(--muted);font-size:.75rem;border-top:1px solid var(--margin-top:2rem)}
-@media(max-width:768px){.grid{grid-template-columns:1fr;padding:1rem}.header h1{font-size:1.4rem}.filters{padding:.75rem 1rem}}
+
+.count{color:var(--text-secondary);font-size:.82rem;text-align:center;padding:.6rem;font-weight:500}
+.footer{text-align:center;padding:2rem;color:var(--muted);font-size:.78rem;border-top:1px solid var(--border);margin-top:1rem}
+.footer a{color:var(--accent);text-decoration:none;font-weight:500}
+.footer a:hover{text-decoration:underline}
+
+@media(max-width:768px){
+  .grid{grid-template-columns:1fr;padding:1rem}
+  .header h1{font-size:1.35rem}
+  .filters{padding:.6rem .75rem}
+  .card{padding:1rem 1.1rem}
+}
 </style>
 </head>
 <body>
@@ -71,7 +103,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 <div class="grid" id="grid"></div>
 
 <div class="footer">
-  数据由 Agent 每3天自动更新 · 仓库 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent);text-decoration:none">GitHub</a>
+  数据由 Agent 每3天自动更新 · 仓库 <a href="https://github.com/Felixchenjiale/tech-summit-tracker">GitHub</a>
 </div>
 
 <script>
@@ -97,14 +129,13 @@ async function loadData() {
     buildFilters();
     render();
   } catch (e) {
-    grid.innerHTML = '<div class="error"><h3>数据加载失败</h3><p>' + e.message + '</p><p style="margin-top:.5rem;font-size:.85rem;color:var(--muted)">请稍后刷新重试，或访问 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent)">GitHub 仓库</a></p></div>';
+    grid.innerHTML = '<div class="error"><h3>数据加载失败</h3><p>' + e.message + '</p><p style="margin-top:.5rem;font-size:.85rem;color:var(--text-secondary)">请稍后刷新重试，或访问 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent)">GitHub 仓库</a></p></div>';
   }
 }
 
 function getMonth(dateStr) {
   if (!dateStr) return '';
-  const m = dateStr.slice(0, 7);
-  return m;
+  return dateStr.slice(0, 7);
 }
 
 function getMonthLabel(m) {
