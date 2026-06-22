@@ -22,7 +22,8 @@
   --tag-misc-bg:#e0e7ff;--tag-misc-text:#4338ca;
   --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
   --shadow-hover:0 10px 25px rgba(37,99,235,.1),0 4px 10px rgba(0,0,0,.06);
-  --radius:10px
+  --radius:10px;
+  --card-inner-h:260px
 }
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Noto Sans SC','Helvetica Neue',sans-serif;line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 
@@ -30,23 +31,29 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .header h1{font-size:1.75rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.3rem;color:#fff}
 .header .subtitle{color:rgba(255,255,255,.7);font-size:.88rem;font-weight:400}
 
-.filters{padding:1rem 1.5rem;display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
-.filter-group{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap}
-.filter-group label{color:var(--muted);font-size:.78rem;font-weight:600;margin-right:.2rem;white-space:nowrap;text-transform:uppercase;letter-spacing:.03em}
-.filter-btn{background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.3rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;transition:all .15s;font-weight:500}
+/* 筛选区：三行布局，每行可横向滚动 */
+.filters{padding:.8rem 1.5rem;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.filter-row{display:flex;align-items:center;gap:.4rem;margin-bottom:.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
+.filter-row:last-child{margin-bottom:0}
+.filter-row label{color:var(--muted);font-size:.75rem;font-weight:600;white-space:nowrap;text-transform:uppercase;letter-spacing:.03em;flex-shrink:0;min-width:2.5rem}
+.filter-scroll{display:flex;gap:.35rem;overflow-x:auto;flex:1;scrollbar-width:thin;scrollbar-color:#cbd5e1 transparent;-webkit-overflow-scrolling:touch}
+.filter-scroll::-webkit-scrollbar{height:3px}
+.filter-scroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:4px}
+.filter-btn{background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.28rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;transition:all .15s;font-weight:500;white-space:nowrap;flex-shrink:0}
 .filter-btn:hover{background:#e2e8f0;color:var(--text)}
 .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:8px;font-size:.78rem;cursor:pointer;margin-left:.3rem;font-weight:500}
+.clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.28rem .7rem;border-radius:8px;font-size:.78rem;cursor:pointer;font-weight:500;flex-shrink:0;margin-left:auto}
 .clear-btn:hover{color:var(--text);border-color:var(--accent)}
 
 .grid{padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:1rem;max-width:1400px;margin:0 auto}
 
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.3rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+/* 卡片：固定内部布局，对齐整齐 */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.3rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px);border-color:#cbd5e1}
 .card.ended{opacity:.5}
 .card.ended:hover{opacity:.65}
 
-.card .tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.65rem}
+.card .tags{display:flex;flex-wrap:wrap;gap:.3rem;min-height:1.5rem;margin-bottom:.5rem}
 .tag{padding:.18rem .55rem;border-radius:6px;font-size:.72rem;font-weight:600;letter-spacing:.01em}
 .tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai-text)}
 .tag-cloud{background:var(--tag-cloud-bg);color:var(--tag-cloud-text)}
@@ -56,12 +63,15 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .tag-free{background:#d1fae5;color:#047857}
 .tag-paid{background:#fee2e2;color:#b91c1c}
 
-.card .name{font-size:1.08rem;font-weight:700;margin-bottom:.35rem;line-height:1.45;color:var(--text)}
-.card .theme{color:var(--accent);font-size:.85rem;font-weight:600;margin-bottom:.45rem}
-.card .desc{color:var(--text-secondary);font-size:.84rem;margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.6}
-.card .meta{display:flex;flex-wrap:wrap;gap:.6rem;font-size:.82rem;color:var(--text-secondary);margin-bottom:.85rem;align-items:center}
-.card .meta span{display:flex;align-items:center;gap:.25rem}
-.card .actions{display:flex;gap:.5rem}
+.card .name{font-size:1.05rem;font-weight:700;margin-bottom:.3rem;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:1.5rem;max-height:3rem}
+.card .theme{color:var(--accent);font-size:.84rem;font-weight:600;margin-bottom:.35rem;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.card .desc{color:var(--text-secondary);font-size:.82rem;margin-bottom:.6rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.6;min-height:1.6rem;max-height:3.2rem}
+
+.card .meta{display:flex;flex-wrap:wrap;gap:.5rem;font-size:.8rem;color:var(--text-secondary);margin-bottom:.75rem;align-items:center}
+.card .meta span{display:flex;align-items:center;gap:.2rem}
+
+/* 底部按钮固定对齐：用 margin-top:auto 推到卡片底部 */
+.card .actions{display:flex;gap:.5rem;margin-top:auto;padding-top:.35rem}
 .btn-register{display:inline-flex;align-items:center;gap:.35rem;background:var(--accent);color:#fff;padding:.5rem 1.15rem;border-radius:8px;font-size:.84rem;font-weight:600;text-decoration:none;transition:all .15s;border:none;cursor:pointer}
 .btn-register:hover{background:#1d4ed8;transform:scale(1.02)}
 .btn-register.disabled{background:#e2e8f0;color:#94a3b8;cursor:not-allowed;pointer-events:none}
@@ -95,10 +105,19 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 </div>
 
 <div class="filters" id="filters">
-  <div class="filter-group" id="month-filters"><label>月份</label></div>
-  <div class="filter-group" id="city-filters"><label>城市</label></div>
-  <div class="filter-group" id="cat-filters"><label>分类</label></div>
-  <button class="clear-btn" onclick="clearFilters()">清除筛选</button>
+  <div class="filter-row">
+    <label>月份</label>
+    <div class="filter-scroll" id="month-filters"></div>
+  </div>
+  <div class="filter-row">
+    <label>城市</label>
+    <div class="filter-scroll" id="city-filters"></div>
+  </div>
+  <div class="filter-row">
+    <label>分类</label>
+    <div class="filter-scroll" id="cat-filters"></div>
+    <button class="clear-btn" onclick="clearFilters()">清除筛选</button>
+  </div>
 </div>
 
 <div class="count" id="count"></div>
@@ -160,18 +179,15 @@ function buildFilters() {
   const cities = [...new Set(allSummits.map(s => s.city).filter(Boolean))].sort();
   const cats = ['AI', '云', '开发者', '硬件/芯片', '综合'];
 
-  const mf = document.getElementById('month-filters');
-  mf.innerHTML = '<label>月份</label>' + months.map(m =>
+  document.getElementById('month-filters').innerHTML = months.map(m =>
     `<button class="filter-btn" data-type="month" data-val="${m}">${getMonthLabel(m)}</button>`
   ).join('');
 
-  const cf = document.getElementById('city-filters');
-  cf.innerHTML = '<label>城市</label>' + cities.map(c =>
+  document.getElementById('city-filters').innerHTML = cities.map(c =>
     `<button class="filter-btn" data-type="city" data-val="${c}">${c}</button>`
   ).join('');
 
-  const catf = document.getElementById('cat-filters');
-  catf.innerHTML = '<label>分类</label>' + cats.map(c =>
+  document.getElementById('cat-filters').innerHTML = cats.map(c =>
     `<button class="filter-btn" data-type="category" data-val="${c}">${(CAT_DISPLAY[c]||c)}</button>`
   ).join('');
 
@@ -209,16 +225,25 @@ function render() {
     if (activeFilters.month && getMonth(s.start_date) !== activeFilters.month) return false;
     if (activeFilters.city && s.city !== activeFilters.city) return false;
     if (activeFilters.category) {
-      const catArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);const cats = catArr.map(c => CAT_DISPLAY[c] || c);
+      const catArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);
+      const cats = catArr.map(c => CAT_DISPLAY[c] || c);
       if (!cats.includes(activeFilters.category) && !catArr.includes(activeFilters.category)) return false;
     }
     return true;
   });
 
+  // 排序：未结束在前，按时间由近至远（最近的排最前），无日期的放最后
   filtered.sort((a, b) => {
     const ae = isEnded(a), be = isEnded(b);
     if (ae !== be) return ae ? 1 : -1;
-    return (a.start_date || '').localeCompare(b.start_date || '');
+    const ad = a.start_date || '';
+    const bd = b.start_date || '';
+    // 无日期的排后面
+    if (!ad && bd) return 1;
+    if (ad && !bd) return -1;
+    if (!ad && !bd) return 0;
+    // 都有日期：由近至远 = 降序
+    return bd.localeCompare(ad);
   });
 
   document.getElementById('count').textContent = `共 ${filtered.length} 个峰会` + (filtered.length !== allSummits.length ? `（全部 ${allSummits.length} 个）` : '');
@@ -231,8 +256,9 @@ function render() {
 
   grid.innerHTML = filtered.map(s => {
     const ended = isEnded(s);
-    const dateRange = (s.start_date || '') + (s.end_date && s.end_date !== s.start_date ? ' ~ ' + s.end_date : '');
-    const tagArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);const tags = tagArr.map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
+    const dateRange = (s.start_date || '待定') + (s.end_date && s.end_date !== s.start_date ? ' ~ ' + s.end_date : '');
+    const catArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);
+    const tags = catArr.map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
     const pricingTag = s.pricing === '付费' ? '<span class="tag tag-paid">💰 付费</span>' : '<span class="tag tag-free">🆓 免费</span>';
     const regBtn = s.register_url
       ? `<a href="${s.register_url}" target="_blank" rel="noopener" class="btn-register${ended ? ' disabled' : ''}">🔗 ${ended ? '已结束' : '去报名'}</a>`
@@ -241,7 +267,7 @@ function render() {
       <div class="tags">${tags}${pricingTag}</div>
       <div class="name">${s.name || ''}</div>
       ${s.theme ? `<div class="theme">${s.theme}</div>` : ''}
-      ${s.description ? `<div class="desc">${s.description}</div>` : ''}
+      ${s.description ? `<div class="desc">${s.description}</div>` : '<div class="desc" style="visibility:hidden">-</div>'}
       <div class="meta">
         <span>📅 ${dateRange}</span>
         ${s.city ? `<span>📍 ${s.city}${s.venue ? ' · ' + s.venue : ''}</span>` : ''}
