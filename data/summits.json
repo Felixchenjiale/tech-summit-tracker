@@ -25,29 +25,21 @@
       "date": "2026-06-23 至 2026-06-24"
     },
     {
-      "name": "MWC上海世界移动通信大会",
+      "name": "MWC上海世界移动通信大会 (MWC26上海)",
       "date": "2026-06-24 至 2026-06-26",
+      "start_date": "",
+      "end_date": "",
       "city": "上海",
       "venue": "上海新国际博览中心",
       "category": [
+        "综合",
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/3206.html",
-      "description": "亚洲最具影响力的移动通信产业盛会，首次推出移动AI、卫星通信、6G等前沿领域展区",
-      "scale": "展览面积8万㎡，展商1500家，观众13.14万人"
-    },
-    {
-      "name": "MWC26上海",
-      "date": "2026-06-24 至 2026-06-26",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "综合"
-      ],
-      "pricing": "付费",
       "url": "https://www.mwcshanghai.com/",
-      "description": "GSMA主办的全球移动通信盛会，聚焦6G、移动AI、具身智能、智慧医疗等前沿领域",
+      "register_url": "",
+      "description": "GSMA主办的全球移动通信盛会，亚洲最具影响力，聚焦6G、移动AI、卫星通信、具身智能、智慧医疗等前沿领域",
+      "scale": "展览面积8万㎡，展商1500家，观众13.14万人",
       "source": "上观新闻"
     },
     {
