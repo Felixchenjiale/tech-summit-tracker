@@ -53,6 +53,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .tag-dev{background:var(--tag-dev-bg);color:var(--tag-dev-text)}
 .tag-hw{background:var(--tag-hw-bg);color:var(--tag-hw-text)}
 .tag-misc{background:var(--tag-misc-bg);color:var(--tag-misc-text)}
+.tag-free{background:#d1fae5;color:#047857}
+.tag-paid{background:#fee2e2;color:#b91c1c}
 
 .card .name{font-size:1.08rem;font-weight:700;margin-bottom:.35rem;line-height:1.45;color:var(--text)}
 .card .theme{color:var(--accent);font-size:.85rem;font-weight:600;margin-bottom:.45rem}
@@ -231,11 +233,12 @@ function render() {
     const ended = isEnded(s);
     const dateRange = (s.start_date || '') + (s.end_date && s.end_date !== s.start_date ? ' ~ ' + s.end_date : '');
     const tags = (s.category || []).map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
+    const pricingTag = s.pricing === '付费' ? '<span class="tag tag-paid">💰 付费</span>' : '<span class="tag tag-free">🆓 免费</span>';
     const regBtn = s.register_url
       ? `<a href="${s.register_url}" target="_blank" rel="noopener" class="btn-register${ended ? ' disabled' : ''}">🔗 ${ended ? '已结束' : '去报名'}</a>`
       : `<span class="btn-register disabled">暂无链接</span>`;
     return `<div class="card${ended ? ' ended' : ''}">
-      <div class="tags">${tags}</div>
+      <div class="tags">${tags}${pricingTag}</div>
       <div class="name">${s.name || ''}</div>
       ${s.theme ? `<div class="theme">${s.theme}</div>` : ''}
       ${s.description ? `<div class="desc">${s.description}</div>` : ''}
