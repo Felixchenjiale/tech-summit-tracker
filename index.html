@@ -131,9 +131,9 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 const DATA_URL = './data/summits.json';
 const TAG_MAP = {
   'AI': 'tag-ai', '云': 'tag-cloud', '开发者': 'tag-dev',
-  '硬件·芯片': 'tag-hw', '硬件/芯片': 'tag-hw', '综合': 'tag-misc'
+  '综合': 'tag-misc'
 };
-const CAT_DISPLAY = {'硬件/芯片':'硬件·芯片'};
+const CAT_DISPLAY = {};
 
 let allSummits = [];
 let activeFilters = { month: null, city: null, category: null };
@@ -177,7 +177,7 @@ function isEnded(s) {
 function buildFilters() {
   const months = [...new Set(allSummits.map(s => getMonth(s.start_date)).filter(Boolean))].sort();
   const cities = [...new Set(allSummits.map(s => s.city).filter(Boolean))].sort();
-  const cats = ['AI', '云', '开发者', '硬件/芯片', '综合'];
+  const cats = ['AI', '云', '开发者', '综合'];
 
   document.getElementById('month-filters').innerHTML = months.map(m =>
     `<button class="filter-btn" data-type="month" data-val="${m}">${getMonthLabel(m)}</button>`
