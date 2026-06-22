@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>技术峰会追踪</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0e17;--card:#131a2b;--border:#1e2a42;--accent:#00d4ff;--accent2:#7c3aed;--text:#e2e8f0;--muted:#64748b;--tag-ai:#3b82f6;--tag-cloud:#8b5cf6;--tag-dev:#10b981;--tag-hw:#f59e0b;--tag-misc:#6366f1;--ended-opacity:0.45}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;line-height:1.6;min-height:100vh}
+.header{padding:2rem 1.5rem 1rem;text-align:center;border-bottom:1px solid var(--border)}
+.header h1{font-size:1.8rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.25rem}
+.header .subtitle{color:var(--muted);font-size:.85rem}
+.filters{padding:1rem 1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
+.filter-group{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
+.filter-group label{color:var(--muted);font-size:.8rem;margin-right:.25rem;white-space:nowrap}
+.filter-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:9999px;font-size:.78rem;cursor:pointer;transition:all .2s}
+.filter-btn:hover{border-color:var(--accent);color:var(--text)}
+.filter-btn.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+.clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.3rem .7rem;border-radius:9999px;font-size:.78rem;cursor:pointer;margin-left:.5rem}
+.clear-btn:hover{color:var(--text);border-color:var(--accent)}
+.grid{padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem;max-width:1400px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;transition:all .25s;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0;transition:opacity .25s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,212,255,.08)}.card:hover::before{opacity:1}
+.card.ended{opacity:var(--ended-opacity)}
+.card.ended:hover{opacity:.7}
+.card .tags{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.6rem}
+.tag{padding:.15rem .5rem;border-radius:9999px;font-size:.7rem;font-weight:600}
+.tag-ai{background:rgba(59,130,246,.15);color:#60a5fa}
+.tag-cloud{background:rgba(139,92,246,.15);color:#a78bfa}
+.tag-dev{background:rgba(16,185,129,.15);color:#34d399}
+.tag-hw{background:rgba(245,158,11,.15);color:#fbbf24}
+.tag-misc{background:rgba(99,102,241,.15);color:#818cf8}
+.card .name{font-size:1.05rem;font-weight:700;margin-bottom:.4rem;line-height:1.4}
+.card .theme{color:var(--accent);font-size:.82rem;margin-bottom:.5rem}
+.card .desc{color:var(--muted);font-size:.8rem;margin-bottom:.75rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{display:flex;flex-wrap:wrap;gap:.5rem;font-size:.78rem;color:var(--muted);margin-bottom:.75rem;align-items:center}
+.card .meta span{display:flex;align-items:center;gap:.2rem}
+.card .actions{display:flex;gap:.5rem}
+.btn-register{display:inline-flex;align-items:center;gap:.3rem;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:.45rem 1rem;border-radius:8px;font-size:.8rem;font-weight:600;text-decoration:none;transition:all .2s;border:none;cursor:pointer}
+.btn-register:hover{opacity:.85;transform:scale(1.02)}
+.btn-register.disabled{background:var(--border);color:var(--muted);cursor:not-allowed;pointer-events:none}
+.empty{text-align:center;padding:4rem 2rem;color:var(--muted)}
+.empty h3{font-size:1.2rem;margin-bottom:.5rem}
+.error{text-align:center;padding:3rem 2rem;color:#f87171}
+.error h3{margin-bottom:.5rem}
+.loading{text-align:center;padding:4rem 2rem;color:var(--muted)}
+.loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:1rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.count{color:var(--muted);font-size:.8rem;text-align:center;padding:.75rem}
+.footer{text-align:center;padding:2rem;color:var(--muted);font-size:.75rem;border-top:1px solid var(--margin-top:2rem)}
+@media(max-width:768px){.grid{grid-template-columns:1fr;padding:1rem}.header h1{font-size:1.4rem}.filters{padding:.75rem 1rem}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>技术峰会追踪</h1>
+  <div class="subtitle" id="subtitle">加载数据中...</div>
+</div>
+
+<div class="filters" id="filters">
+  <div class="filter-group" id="month-filters"><label>月份</label></div>
+  <div class="filter-group" id="city-filters"><label>城市</label></div>
+  <div class="filter-group" id="cat-filters"><label>分类</label></div>
+  <button class="clear-btn" onclick="clearFilters()">清除筛选</button>
+</div>
+
+<div class="count" id="count"></div>
+<div class="grid" id="grid"></div>
+
+<div class="footer">
+  数据由 Agent 每3天自动更新 · 仓库 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent);text-decoration:none">GitHub</a>
+</div>
+
+<script>
+const DATA_URL = './data/summits.json';
+const TAG_MAP = {
+  'AI': 'tag-ai', '云': 'tag-cloud', '开发者': 'tag-dev',
+  '硬件·芯片': 'tag-hw', '硬件/芯片': 'tag-hw', '综合': 'tag-misc'
+};
+const CAT_DISPLAY = {'硬件/芯片':'硬件·芯片'};
+
+let allSummits = [];
+let activeFilters = { month: null, city: null, category: null };
+
+async function loadData() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>正在加载峰会数据...</p></div>';
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    allSummits = data.summits || [];
+    document.getElementById('subtitle').textContent = '数据更新于 ' + (data.last_updated || '未知') + ' · 每3天自动更新';
+    buildFilters();
+    render();
+  } catch (e) {
+    grid.innerHTML = '<div class="error"><h3>数据加载失败</h3><p>' + e.message + '</p><p style="margin-top:.5rem;font-size:.85rem;color:var(--muted)">请稍后刷新重试，或访问 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent)">GitHub 仓库</a></p></div>';
+  }
+}
+
+function getMonth(dateStr) {
+  if (!dateStr) return '';
+  const m = dateStr.slice(0, 7);
+  return m;
+}
+
+function getMonthLabel(m) {
+  if (!m) return '';
+  const [y, mm] = m.split('-');
+  return y + '年' + parseInt(mm) + '月';
+}
+
+function isEnded(s) {
+  if (s.status === 'ended') return true;
+  if (s.end_date) {
+    const end = new Date(s.end_date + 'T23:59:59');
+    return end < new Date();
+  }
+  return false;
+}
+
+function buildFilters() {
+  const months = [...new Set(allSummits.map(s => getMonth(s.start_date)).filter(Boolean))].sort();
+  const cities = [...new Set(allSummits.map(s => s.city).filter(Boolean))].sort();
+  const cats = ['AI', '云', '开发者', '硬件/芯片', '综合'];
+
+  const mf = document.getElementById('month-filters');
+  mf.innerHTML = '<label>月份</label>' + months.map(m =>
+    `<button class="filter-btn" data-type="month" data-val="${m}">${getMonthLabel(m)}</button>`
+  ).join('');
+
+  const cf = document.getElementById('city-filters');
+  cf.innerHTML = '<label>城市</label>' + cities.map(c =>
+    `<button class="filter-btn" data-type="city" data-val="${c}">${c}</button>`
+  ).join('');
+
+  const catf = document.getElementById('cat-filters');
+  catf.innerHTML = '<label>分类</label>' + cats.map(c =>
+    `<button class="filter-btn" data-type="category" data-val="${c}">${(CAT_DISPLAY[c]||c)}</button>`
+  ).join('');
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.type;
+      const val = btn.dataset.val;
+      if (activeFilters[type] === val) {
+        activeFilters[type] = null;
+      } else {
+        activeFilters[type] = val;
+      }
+      syncFilterUI();
+      render();
+    });
+  });
+}
+
+function syncFilterUI() {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const type = btn.dataset.type;
+    const val = btn.dataset.val;
+    btn.classList.toggle('active', activeFilters[type] === val);
+  });
+}
+
+function clearFilters() {
+  activeFilters = { month: null, city: null, category: null };
+  syncFilterUI();
+  render();
+}
+
+function render() {
+  let filtered = allSummits.filter(s => {
+    if (activeFilters.month && getMonth(s.start_date) !== activeFilters.month) return false;
+    if (activeFilters.city && s.city !== activeFilters.city) return false;
+    if (activeFilters.category) {
+      const cats = (s.category || []).map(c => CAT_DISPLAY[c] || c);
+      if (!cats.includes(activeFilters.category) && !(s.category || []).includes(activeFilters.category)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    const ae = isEnded(a), be = isEnded(b);
+    if (ae !== be) return ae ? 1 : -1;
+    return (a.start_date || '').localeCompare(b.start_date || '');
+  });
+
+  document.getElementById('count').textContent = `共 ${filtered.length} 个峰会` + (filtered.length !== allSummits.length ? `（全部 ${allSummits.length} 个）` : '');
+
+  const grid = document.getElementById('grid');
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty"><h3>没有匹配的峰会</h3><p>试试调整筛选条件</p></div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(s => {
+    const ended = isEnded(s);
+    const dateRange = (s.start_date || '') + (s.end_date && s.end_date !== s.start_date ? ' ~ ' + s.end_date : '');
+    const tags = (s.category || []).map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
+    const regBtn = s.register_url
+      ? `<a href="${s.register_url}" target="_blank" rel="noopener" class="btn-register${ended ? ' disabled' : ''}">🔗 ${ended ? '已结束' : '去报名'}</a>`
+      : `<span class="btn-register disabled">暂无链接</span>`;
+    return `<div class="card${ended ? ' ended' : ''}">
+      <div class="tags">${tags}</div>
+      <div class="name">${s.name || ''}</div>
+      ${s.theme ? `<div class="theme">${s.theme}</div>` : ''}
+      ${s.description ? `<div class="desc">${s.description}</div>` : ''}
+      <div class="meta">
+        <span>📅 ${dateRange}</span>
+        ${s.city ? `<span>📍 ${s.city}${s.venue ? ' · ' + s.venue : ''}</span>` : ''}
+        ${s.organizer ? `<span>🏢 ${s.organizer}</span>` : ''}
+      </div>
+      <div class="actions">${regBtn}</div>
+    </div>`;
+  }).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>
