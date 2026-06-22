@@ -31,8 +31,8 @@
       "theme": "Agentic Now, Go Build",
       "description": "聚焦Agentic AI规模化落地与商业价值转化，Day1 Agentic Now，Day2 Go Build动手实操，限量免费专业门票",
       "status": "upcoming",
-      "register_url": "https://www.amazonaws.cn/summit/cn/",
-      "source_urls": ["https://www.amazonaws.cn/summit/cn/"]
+      "register_url": "https://aws.amazon.com/cn/events/summits/",
+      "source_urls": ["https://aws.amazon.com/cn/events/summits/"]
     },
     {
       "id": "davos-summer-2026",
@@ -109,10 +109,10 @@
       "pricing": "免费",
       "organizer": "Rokid",
       "theme": "AR/VR、XR智能硬件",
-      "description": "分享AR/VR、XR智能硬件产品与开发者生态，CXR-L SDK发布",
+      "description": "分享AR/VR、XR智能硬件产品与开发者生态，CXR-L SDK发布，报名请关注Rokid官方微信公众号",
       "status": "upcoming",
-      "register_url": "https://developer.rokid.com/",
-      "source_urls": ["https://developerdoc.rokid.com/sdk?lang=zh"]
+      "register_url": "https://global.rokid.com/",
+      "source_urls": ["https://global.rokid.com/"]
     },
     {
       "id": "sz-ic-summit-2026",
