@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 10:30",
+  "last_updated": "2026-07-01 13:54",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -20,7 +20,6 @@
       "source_urls": [
         "https://www.amazonaws.cn/summit/cn/"
       ],
-      "url": "https://aws.amazon.com/cn/events/summits/shanghai/",
       "date": "2026-06-23 至 2026-06-24"
     },
     {
@@ -42,7 +41,6 @@
       "source_urls": [
         "https://www.volcengine.com/events/force"
       ],
-      "url": "https://www.volcengine.com/event/force-2606",
       "date": "2026-06-23 至 2026-06-24"
     },
     {
@@ -64,7 +62,6 @@
       "source_urls": [
         "https://www.weforum.org"
       ],
-      "url": "https://www.weforum.org/",
       "date": "2026-06-23 至 2026-06-25"
     },
     {
@@ -79,8 +76,7 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.mwcshanghai.com/",
-      "register_url": "",
+      "register_url": "https://www.mwcshanghai.com/",
       "description": "GSMA主办的全球移动通信盛会，亚洲最具影响力，聚焦6G、移动AI、卫星通信、具身智能、智慧医疗等前沿领域",
       "scale": "展览面积8万㎡，展商1500家，观众13.14万人",
       "source": "上观新闻",
@@ -95,11 +91,11 @@
         "开发者"
       ],
       "pricing": "免费",
-      "url": "https://www.oschina.net/",
       "description": "聚焦Agent智能体生态、算力创新发展、开源大模型技术的开源领域年度盛会",
       "source": "OSC开源社区",
       "start_date": "2026-06-25",
-      "end_date": "2026-06-26"
+      "end_date": "2026-06-26",
+      "register_url": "https://www.oschina.net/"
     },
     {
       "name": "2026开放原子开源生态大会",
@@ -110,11 +106,11 @@
         "开发者"
       ],
       "pricing": "免费",
-      "url": "https://openatom.cn/",
       "description": "以'开源赋能产业，生态共筑未来'为主题，涵盖AI、操作系统、具身智能等前沿方向",
       "source": "开放原子基金会官网",
       "start_date": "2026-06-25",
-      "end_date": "2026-06-26"
+      "end_date": "2026-06-26",
+      "register_url": "https://openatom.cn/"
     },
     {
       "name": "西安西部数字经济博览会",
@@ -125,12 +121,12 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/19382.html",
       "description": "西部数字经济领域专业展会，展示数字经济新技术、新产品和新成果",
       "scale": "展览面积2万㎡，展商450家，观众2.6万人",
       "start_date": "2026-06-26",
       "end_date": "2026-06-28",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/19382.html"
     },
     {
       "id": "aicon-shanghai-2026",
@@ -151,7 +147,6 @@
       "source_urls": [
         "https://aicon.infoq.cn/2026/shanghai/schedule"
       ],
-      "url": "https://aicon.infoq.cn/2026/shanghai",
       "date": "2026-06-26 至 2026-06-27"
     },
     {
@@ -173,7 +168,6 @@
       "source_urls": [
         "https://developerdoc.rokid.com/sdk?lang=zh"
       ],
-      "url": "https://www.rokid.com/",
       "date": "2026-06-26 至 2026-06-26"
     },
     {
@@ -195,7 +189,6 @@
       "source_urls": [
         "https://www.gdec.net.cn"
       ],
-      "url": "https://www.gdec.net.cn/",
       "date": "2026-07-02 至 2026-07-05"
     },
     {
@@ -218,7 +211,6 @@
         "https://cic.isc.org.cn/",
         "https://www.isc.org.cn/"
       ],
-      "url": "https://cic.isc.org.cn/",
       "date": "2026-07-08 至 2026-07-10"
     },
     {
@@ -230,11 +222,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://shuidibaoxian.huodongxing.com/event/7844984605400",
       "description": "汇聚全球AI领域头部企业，聚焦世界模型、具身智能、多智能体系统等前沿方向",
       "source": "活动行",
       "start_date": "2026-07-08",
-      "end_date": "2026-07-09"
+      "end_date": "2026-07-09",
+      "register_url": "https://shuidibaoxian.huodongxing.com/event/7844984605400"
     },
     {
       "name": "2026第十一届西部企业数智发展大会",
@@ -245,10 +237,10 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://shagualicai.huodongxing.com/event/3855745944000",
       "description": "智赋西部·数创未来，聚焦AI大模型与工业互联网融合应用",
       "start_date": "2026-07-08",
-      "end_date": "2026-07-09"
+      "end_date": "2026-07-09",
+      "register_url": "https://shagualicai.huodongxing.com/event/3855745944000"
     },
     {
       "name": "GAIC 2026 全球人工智能大会 AI+教育主题分论坛",
@@ -259,10 +251,10 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://geekpark.huodongxing.com/event/4862361838000",
       "description": "智启新程·育见未来，聚焦AI在教育领域的应用与变革",
       "start_date": "2026-07-08",
-      "end_date": "2026-07-08"
+      "end_date": "2026-07-08",
+      "register_url": "https://geekpark.huodongxing.com/event/4862361838000"
     },
     {
       "id": "forbes-ai-china-2026",
@@ -274,7 +266,6 @@
       "venue": "深圳前海国际会议中心",
       "theme": "智源新纪·范式跃迁",
       "status": "报名中",
-      "registration_url": "https://www.forbeschina.com/entrepreneur/71777",
       "organizer": "福布斯中国",
       "category": [
         "AI"
@@ -283,7 +274,8 @@
       "scale": "1000+人",
       "source": "福布斯中国官网",
       "description": "汇聚图灵奖得主、零一万物、科大讯飞等顶尖嘉宾，发布2026福布斯中国AI科技企业TOP 50榜单",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.forbeschina.com/entrepreneur/71777"
     },
     {
       "id": "ml-summit-shanghai-2026",
@@ -306,7 +298,6 @@
         "https://ml-summit.org/",
         "https://blog.csdn.net/QuickCode/article/details/160020449"
       ],
-      "url": "https://ml-summit.org/",
       "source": "CSDN",
       "updated_at": "2026-07-01"
     },
@@ -329,7 +320,6 @@
       "source_urls": [
         "https://www.worldaic.com.cn"
       ],
-      "url": "https://www.worldaic.com.cn/",
       "date": "2026-07-17 至 2026-07-20"
     },
     {
@@ -341,11 +331,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "http://bdai2026.icrp.xjtu.edu.cn",
       "description": "中国工业与应用数学学会主办，聚焦大数据与人工智能领域当前研究热点",
       "source": "中国工业与应用数学学会",
       "start_date": "2026-07-17",
-      "end_date": "2026-07-19"
+      "end_date": "2026-07-19",
+      "register_url": "http://bdai2026.icrp.xjtu.edu.cn"
     },
     {
       "id": "chinajoy-2026",
@@ -366,7 +356,6 @@
       "source_urls": [
         "https://www.chinajoy.net/"
       ],
-      "url": "https://www.chinajoy.net/",
       "date": "2026-07-31 至 2026-08-03"
     },
     {
@@ -378,10 +367,10 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://luojisiwei.huodongxing.com/event/9861370981600",
       "description": "智能无界·价值共生——AI大模型行业落地新范式",
       "start_date": "2026-07-31",
-      "end_date": "2026-07-31"
+      "end_date": "2026-07-31",
+      "register_url": "https://luojisiwei.huodongxing.com/event/9861370981600"
     },
     {
       "name": "第五届CCF量子计算大会 (CQCC2026)",
@@ -392,11 +381,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://ccf.org.cn/CQCC2026",
       "description": "以'未来=量子计算+人工智能？'为主题，国内规模最大量子计算年度盛会",
       "source": "CCF官网",
       "start_date": "2026-08-03",
-      "end_date": "2026-08-05"
+      "end_date": "2026-08-05",
+      "register_url": "https://ccf.org.cn/CQCC2026"
     },
     {
       "name": "BigCom 2026 第十二届国际大数据会议",
@@ -407,11 +396,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.bigcom2026.com/",
       "description": "聚焦大数据计算与通信领域，涵盖数据分析、机器学习、隐私安全等研究方向",
       "source": "BigCom官网",
       "start_date": "2026-08-14",
-      "end_date": "2026-08-16"
+      "end_date": "2026-08-16",
+      "register_url": "https://www.bigcom2026.com/"
     },
     {
       "id": "ccf-chinaosc-2026",
@@ -434,7 +423,6 @@
         "https://chinaosc2023.ccf.org.cn/",
         "https://chinaosc.ccf.org.cn/"
       ],
-      "url": "https://chinaosc2023.ccf.org.cn/",
       "source": "CCF官网",
       "updated_at": "2026-07-01"
     },
@@ -447,12 +435,12 @@
         "AI"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/9346.html",
       "description": "聚焦数字安防与人工智能技术的专业展会",
       "scale": "展览面积1万㎡，展商300家，观众2万人",
       "start_date": "2026-08-18",
       "end_date": "2026-08-20",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/9346.html"
     },
     {
       "name": "广州国际智能产业博览会",
@@ -463,12 +451,12 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition/8893.html",
       "description": "粤港澳大湾区规模领先的综合性经贸盛会，以大科技·大消费为主题",
       "scale": "展览面积18万㎡，展商4000家，观众16万人",
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://m.jufair.com/exhibition/8893.html"
     },
     {
       "id": "aicon-shenzhen-2026",
@@ -489,7 +477,6 @@
       "source_urls": [
         "https://aicon.infoq.cn"
       ],
-      "url": "https://aicon.infoq.cn/2026/shenzhen",
       "date": "2026-08-21 至 2026-08-22",
       "updated_at": "2026-06-28"
     },
@@ -502,11 +489,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://conf.ccf.org.cn/BigData2026",
       "description": "CCF大数据专家委员会承办的国内大数据领域最具影响力学术会议之一",
       "source": "中国计算机学会",
       "start_date": "2026-08-21",
-      "end_date": "2026-08-23"
+      "end_date": "2026-08-23",
+      "register_url": "https://conf.ccf.org.cn/BigData2026"
     },
     {
       "id": "agic-shenzhen-2026",
@@ -529,7 +516,6 @@
         "https://www.agicexpo.com/sz/",
         "https://www.szaiexpo.com/sz/"
       ],
-      "url": "https://www.agicexpo.com/sz/",
       "scale": "8万㎡，1000+企业，12万观众",
       "source": "AGIC官网",
       "updated_at": "2026-07-01"
@@ -543,11 +529,11 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/1001.html",
       "description": "创办于2009年的老牌专业物联网展会，覆盖物联网感知层、网络层、平台层全产业链",
       "scale": "展览面积8万㎡，展商1000家，观众10万人",
       "start_date": "2026-08-26",
-      "end_date": "2026-08-28"
+      "end_date": "2026-08-28",
+      "register_url": "https://www.jufair.com/exhibition/1001.html"
     },
     {
       "name": "深圳国际智能装备产业展",
@@ -558,11 +544,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/10143.html",
       "description": "展示智能装备与电子制造技术的专业展会",
       "scale": "展览面积6万㎡，展商1000家，观众4万人",
       "start_date": "2026-08-26",
-      "end_date": "2026-08-28"
+      "end_date": "2026-08-28",
+      "register_url": "https://www.jufair.com/exhibition/10143.html"
     },
     {
       "name": "深圳国际智慧显示系统产业应用展览会",
@@ -573,11 +559,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-28-0-1-528-0-08-1",
       "description": "聚焦智慧显示系统与商用显示应用解决方案",
       "scale": "展览面积2.25万㎡，展商400家",
       "start_date": "2026-08-26",
-      "end_date": "2026-08-28"
+      "end_date": "2026-08-28",
+      "register_url": "https://m.jufair.com/exhibition-28-0-1-528-0-08-1"
     },
     {
       "name": "2026全球AI风控领袖峰会（合肥站）暨第八届数字化转型与创新峰会",
@@ -588,10 +574,10 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://ghrlibs.huodongxing.com/event/4864665208500",
       "description": "聚焦AI风控与数字化转型，探讨人工智能在企业中的应用",
       "start_date": "2026-08-28",
-      "end_date": "2026-08-28"
+      "end_date": "2026-08-28",
+      "register_url": "https://ghrlibs.huodongxing.com/event/4864665208500"
     },
     {
       "name": "深圳国际消费电子及家用电器展",
@@ -602,11 +588,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
       "description": "展示消费电子及智能家电产品的专业展会",
       "scale": "展览面积6万㎡，展商1000家",
       "start_date": "2026-09-03",
-      "end_date": "2026-09-06"
+      "end_date": "2026-09-06",
+      "register_url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1"
     },
     {
       "id": "cice-ai-qingdao-2026",
@@ -618,7 +604,6 @@
       "venue": "青岛国际会展中心（红岛馆）",
       "theme": "智赋产业·慧创未来",
       "status": "报名中",
-      "registration_url": "https://m.trustexporter.com/cz14058709.htm",
       "organizer": "山东省人民政府、青岛市人民政府、中国电子学会",
       "category": [
         "AI"
@@ -627,7 +612,8 @@
       "scale": "600+企业，6万平米",
       "source": "中国国际消费电子博览会",
       "description": "中国（青岛）国际消费电子博览会(CICE)核心主题展，聚焦人工智能、机器人全产业链技术与应用",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://m.trustexporter.com/cz14058709.htm"
     },
     {
       "id": "qecon-shanghai-2026",
@@ -649,7 +635,6 @@
       "source_urls": [
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
-      "url": "https://www.bagevent.com/eventlist.html?f=1&tag=17",
       "source": "百格活动",
       "updated_at": "2026-07-01"
     },
@@ -662,11 +647,11 @@
         "云"
       ],
       "pricing": "付费",
-      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/",
       "description": "三大全球开源社区首次联合举办，推动生产级AI规模化落地",
       "source": "DOIT",
       "start_date": "2026-09-07",
-      "end_date": "2026-09-09"
+      "end_date": "2026-09-09",
+      "register_url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/"
     },
     {
       "name": "深圳信息通信展",
@@ -677,11 +662,11 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/9584.html",
       "description": "亚太地区极具影响力的通信技术专业展，覆盖光通信、激光、红外等产业链",
       "scale": "展览面积16万㎡，展商2512家，观众8.93万人",
       "start_date": "2026-09-09",
-      "end_date": "2026-09-11"
+      "end_date": "2026-09-11",
+      "register_url": "https://www.jufair.com/exhibition/9584.html"
     },
     {
       "name": "2026云栖大会 (APSARA CONFERENCE)",
@@ -692,11 +677,11 @@
         "云"
       ],
       "pricing": "免费",
-      "url": "https://yunqi.aliyun.com/",
       "description": "中国云计算与人工智能产业发展风向标，聚焦通义千问与AI生态",
       "source": "中欧国际展览",
       "start_date": "2026-09-09",
-      "end_date": "2026-09-11"
+      "end_date": "2026-09-11",
+      "register_url": "https://yunqi.aliyun.com/"
     },
     {
       "id": "ai-show-hangzhou-2026",
@@ -708,7 +693,6 @@
       "venue": "杭州国际博览中心",
       "theme": "浙里向新·智领未来",
       "status": "报名中",
-      "registration_url": "http://www.cnena.com/zt/AIShow",
       "organizer": "浙江省人工智能学会、杭州市人工智能学会",
       "category": [
         "AI"
@@ -717,7 +701,8 @@
       "scale": "350+参展品牌，5万+观众",
       "source": "AI中国网/聚展网",
       "description": "聚焦人工智能、人形机器人、工业智能装备、具身智能等前沿赛道",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "http://www.cnena.com/zt/AIShow"
     },
     {
       "name": "北京PT展/北京国际信息通信展",
@@ -728,12 +713,12 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.jufair.com/exhibition/3209.html",
       "description": "中国ICT领域最具影响力的国际展会，展示通信与AI融合成果",
       "scale": "展览面积4万㎡，展商400家，观众6万人",
       "start_date": "2026-09-22",
       "end_date": "2026-09-24",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/3209.html"
     },
     {
       "id": "wuhan-computing-2026",
@@ -755,7 +740,6 @@
       "source_urls": [
         "https://beijing0643208.11467.com/m/news/15714386.asp"
       ],
-      "url": "https://beijing0643208.11467.com/m/news/15714386.asp",
       "scale": "40000㎡，500+企业，45000+观众",
       "source": "武汉国际博览中心",
       "updated_at": "2026-07-01"
@@ -769,12 +753,12 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/2269.html",
       "description": "展示数字贸易与数字经济新业态的专业盛会",
       "scale": "展览面积15.5万㎡，展商1546家，观众20万人",
       "start_date": "2026-09-23",
       "end_date": "2026-09-27",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/2269.html"
     },
     {
       "name": "上海国际新一代信息技术与应用展览会",
@@ -785,11 +769,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
       "description": "展示新一代信息技术与行业应用解决方案",
       "scale": "展览面积28.79万㎡，展商2665家",
       "start_date": "2026-10-12",
-      "end_date": "2026-10-16"
+      "end_date": "2026-10-16",
+      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1"
     },
     {
       "name": "2026第十四届中国国际工业博览会 (CIIF 2026)",
@@ -800,11 +784,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "http://www.ciif.com.cn/",
       "description": "总面积超30万平方米，工业自动化、机器人及新一代信息技术展区为亮点",
       "source": "中国工博会官网",
       "start_date": "2026-10-12",
-      "end_date": "2026-10-16"
+      "end_date": "2026-10-16",
+      "register_url": "http://www.ciif.com.cn/"
     },
     {
       "id": "gops-shanghai-2026",
@@ -826,7 +810,6 @@
       "source_urls": [
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
-      "url": "https://www.bagevent.com/eventlist.html?f=1&tag=17",
       "source": "百格活动",
       "updated_at": "2026-07-01"
     },
@@ -839,12 +822,12 @@
         "开发者"
       ],
       "pricing": "付费",
-      "url": "https://ccf.org.cn/",
       "description": "中国计算机学会年度盛会，主题'数聚产业 智算未来'，预计参会规模逾万人",
       "source": "搜狐",
       "start_date": "2026-10-21",
       "end_date": "2026-10-24",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://ccf.org.cn/"
     },
     {
       "name": "QCon 2026 全球软件开发大会（上海站）",
@@ -855,11 +838,11 @@
         "开发者"
       ],
       "pricing": "付费",
-      "url": "https://qcon.infoq.cn/2026/shanghai",
       "description": "InfoQ主办的综合性技术盛会，分享技术创新和实践",
       "start_date": "2026-10-23",
       "end_date": "2026-10-25",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://qcon.infoq.cn/2026/shanghai"
     },
     {
       "name": "2026世界互联网大会乌镇峰会",
@@ -870,12 +853,12 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://cn.wicinternet.org/",
       "description": "全球互联网领域顶级峰会，聚焦'人工智能+'为重点的新技术新产品新场景",
       "source": "世界互联网大会",
       "start_date": "2026-11-01",
       "end_date": "2026-11-04",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://cn.wicinternet.org/"
     },
     {
       "name": "2026互联网之光博览会",
@@ -886,12 +869,12 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://cn.wicinternet.org/",
       "description": "以'AI原生、智见未来'为主题，设置AI生态领航、应用赋能、基础设施等展区",
       "source": "光明网",
       "start_date": "2026-11-01",
       "end_date": "2026-11-04",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://cn.wicinternet.org/"
     },
     {
       "name": "2026国际区块链和Web3.0技术创新大会",
@@ -902,11 +885,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.bwtac-cie.com/2026",
       "description": "中国电子学会区块链分会第三届学术年会，聚焦AI+区块链、Web3.0技术",
       "source": "杭州电子科技大学",
       "start_date": "2026-11-06",
-      "end_date": "2026-11-08"
+      "end_date": "2026-11-08",
+      "register_url": "https://www.bwtac-cie.com/2026"
     },
     {
       "name": "2026 Google DevFest 谷歌开发者节",
@@ -917,10 +900,10 @@
         "开发者"
       ],
       "pricing": "付费",
-      "url": "https://jiehuiying.huodongxing.com/event/7865513882600",
       "description": "Beyond the Model. Build for Real. 全球规模最大的社区主导型技术大会",
       "start_date": "2026-11-08",
-      "end_date": "2026-11-08"
+      "end_date": "2026-11-08",
+      "register_url": "https://jiehuiying.huodongxing.com/event/7865513882600"
     },
     {
       "id": "secon-shenzhen-2026",
@@ -942,7 +925,6 @@
       "source_urls": [
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
-      "url": "https://www.bagevent.com/eventlist.html?f=1&tag=17",
       "source": "百格活动",
       "updated_at": "2026-07-01"
     },
@@ -955,11 +937,11 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://www.prnewswire.com/",
       "description": "Informa Markets China主办的全新科技盛会，聚焦AI、未来出行、数字基础设施等",
       "source": "PRNewswire",
       "start_date": "2026-11-20",
-      "end_date": "2026-11-22"
+      "end_date": "2026-11-22",
+      "register_url": "https://www.prnewswire.com/"
     },
     {
       "name": "2026北京国际消费电子技术博览会 (CET)",
@@ -970,11 +952,11 @@
         "综合"
       ],
       "pricing": "付费",
-      "url": "http://www.cecc.org.cn/",
       "description": "以'锚定智能经济新风口'为主题，覆盖智能汽车、具身智能、机器人等30+赛道",
       "source": "中国电子商会",
       "start_date": "2026-11-20",
-      "end_date": "2026-11-22"
+      "end_date": "2026-11-22",
+      "register_url": "http://www.cecc.org.cn/"
     },
     {
       "name": "深圳高交会",
@@ -985,12 +967,12 @@
         "综合"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/7480.html",
       "description": "中国规模最大、最具影响力的科技类展会，有中国科技第一展之称",
       "scale": "展览面积40万㎡，展商5000家，观众45.1万人",
       "start_date": "2026-11-26",
       "end_date": "2026-11-28",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/7480.html"
     },
     {
       "name": "深圳高交会人工智能与机器人产业链展",
@@ -1001,12 +983,12 @@
         "AI"
       ],
       "pricing": "免费",
-      "url": "https://www.jufair.com/exhibition/9828.html",
       "description": "高交会核心展区之一，展示AI与机器人技术成果",
       "scale": "展览面积14.2万㎡，展商3349家，观众45.1万人",
       "start_date": "2026-11-26",
       "end_date": "2026-11-28",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "register_url": "https://www.jufair.com/exhibition/9828.html"
     },
     {
       "name": "深圳国际数据中心及云计算展",
@@ -1017,11 +999,11 @@
         "云"
       ],
       "pricing": "付费",
-      "url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
       "description": "聚焦数据中心基础设施与云计算技术应用的专业展会",
       "scale": "展览面积7.2万㎡，展商1800家",
       "start_date": "2026-12-03",
-      "end_date": "2026-12-05"
+      "end_date": "2026-12-05",
+      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1"
     },
     {
       "name": "DSID 2026 数据科学与决策智能国际学术会议",
@@ -1032,11 +1014,11 @@
         "AI"
       ],
       "pricing": "付费",
-      "url": "https://www.icdsid.com/",
       "description": "聚焦数据科学与决策智能深度融合创新，论文由IEEE出版",
       "source": "艾思科蓝",
       "start_date": "2026-12-11",
-      "end_date": "2026-12-13"
+      "end_date": "2026-12-13",
+      "register_url": "https://www.icdsid.com/"
     },
     {
       "id": "aicon-beijing-2026",
@@ -1057,7 +1039,6 @@
       "source_urls": [
         "https://aicon.infoq.cn"
       ],
-      "url": "https://aicon.infoq.cn/2026/beijing",
       "date": "2026-12-18 至 2026-12-19",
       "updated_at": "2026-06-28"
     }
