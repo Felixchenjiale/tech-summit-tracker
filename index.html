@@ -15,6 +15,8 @@
   --text:#1e293b;
   --text-secondary:#475569;
   --muted:#94a3b8;
+  --gold:#F5B301;
+  --gold-soft:#FFE9A8;
   --tag-ai-bg:#dbeafe;--tag-ai-text:#1d4ed8;
   --tag-cloud-bg:#ede9fe;--tag-cloud-text:#6d28d9;
   --tag-dev-bg:#d1fae5;--tag-dev-text:#047857;
@@ -22,6 +24,7 @@
   --tag-misc-bg:#e0e7ff;--tag-misc-text:#4338ca;
   --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
   --shadow-hover:0 10px 25px rgba(37,99,235,.1),0 4px 10px rgba(0,0,0,.06);
+  --shadow-gold:0 4px 14px rgba(245,179,1,.18),0 1px 3px rgba(0,0,0,.06);
   --radius:10px;
   --card-inner-h:260px
 }
@@ -31,7 +34,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .header h1{font-size:1.75rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.3rem;color:#fff}
 .header .subtitle{color:rgba(255,255,255,.7);font-size:.88rem;font-weight:400}
 
-/* 筛选区：三行布局，每行可横向滚动 */
+/* 筛选区 */
 .filters{padding:.8rem 1.5rem;background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
 .filter-row{display:flex;align-items:center;gap:.4rem;margin-bottom:.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
 .filter-row:last-child{margin-bottom:0}
@@ -42,18 +45,32 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .filter-btn{background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.28rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;transition:all .15s;font-weight:500;white-space:nowrap;flex-shrink:0}
 .filter-btn:hover{background:#e2e8f0;color:var(--text)}
 .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* 顶会 toggle */
+.toggle-tier{display:inline-flex;align-items:center;gap:.35rem;background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.28rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;font-weight:500;white-space:nowrap;flex-shrink:0;transition:all .15s;user-select:none}
+.toggle-tier:hover{background:#e2e8f0;color:var(--text)}
+.toggle-tier.active{background:linear-gradient(135deg,#F5B301,#E8A200);color:#fff;border-color:transparent;box-shadow:0 2px 6px rgba(245,179,1,.35)}
+
+/* 排序下拉 */
+.sort-select{background:#f1f5f9;border:1px solid transparent;color:var(--text-secondary);padding:.28rem .7rem;border-radius:8px;font-size:.8rem;cursor:pointer;font-weight:500;white-space:nowrap;flex-shrink:0}
+.sort-select:hover{background:#e2e8f0;color:var(--text)}
+
 .clear-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:.28rem .7rem;border-radius:8px;font-size:.78rem;cursor:pointer;font-weight:500;flex-shrink:0;margin-left:auto}
 .clear-btn:hover{color:var(--text);border-color:var(--accent)}
 
 .grid{padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:1rem;max-width:1400px;margin:0 auto}
 
-/* 卡片：固定内部布局，对齐整齐 */
+/* 卡片 */
 .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.3rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px);border-color:#cbd5e1}
 .card.ended{opacity:.5}
 .card.ended:hover{opacity:.65}
 
-.card .tags{display:flex;flex-wrap:wrap;gap:.3rem;min-height:1.5rem;margin-bottom:.5rem}
+/* 顶会金色描边 */
+.card.tier-top{border:2px solid var(--gold);box-shadow:var(--shadow-gold);background:linear-gradient(180deg,#FFFDF5 0%,#ffffff 45%)}
+.card.tier-top:hover{border-color:var(--gold);box-shadow:0 10px 24px rgba(245,179,1,.28),0 4px 10px rgba(0,0,0,.06)}
+
+.card .tags{display:flex;flex-wrap:wrap;gap:.3rem;min-height:1.5rem;margin-bottom:.5rem;align-items:center}
 .tag{padding:.18rem .55rem;border-radius:6px;font-size:.72rem;font-weight:600;letter-spacing:.01em}
 .tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai-text)}
 .tag-cloud{background:var(--tag-cloud-bg);color:var(--tag-cloud-text)}
@@ -63,6 +80,13 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .tag-free{background:#d1fae5;color:#047857}
 .tag-paid{background:#fee2e2;color:#b91c1c}
 
+/* 星级徽章 */
+.stars{display:inline-flex;align-items:center;gap:.15rem;font-size:.78rem;font-weight:700;letter-spacing:.01em;padding:.16rem .5rem;border-radius:6px;margin-left:auto;white-space:nowrap;cursor:help}
+.stars.top{background:linear-gradient(135deg,#FFF3C4,#FFE082);color:#8B6508;box-shadow:inset 0 0 0 1px rgba(245,179,1,.35)}
+.stars.mid{background:#F1F5F9;color:#475569}
+.stars.low{background:#F1F5F9;color:#94A3B8}
+.stars .user-mark{margin-left:.15rem;font-size:.72rem;color:#2563eb;font-weight:700}
+
 .card .name{font-size:1.05rem;font-weight:700;margin-bottom:.3rem;line-height:1.45;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:1.5rem;max-height:3rem}
 .card .theme{color:var(--accent);font-size:.84rem;font-weight:600;margin-bottom:.35rem;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .card .desc{color:var(--text-secondary);font-size:.82rem;margin-bottom:.6rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.6;min-height:1.6rem;max-height:3.2rem}
@@ -70,7 +94,10 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .card .meta{display:flex;flex-wrap:wrap;gap:.5rem;font-size:.8rem;color:var(--text-secondary);margin-bottom:.75rem;align-items:center}
 .card .meta span{display:flex;align-items:center;gap:.2rem}
 
-/* 底部按钮固定对齐：用 margin-top:auto 推到卡片底部 */
+/* 三维评分明细：默认收起，hover 展开（PC）；移动端始终展开为一个小字条 */
+.card .score-detail{font-size:.72rem;color:var(--muted);margin-bottom:.5rem;line-height:1.4;letter-spacing:.01em}
+.card .score-detail b{color:var(--text-secondary);font-weight:600}
+
 .card .actions{display:flex;gap:.5rem;margin-top:auto;padding-top:.35rem}
 .btn-register{display:inline-flex;align-items:center;gap:.35rem;background:var(--accent);color:#fff;padding:.5rem 1.15rem;border-radius:8px;font-size:.84rem;font-weight:600;text-decoration:none;transition:all .15s;border:none;cursor:pointer}
 .btn-register:hover{background:#1d4ed8;transform:scale(1.02)}
@@ -94,6 +121,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   .header h1{font-size:1.35rem}
   .filters{padding:.6rem .75rem}
   .card{padding:1rem 1.1rem}
+  .stars{font-size:.72rem;padding:.14rem .4rem}
 }
 </style>
 </head>
@@ -116,6 +144,16 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   <div class="filter-row">
     <label>分类</label>
     <div class="filter-scroll" id="cat-filters"></div>
+  </div>
+  <div class="filter-row">
+    <label>视图</label>
+    <div class="filter-scroll" id="view-controls">
+      <button class="toggle-tier" id="toggle-top" title="只显示评分≥4.0 的顶级峰会">🌟 只看顶会</button>
+      <select class="sort-select" id="sort-select" title="排序方式">
+        <option value="date-asc">📅 按日期升序</option>
+        <option value="weight-desc">⭐ 按权重降序</option>
+      </select>
+    </div>
     <button class="clear-btn" onclick="clearFilters()">清除筛选</button>
   </div>
 </div>
@@ -137,6 +175,8 @@ const CAT_DISPLAY = {};
 
 let allSummits = [];
 let activeFilters = { month: null, city: null, category: null };
+let onlyTop = false;
+let sortMode = 'date-asc'; // 'date-asc' | 'weight-desc'
 
 async function loadData() {
   const grid = document.getElementById('grid');
@@ -146,8 +186,10 @@ async function loadData() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allSummits = data.summits || [];
-    document.getElementById('subtitle').textContent = '数据更新于 ' + (data.last_updated || '未知') + ' · 每3天自动更新';
+    const ver = data.scoring_version ? ' · 打分 ' + data.scoring_version : '';
+    document.getElementById('subtitle').textContent = '数据更新于 ' + (data.last_updated || '未知') + ver + ' · 每3天自动更新';
     buildFilters();
+    bindViewControls();
     render();
   } catch (e) {
     grid.innerHTML = '<div class="error"><h3>数据加载失败</h3><p>' + e.message + '</p><p style="margin-top:.5rem;font-size:.85rem;color:var(--text-secondary)">请稍后刷新重试，或访问 <a href="https://github.com/Felixchenjiale/tech-summit-tracker" style="color:var(--accent)">GitHub 仓库</a></p></div>';
@@ -172,6 +214,36 @@ function isEnded(s) {
     return end < new Date();
   }
   return false;
+}
+
+// 有效排序分：user_rating 优先，否则 weight_score
+function effectiveScore(s) {
+  if (typeof s.user_rating === 'number' && !isNaN(s.user_rating)) return s.user_rating;
+  if (typeof s.weight_score === 'number' && !isNaN(s.weight_score)) return s.weight_score;
+  return 0;
+}
+
+// 根据 tier / user_rating 生成星级
+function renderStars(s) {
+  const hasUser = typeof s.user_rating === 'number' && !isNaN(s.user_rating);
+  let tier = s.tier;
+  // 若有 user_rating，重算 tier
+  if (hasUser) {
+    const r = s.user_rating;
+    tier = r >= 4.0 ? '顶会' : (r >= 3.0 ? '重要' : '一般');
+  }
+  if (!tier) return '';
+  let stars, cls, label;
+  if (tier === '顶会') { stars = '🌟🌟🌟'; cls = 'top'; label = '顶会'; }
+  else if (tier === '重要') { stars = '🌟🌟'; cls = 'mid'; label = '重要'; }
+  else { stars = '🌟'; cls = 'low'; label = '一般'; }
+  const scoreVal = hasUser ? s.user_rating : s.weight_score;
+  const scoreTxt = (typeof scoreVal === 'number') ? scoreVal.toFixed(2) : '';
+  const orgs = s.organizer_score, sc = s.scale, inf = s.influence;
+  const detail = (orgs != null && sc != null && inf != null)
+    ? `${label} · 综合 ${scoreTxt}\n主办 ${orgs}·规模 ${sc}·影响力 ${inf}` + (hasUser ? '\n（用户手动打分）' : '')
+    : `${label} · ${scoreTxt}`;
+  return `<span class="stars ${cls}" title="${detail}">${stars}${hasUser ? '<span class="user-mark">✏️</span>' : ''}</span>`;
 }
 
 function buildFilters() {
@@ -206,6 +278,21 @@ function buildFilters() {
   });
 }
 
+function bindViewControls() {
+  const topBtn = document.getElementById('toggle-top');
+  topBtn.addEventListener('click', () => {
+    onlyTop = !onlyTop;
+    topBtn.classList.toggle('active', onlyTop);
+    render();
+  });
+  const sortSel = document.getElementById('sort-select');
+  sortSel.value = sortMode;
+  sortSel.addEventListener('change', () => {
+    sortMode = sortSel.value;
+    render();
+  });
+}
+
 function syncFilterUI() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     const type = btn.dataset.type;
@@ -216,6 +303,10 @@ function syncFilterUI() {
 
 function clearFilters() {
   activeFilters = { month: null, city: null, category: null };
+  onlyTop = false;
+  sortMode = 'date-asc';
+  document.getElementById('toggle-top').classList.remove('active');
+  document.getElementById('sort-select').value = 'date-asc';
   syncFilterUI();
   render();
 }
@@ -229,22 +320,43 @@ function render() {
       const cats = catArr.map(c => CAT_DISPLAY[c] || c);
       if (!cats.includes(activeFilters.category) && !catArr.includes(activeFilters.category)) return false;
     }
+    if (onlyTop) {
+      // 顶会：优先 user_rating，否则 tier === '顶会'
+      const hasUser = typeof s.user_rating === 'number' && !isNaN(s.user_rating);
+      if (hasUser) {
+        if (s.user_rating < 4.0) return false;
+      } else if (s.tier !== '顶会') {
+        return false;
+      }
+    }
     return true;
   });
 
-  // 排序：未结束在前，按时间由近至远（最近的排最前），无日期的放最后
-  filtered.sort((a, b) => {
-    const ae = isEnded(a), be = isEnded(b);
-    if (ae !== be) return ae ? 1 : -1;
-    const ad = a.start_date || '';
-    const bd = b.start_date || '';
-    // 无日期的排后面
-    if (!ad && bd) return 1;
-    if (ad && !bd) return -1;
-    if (!ad && !bd) return 0;
-    // 都有日期：由近至远 = 降序
-    return bd.localeCompare(ad);
-  });
+  // 排序
+  if (sortMode === 'weight-desc') {
+    filtered.sort((a, b) => {
+      const ae = isEnded(a), be = isEnded(b);
+      if (ae !== be) return ae ? 1 : -1; // 未结束在前
+      const sb = effectiveScore(b), sa = effectiveScore(a);
+      if (sb !== sa) return sb - sa;
+      // 同分按日期升序
+      const ad = a.start_date || '9999-99-99';
+      const bd = b.start_date || '9999-99-99';
+      return ad.localeCompare(bd);
+    });
+  } else {
+    // 默认：未结束优先，按日期升序
+    filtered.sort((a, b) => {
+      const ae = isEnded(a), be = isEnded(b);
+      if (ae !== be) return ae ? 1 : -1;
+      const ad = a.start_date || '';
+      const bd = b.start_date || '';
+      if (!ad && bd) return 1;
+      if (ad && !bd) return -1;
+      if (!ad && !bd) return 0;
+      return ad.localeCompare(bd);
+    });
+  }
 
   document.getElementById('count').textContent = `共 ${filtered.length} 个峰会` + (filtered.length !== allSummits.length ? `（全部 ${allSummits.length} 个）` : '');
 
@@ -260,11 +372,13 @@ function render() {
     const catArr = Array.isArray(s.category) ? s.category : (s.category ? [s.category] : []);
     const tags = catArr.map(c => `<span class="tag ${TAG_MAP[c] || 'tag-misc'}">${CAT_DISPLAY[c] || c}</span>`).join('');
     const pricingTag = s.pricing === '付费' ? '<span class="tag tag-paid">💰 付费</span>' : '<span class="tag tag-free">🆓 免费</span>';
+    const starsHtml = renderStars(s);
     const regBtn = s.register_url
       ? `<a href="${s.register_url}" target="_blank" rel="noopener" class="btn-register${ended ? ' disabled' : ''}">🔗 ${ended ? '已结束' : '去报名'}</a>`
       : `<span class="btn-register disabled">暂无链接</span>`;
-    return `<div class="card${ended ? ' ended' : ''}">
-      <div class="tags">${tags}${pricingTag}</div>
+    const topClass = (s.tier === '顶会') ? ' tier-top' : '';
+    return `<div class="card${ended ? ' ended' : ''}${topClass}">
+      <div class="tags">${tags}${pricingTag}${starsHtml}</div>
       <div class="name">${s.name || ''}</div>
       ${s.theme ? `<div class="theme">${s.theme}</div>` : ''}
       ${s.description ? `<div class="desc">${s.description}</div>` : '<div class="desc" style="visibility:hidden">-</div>'}
