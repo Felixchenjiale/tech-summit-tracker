@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 13:54",
+  "last_updated": "2026-07-04 10:20",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -257,6 +257,29 @@
       "register_url": "https://geekpark.huodongxing.com/event/4862361838000"
     },
     {
+      "id": "leap-east-2026",
+      "name": "香港AI科技及信息技术展览会 LEAP East 2026",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-10",
+      "city": "香港",
+      "venue": "香港会议展览中心",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "Tahaluf / 香港特区政府创新科技及工业局",
+      "theme": "跨越新界·登陆香港",
+      "description": "LEAP国际盛会亚太首秀，300+全球展商、25000+专业观众、200+领袖演讲，覆盖人工智能、Web3、云计算等",
+      "status": "upcoming",
+      "register_url": "https://www.leapeast.com.cn/",
+      "source": "leapeast.com.cn/jufair",
+      "source_urls": [
+        "https://www.leapeast.com.cn/",
+        "https://www.jufair.com/exhibition/9751.html"
+      ],
+      "date": "2026-07-08 至 2026-07-10"
+    },
+    {
       "id": "forbes-ai-china-2026",
       "name": "2026福布斯中国人工智能科技峰会",
       "start_date": "2026-07-10",
@@ -336,6 +359,28 @@
       "start_date": "2026-07-17",
       "end_date": "2026-07-19",
       "register_url": "http://bdai2026.icrp.xjtu.edu.cn"
+    },
+    {
+      "id": "suzhou-aipae-2026",
+      "name": "2026人工智能产品应用博览会（苏州智博会）",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-01",
+      "city": "苏州",
+      "venue": "苏州国际博览中心（B1/C1馆）",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "苏州工业园区管委会",
+      "theme": "一元复始，万象AI",
+      "description": "聚焦新型工业化、大模型与AI算力产业链、OPC创业与TOKEN经济三大维度，200+展商、400+款AI产品",
+      "status": "upcoming",
+      "register_url": "https://m.sohu.com/a/1045307162_121124379/",
+      "source": "搜狐/苏州工业园区管委会",
+      "source_urls": [
+        "https://m.sohu.com/a/1045307162_121124379/"
+      ],
+      "date": "2026-07-30 至 2026-08-01"
     },
     {
       "id": "chinajoy-2026",
@@ -443,6 +488,28 @@
       "register_url": "https://www.jufair.com/exhibition/9346.html"
     },
     {
+      "id": "wrc-2026",
+      "name": "2026世界机器人大会（WRC 2026）",
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-23",
+      "city": "北京",
+      "venue": "北京亦创国际会展中心",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "中国电子学会、世界机器人合作组织",
+      "theme": "赋能产业·智造未来",
+      "description": "全球机器人产业年度盛会，涵盖机器人论坛+博览会+大赛，覆盖具身智能、工业机器人、服务机器人等全产业链",
+      "status": "upcoming",
+      "register_url": "https://www.worldrobotconference.com/",
+      "source": "worldrobotconference.com",
+      "source_urls": [
+        "https://www.worldrobotconference.com/forum/"
+      ],
+      "date": "2026-08-19 至 2026-08-23"
+    },
+    {
       "name": "广州国际智能产业博览会",
       "date": "2026-08-21 至 2026-08-23",
       "city": "广州",
@@ -494,6 +561,28 @@
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
       "register_url": "https://conf.ccf.org.cn/BigData2026"
+    },
+    {
+      "id": "ai4science-congress-2026",
+      "name": "2026科学智能大会（AI for Science Congress 2026）",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-22",
+      "city": "北京",
+      "venue": "北京中关村国际创新中心、中关村国际技术交易中心",
+      "category": [
+        "AI"
+      ],
+      "pricing": "免费",
+      "organizer": "科技导报社等",
+      "theme": "人工智能变革科研范式",
+      "description": "60余位院士学术支持，100+科学家与产业先锋、50余家生态展商齐聚，会展赛才四位一体聚焦AI for Science",
+      "status": "upcoming",
+      "register_url": "https://m.weibo.cn/detail/5314148512301920",
+      "source": "科技导报",
+      "source_urls": [
+        "https://m.weibo.cn/detail/5314148512301920"
+      ],
+      "date": "2026-08-21 至 2026-08-22"
     },
     {
       "id": "agic-shenzhen-2026",
@@ -703,6 +792,51 @@
       "description": "聚焦人工智能、人形机器人、工业智能装备、具身智能等前沿赛道",
       "updated_at": "2026-06-28",
       "register_url": "http://www.cnena.com/zt/AIShow"
+    },
+    {
+      "id": "cise-2026-zhengzhou",
+      "name": "第28届中国国际软件博览会（CISE 2026）",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-13",
+      "city": "郑州",
+      "venue": "郑州国际会展中心",
+      "category": [
+        "开发者"
+      ],
+      "pricing": "付费",
+      "organizer": "中国电子信息行业联合会",
+      "theme": "软件智能化启新程，智能体应用开新局",
+      "description": "国家批准的软件产业最高规格盛会，展览面积2万㎡，涵盖基础软件、工业软件、大模型、智能体、算力与训练、行业应用软件六大板块",
+      "status": "upcoming",
+      "register_url": "https://sptae.com/",
+      "source": "中国电子信息行业联合会/sptae.com",
+      "source_urls": [
+        "https://sptae.com/",
+        "https://h5.cinn.cn/davmu/share/holly/doc/2026/05/Rkx48p5k/index.html"
+      ],
+      "date": "2026-09-11 至 2026-09-13"
+    },
+    {
+      "id": "beijing-aidc-2026",
+      "name": "北京AI算力产业大会暨展览会（AIDC 2026）",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-16",
+      "city": "北京",
+      "venue": "北京国家会议中心",
+      "category": [
+        "云"
+      ],
+      "pricing": "付费",
+      "organizer": "聚展/AI算力产业联盟",
+      "theme": "AI算力产业创新",
+      "description": "AI算力基础设施与产业应用大会，1.5万㎡展览面积、300+展商、1.8万+专业观众",
+      "status": "upcoming",
+      "register_url": "https://www.jufair.com/exhibition/19526.html",
+      "source": "jufair.com",
+      "source_urls": [
+        "https://www.jufair.com/exhibition/19526.html"
+      ],
+      "date": "2026-09-15 至 2026-09-16"
     },
     {
       "name": "北京PT展/北京国际信息通信展",
