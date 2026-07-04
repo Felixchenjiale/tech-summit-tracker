@@ -40,32 +40,27 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .proto-badge{position:absolute;top:.75rem;right:1rem;background:rgba(255,209,102,.18);color:#FFD166;padding:.2rem .55rem;border-radius:6px;font-size:.7rem;font-weight:700;letter-spacing:.03em;border:1px solid rgba(255,209,102,.35)}
 
 /* 轮播区 */
-.carousel-section{max-width:1200px;margin:1.2rem auto 0;padding:0 1.5rem}
-.carousel-title{display:flex;align-items:center;gap:.45rem;margin-bottom:.45rem;color:var(--text)}
-.carousel-title .icon{font-size:1rem}
-.carousel-title h2{font-size:.95rem;font-weight:700;letter-spacing:.02em}
-.carousel-title .sub{color:var(--muted);font-size:.72rem;margin-left:.25rem}
+.carousel-section{max-width:1200px;margin:.8rem auto 0;padding:0 1.5rem}
 
 .carousel{position:relative;overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#FFFDF5 0%,#FFF8DC 60%,#FFEFB0 100%);border:1.5px solid var(--gold);box-shadow:0 4px 14px rgba(245,179,1,.18)}
 .carousel-track{display:flex;transition:transform .5s cubic-bezier(.4,.2,.2,1);will-change:transform}
-.carousel-slide{flex:0 0 100%;padding:.9rem 1.4rem 1rem;display:flex;flex-direction:column;gap:.35rem;min-height:0;box-sizing:border-box}
-.slide-tags{display:flex;flex-wrap:wrap;gap:.28rem;align-items:center}
-.slide-name{font-size:1.1rem;font-weight:800;color:#8B6508;line-height:1.35;letter-spacing:-.01em}
-.slide-theme{font-size:.8rem;color:var(--accent);font-weight:600;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.carousel-slide{flex:0 0 100%;padding:.6rem 1.2rem .55rem;display:flex;flex-direction:column;gap:.28rem;min-height:0;box-sizing:border-box}
+.slide-name{font-size:1rem;font-weight:800;color:#8B6508;line-height:1.3;letter-spacing:-.01em}
+.slide-theme{font-size:.75rem;color:var(--accent);font-weight:600;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .slide-desc{display:none}
-.slide-meta{display:flex;flex-wrap:wrap;gap:.6rem;font-size:.76rem;color:var(--text-secondary);margin-top:.1rem}
+.slide-meta{display:flex;flex-wrap:wrap;gap:.55rem;font-size:.72rem;color:var(--text-secondary);margin-top:.05rem}
 .slide-meta span{display:flex;align-items:center;gap:.2rem}
-.slide-actions{margin-top:.35rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
-.slide-score{font-size:.72rem;color:#8B6508;font-weight:600;background:rgba(255,255,255,.6);padding:.18rem .5rem;border-radius:5px;border:1px solid rgba(245,179,1,.35)}
-.slide-btn{background:linear-gradient(135deg,#F5B301,#E8A200);color:#fff;padding:.38rem 1.1rem;border-radius:7px;font-size:.82rem;font-weight:700;text-decoration:none;box-shadow:0 2px 8px rgba(245,179,1,.3);transition:all .15s;display:inline-flex;align-items:center;gap:.3rem;margin-left:auto}
+.slide-actions{margin-top:.15rem;display:flex;align-items:stretch;gap:.5rem;flex-wrap:nowrap}
+.slide-score{font-size:.72rem;color:#8B6508;font-weight:600;background:rgba(255,255,255,.6);padding:.3rem .55rem;border-radius:6px;border:1px solid rgba(245,179,1,.35);display:inline-flex;align-items:center;line-height:1.1}
+.slide-btn{background:linear-gradient(135deg,#F5B301,#E8A200);color:#fff;padding:.3rem .9rem;border-radius:6px;font-size:.78rem;font-weight:700;text-decoration:none;box-shadow:0 2px 8px rgba(245,179,1,.3);transition:all .15s;display:inline-flex;align-items:center;gap:.25rem;margin-left:auto;line-height:1.1;box-sizing:border-box}
 .slide-btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(245,179,1,.4)}
 
 /* 轮播控件 */
-.carousel-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.85);border:none;width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:.95rem;color:#8B6508;box-shadow:0 2px 6px rgba(0,0,0,.1);transition:all .15s;display:flex;align-items:center;justify-content:center;z-index:5}
+.carousel-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.85);border:none;width:26px;height:26px;border-radius:50%;cursor:pointer;font-size:.9rem;color:#8B6508;box-shadow:0 2px 6px rgba(0,0,0,.1);transition:all .15s;display:flex;align-items:center;justify-content:center;z-index:5}
 .carousel-nav:hover{background:#fff;transform:translateY(-50%) scale(1.08)}
 .carousel-nav.prev{left:.5rem}
 .carousel-nav.next{right:.5rem}
-.carousel-dots{display:flex;justify-content:center;gap:.3rem;padding:.35rem 0 .5rem;background:rgba(255,255,255,.4)}
+.carousel-dots{display:flex;justify-content:center;gap:.28rem;padding:.25rem 0 .3rem;background:rgba(255,255,255,.4)}
 .dot{width:6px;height:6px;border-radius:50%;background:rgba(139,101,8,.3);border:none;cursor:pointer;transition:all .2s;padding:0}
 .dot.active{background:#8B6508;transform:scale(1.4)}
 
@@ -150,12 +145,13 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   .filters{padding:.6rem .75rem}
   .card{padding:1rem 1.1rem}
   .stars{font-size:.72rem;padding:.14rem .4rem}
-  .carousel-section{padding:0 1rem;margin-top:.8rem}
-  .carousel-slide{padding:.8rem 1rem .9rem;min-height:0}
-  .slide-name{font-size:1rem}
-  .slide-meta{font-size:.72rem;gap:.4rem}
-  .slide-btn{padding:.35rem .9rem;font-size:.78rem}
-  .carousel-nav{width:24px;height:24px;font-size:.85rem}
+  .carousel-section{padding:0 1rem;margin-top:.6rem}
+  .carousel-slide{padding:.55rem .9rem .5rem;min-height:0}
+  .slide-name{font-size:.95rem}
+  .slide-meta{font-size:.7rem;gap:.4rem}
+  .slide-score{font-size:.7rem;padding:.28rem .5rem}
+  .slide-btn{padding:.28rem .8rem;font-size:.76rem}
+  .carousel-nav{width:22px;height:22px;font-size:.8rem}
   .section-title{padding:1rem 1rem .5rem}
 }
 </style>
@@ -170,11 +166,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 <!-- 轮播区 -->
 <div class="carousel-section" id="carousel-section" style="display:none">
-  <div class="carousel-title">
-    <span class="icon">💎</span>
-    <h2>重点付费峰会</h2>
-    <span class="sub">🌟🌟🌟 顶会档 · 建议重点关注</span>
-  </div>
   <div class="carousel">
     <div class="carousel-track" id="carousel-track"></div>
     <button class="carousel-nav prev" id="prev-btn" aria-label="上一个">‹</button>
