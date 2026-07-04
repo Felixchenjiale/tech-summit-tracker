@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04 10:20",
+  "last_updated": "2026-07-04 22:37",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -20,7 +20,13 @@
       "source_urls": [
         "https://www.amazonaws.cn/summit/cn/"
       ],
-      "date": "2026-06-23 至 2026-06-24"
+      "date": "2026-06-23 至 2026-06-24",
+      "organizer_score": 3,
+      "scale": 4.0,
+      "influence": 4.0,
+      "weight_score": 3.6,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "volcengine-force-2026",
@@ -41,7 +47,13 @@
       "source_urls": [
         "https://www.volcengine.com/events/force"
       ],
-      "date": "2026-06-23 至 2026-06-24"
+      "date": "2026-06-23 至 2026-06-24",
+      "organizer_score": 3,
+      "scale": 4.0,
+      "influence": 4.0,
+      "weight_score": 3.6,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "davos-summer-2026",
@@ -62,7 +74,13 @@
       "source_urls": [
         "https://www.weforum.org"
       ],
-      "date": "2026-06-23 至 2026-06-25"
+      "date": "2026-06-23 至 2026-06-25",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "MWC上海世界移动通信大会 (MWC26上海)",
@@ -78,9 +96,14 @@
       "pricing": "付费",
       "register_url": "https://www.mwcshanghai.com/",
       "description": "GSMA主办的全球移动通信盛会，亚洲最具影响力，聚焦6G、移动AI、卫星通信、具身智能、智慧医疗等前沿领域",
-      "scale": "展览面积8万㎡，展商1500家，观众13.14万人",
+      "scale": 5.0,
       "source": "上观新闻",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "organizer_score": 5,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "开源中国·开源世界高峰论坛（第21届）",
@@ -95,7 +118,13 @@
       "source": "OSC开源社区",
       "start_date": "2026-06-25",
       "end_date": "2026-06-26",
-      "register_url": "https://www.oschina.net/"
+      "register_url": "https://www.oschina.net/",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "2026开放原子开源生态大会",
@@ -110,7 +139,13 @@
       "source": "开放原子基金会官网",
       "start_date": "2026-06-25",
       "end_date": "2026-06-26",
-      "register_url": "https://openatom.cn/"
+      "register_url": "https://openatom.cn/",
+      "organizer_score": 4,
+      "scale": 4.0,
+      "influence": 4.0,
+      "weight_score": 4.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "西安西部数字经济博览会",
@@ -122,11 +157,16 @@
       ],
       "pricing": "付费",
       "description": "西部数字经济领域专业展会，展示数字经济新技术、新产品和新成果",
-      "scale": "展览面积2万㎡，展商450家，观众2.6万人",
+      "scale": 3.5,
       "start_date": "2026-06-26",
       "end_date": "2026-06-28",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/19382.html"
+      "register_url": "https://www.jufair.com/exhibition/19382.html",
+      "organizer_score": 4,
+      "influence": 3.0,
+      "weight_score": 3.55,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "aicon-shanghai-2026",
@@ -147,7 +187,13 @@
       "source_urls": [
         "https://aicon.infoq.cn/2026/shanghai/schedule"
       ],
-      "date": "2026-06-26 至 2026-06-27"
+      "date": "2026-06-26 至 2026-06-27",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "rokid-dev-2026",
@@ -168,7 +214,13 @@
       "source_urls": [
         "https://developerdoc.rokid.com/sdk?lang=zh"
       ],
-      "date": "2026-06-26 至 2026-06-26"
+      "date": "2026-06-26 至 2026-06-26",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "gdec-2026",
@@ -189,7 +241,13 @@
       "source_urls": [
         "https://www.gdec.net.cn"
       ],
-      "date": "2026-07-02 至 2026-07-05"
+      "date": "2026-07-02 至 2026-07-05",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "id": "china-internet-conference-2026",
@@ -211,7 +269,13 @@
         "https://cic.isc.org.cn/",
         "https://www.isc.org.cn/"
       ],
-      "date": "2026-07-08 至 2026-07-10"
+      "date": "2026-07-08 至 2026-07-10",
+      "organizer_score": 4,
+      "scale": 4.0,
+      "influence": 4.0,
+      "weight_score": 4.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "GAIC 全球人工智能大会北京峰会",
@@ -226,7 +290,13 @@
       "source": "活动行",
       "start_date": "2026-07-08",
       "end_date": "2026-07-09",
-      "register_url": "https://shuidibaoxian.huodongxing.com/event/7844984605400"
+      "register_url": "https://shuidibaoxian.huodongxing.com/event/7844984605400",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "2026第十一届西部企业数智发展大会",
@@ -240,7 +310,13 @@
       "description": "智赋西部·数创未来，聚焦AI大模型与工业互联网融合应用",
       "start_date": "2026-07-08",
       "end_date": "2026-07-09",
-      "register_url": "https://shagualicai.huodongxing.com/event/3855745944000"
+      "register_url": "https://shagualicai.huodongxing.com/event/3855745944000",
+      "organizer_score": 3,
+      "scale": 3.5,
+      "influence": 2.0,
+      "weight_score": 2.85,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "GAIC 2026 全球人工智能大会 AI+教育主题分论坛",
@@ -254,7 +330,13 @@
       "description": "智启新程·育见未来，聚焦AI在教育领域的应用与变革",
       "start_date": "2026-07-08",
       "end_date": "2026-07-08",
-      "register_url": "https://geekpark.huodongxing.com/event/4862361838000"
+      "register_url": "https://geekpark.huodongxing.com/event/4862361838000",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "leap-east-2026",
@@ -277,7 +359,13 @@
         "https://www.leapeast.com.cn/",
         "https://www.jufair.com/exhibition/9751.html"
       ],
-      "date": "2026-07-08 至 2026-07-10"
+      "date": "2026-07-08 至 2026-07-10",
+      "organizer_score": 4,
+      "scale": 4.0,
+      "influence": 3.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "forbes-ai-china-2026",
@@ -294,11 +382,16 @@
         "AI"
       ],
       "pricing": "付费",
-      "scale": "1000+人",
+      "scale": 3.0,
       "source": "福布斯中国官网",
       "description": "汇聚图灵奖得主、零一万物、科大讯飞等顶尖嘉宾，发布2026福布斯中国AI科技企业TOP 50榜单",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.forbeschina.com/entrepreneur/71777"
+      "register_url": "https://www.forbeschina.com/entrepreneur/71777",
+      "organizer_score": 3,
+      "influence": 4.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "ml-summit-shanghai-2026",
@@ -322,7 +415,13 @@
         "https://blog.csdn.net/QuickCode/article/details/160020449"
       ],
       "source": "CSDN",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "waic-2026",
@@ -343,7 +442,13 @@
       "source_urls": [
         "https://www.worldaic.com.cn"
       ],
-      "date": "2026-07-17 至 2026-07-20"
+      "date": "2026-07-17 至 2026-07-20",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "CSIAM第七届大数据与人工智能科学大会",
@@ -358,7 +463,13 @@
       "source": "中国工业与应用数学学会",
       "start_date": "2026-07-17",
       "end_date": "2026-07-19",
-      "register_url": "http://bdai2026.icrp.xjtu.edu.cn"
+      "register_url": "http://bdai2026.icrp.xjtu.edu.cn",
+      "organizer_score": 4,
+      "scale": 2.5,
+      "influence": 3.0,
+      "weight_score": 3.25,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "suzhou-aipae-2026",
@@ -380,7 +491,13 @@
       "source_urls": [
         "https://m.sohu.com/a/1045307162_121124379/"
       ],
-      "date": "2026-07-30 至 2026-08-01"
+      "date": "2026-07-30 至 2026-08-01",
+      "organizer_score": 4,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.4,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "chinajoy-2026",
@@ -401,7 +518,13 @@
       "source_urls": [
         "https://www.chinajoy.net/"
       ],
-      "date": "2026-07-31 至 2026-08-03"
+      "date": "2026-07-31 至 2026-08-03",
+      "organizer_score": 4,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 4.6,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026中国人工智能创新生态大会",
@@ -415,7 +538,13 @@
       "description": "智能无界·价值共生——AI大模型行业落地新范式",
       "start_date": "2026-07-31",
       "end_date": "2026-07-31",
-      "register_url": "https://luojisiwei.huodongxing.com/event/9861370981600"
+      "register_url": "https://luojisiwei.huodongxing.com/event/9861370981600",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "第五届CCF量子计算大会 (CQCC2026)",
@@ -430,7 +559,13 @@
       "source": "CCF官网",
       "start_date": "2026-08-03",
       "end_date": "2026-08-05",
-      "register_url": "https://ccf.org.cn/CQCC2026"
+      "register_url": "https://ccf.org.cn/CQCC2026",
+      "organizer_score": 4,
+      "scale": 3.5,
+      "influence": 3.0,
+      "weight_score": 3.55,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "BigCom 2026 第十二届国际大数据会议",
@@ -445,7 +580,13 @@
       "source": "BigCom官网",
       "start_date": "2026-08-14",
       "end_date": "2026-08-16",
-      "register_url": "https://www.bigcom2026.com/"
+      "register_url": "https://www.bigcom2026.com/",
+      "organizer_score": 3,
+      "scale": 2.5,
+      "influence": 2.0,
+      "weight_score": 2.55,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "ccf-chinaosc-2026",
@@ -469,7 +610,13 @@
         "https://chinaosc.ccf.org.cn/"
       ],
       "source": "CCF官网",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 4,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.4,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "中国（杭州）国际数字安防及人工智能博览会",
@@ -481,11 +628,16 @@
       ],
       "pricing": "免费",
       "description": "聚焦数字安防与人工智能技术的专业展会",
-      "scale": "展览面积1万㎡，展商300家，观众2万人",
+      "scale": 3.5,
       "start_date": "2026-08-18",
       "end_date": "2026-08-20",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/9346.html"
+      "register_url": "https://www.jufair.com/exhibition/9346.html",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.45,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "wrc-2026",
@@ -507,7 +659,13 @@
       "source_urls": [
         "https://www.worldrobotconference.com/forum/"
       ],
-      "date": "2026-08-19 至 2026-08-23"
+      "date": "2026-08-19 至 2026-08-23",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "广州国际智能产业博览会",
@@ -519,11 +677,16 @@
       ],
       "pricing": "付费",
       "description": "粤港澳大湾区规模领先的综合性经贸盛会，以大科技·大消费为主题",
-      "scale": "展览面积18万㎡，展商4000家，观众16万人",
+      "scale": 4.0,
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
       "updated_at": "2026-06-28",
-      "register_url": "https://m.jufair.com/exhibition/8893.html"
+      "register_url": "https://m.jufair.com/exhibition/8893.html",
+      "organizer_score": 4,
+      "influence": 3.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "aicon-shenzhen-2026",
@@ -545,7 +708,13 @@
         "https://aicon.infoq.cn"
       ],
       "date": "2026-08-21 至 2026-08-22",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "CCF大数据学术会议 2026",
@@ -560,7 +729,13 @@
       "source": "中国计算机学会",
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
-      "register_url": "https://conf.ccf.org.cn/BigData2026"
+      "register_url": "https://conf.ccf.org.cn/BigData2026",
+      "organizer_score": 4,
+      "scale": 3.5,
+      "influence": 3.0,
+      "weight_score": 3.55,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "ai4science-congress-2026",
@@ -582,7 +757,13 @@
       "source_urls": [
         "https://m.weibo.cn/detail/5314148512301920"
       ],
-      "date": "2026-08-21 至 2026-08-22"
+      "date": "2026-08-21 至 2026-08-22",
+      "organizer_score": 4,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "agic-shenzhen-2026",
@@ -605,9 +786,14 @@
         "https://www.agicexpo.com/sz/",
         "https://www.szaiexpo.com/sz/"
       ],
-      "scale": "8万㎡，1000+企业，12万观众",
+      "scale": 4.0,
       "source": "AGIC官网",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 3,
+      "influence": 3.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "深圳国际物联网展览会",
@@ -619,10 +805,15 @@
       ],
       "pricing": "免费",
       "description": "创办于2009年的老牌专业物联网展会，覆盖物联网感知层、网络层、平台层全产业链",
-      "scale": "展览面积8万㎡，展商1000家，观众10万人",
+      "scale": 3.5,
       "start_date": "2026-08-26",
       "end_date": "2026-08-28",
-      "register_url": "https://www.jufair.com/exhibition/1001.html"
+      "register_url": "https://www.jufair.com/exhibition/1001.html",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.45,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "深圳国际智能装备产业展",
@@ -634,10 +825,15 @@
       ],
       "pricing": "付费",
       "description": "展示智能装备与电子制造技术的专业展会",
-      "scale": "展览面积6万㎡，展商1000家，观众4万人",
+      "scale": 3.0,
       "start_date": "2026-08-26",
       "end_date": "2026-08-28",
-      "register_url": "https://www.jufair.com/exhibition/10143.html"
+      "register_url": "https://www.jufair.com/exhibition/10143.html",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.3,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "深圳国际智慧显示系统产业应用展览会",
@@ -649,10 +845,15 @@
       ],
       "pricing": "付费",
       "description": "聚焦智慧显示系统与商用显示应用解决方案",
-      "scale": "展览面积2.25万㎡，展商400家",
+      "scale": 2.0,
       "start_date": "2026-08-26",
       "end_date": "2026-08-28",
-      "register_url": "https://m.jufair.com/exhibition-28-0-1-528-0-08-1"
+      "register_url": "https://m.jufair.com/exhibition-28-0-1-528-0-08-1",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "2026全球AI风控领袖峰会（合肥站）暨第八届数字化转型与创新峰会",
@@ -666,7 +867,13 @@
       "description": "聚焦AI风控与数字化转型，探讨人工智能在企业中的应用",
       "start_date": "2026-08-28",
       "end_date": "2026-08-28",
-      "register_url": "https://ghrlibs.huodongxing.com/event/4864665208500"
+      "register_url": "https://ghrlibs.huodongxing.com/event/4864665208500",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "深圳国际消费电子及家用电器展",
@@ -678,10 +885,15 @@
       ],
       "pricing": "付费",
       "description": "展示消费电子及智能家电产品的专业展会",
-      "scale": "展览面积6万㎡，展商1000家",
+      "scale": 4.0,
       "start_date": "2026-09-03",
       "end_date": "2026-09-06",
-      "register_url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1"
+      "register_url": "https://m.jufair.com/exhibition-27-76-1-0-0-0-1",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.6,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "cice-ai-qingdao-2026",
@@ -698,11 +910,16 @@
         "AI"
       ],
       "pricing": "免费",
-      "scale": "600+企业，6万平米",
+      "scale": 4.0,
       "source": "中国国际消费电子博览会",
       "description": "中国（青岛）国际消费电子博览会(CICE)核心主题展，聚焦人工智能、机器人全产业链技术与应用",
       "updated_at": "2026-06-28",
-      "register_url": "https://m.trustexporter.com/cz14058709.htm"
+      "register_url": "https://m.trustexporter.com/cz14058709.htm",
+      "organizer_score": 4,
+      "influence": 3.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "qecon-shanghai-2026",
@@ -725,7 +942,13 @@
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
       "source": "百格活动",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "KubeCon+CloudNativeCon+OpenInfra+PyTorch China 2026",
@@ -740,7 +963,13 @@
       "source": "DOIT",
       "start_date": "2026-09-07",
       "end_date": "2026-09-09",
-      "register_url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/"
+      "register_url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/",
+      "organizer_score": 4,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "深圳信息通信展",
@@ -752,10 +981,15 @@
       ],
       "pricing": "免费",
       "description": "亚太地区极具影响力的通信技术专业展，覆盖光通信、激光、红外等产业链",
-      "scale": "展览面积16万㎡，展商2512家，观众8.93万人",
+      "scale": 5.0,
       "start_date": "2026-09-09",
       "end_date": "2026-09-11",
-      "register_url": "https://www.jufair.com/exhibition/9584.html"
+      "register_url": "https://www.jufair.com/exhibition/9584.html",
+      "organizer_score": 4,
+      "influence": 4.0,
+      "weight_score": 4.3,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026云栖大会 (APSARA CONFERENCE)",
@@ -770,7 +1004,13 @@
       "source": "中欧国际展览",
       "start_date": "2026-09-09",
       "end_date": "2026-09-11",
-      "register_url": "https://yunqi.aliyun.com/"
+      "register_url": "https://yunqi.aliyun.com/",
+      "organizer_score": 4,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 4.6,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "id": "ai-show-hangzhou-2026",
@@ -787,11 +1027,16 @@
         "AI"
       ],
       "pricing": "免费",
-      "scale": "350+参展品牌，5万+观众",
+      "scale": 3.0,
       "source": "AI中国网/聚展网",
       "description": "聚焦人工智能、人形机器人、工业智能装备、具身智能等前沿赛道",
       "updated_at": "2026-06-28",
-      "register_url": "http://www.cnena.com/zt/AIShow"
+      "register_url": "http://www.cnena.com/zt/AIShow",
+      "organizer_score": 3,
+      "influence": 2.0,
+      "weight_score": 2.7,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "cise-2026-zhengzhou",
@@ -814,7 +1059,13 @@
         "https://sptae.com/",
         "https://h5.cinn.cn/davmu/share/holly/doc/2026/05/Rkx48p5k/index.html"
       ],
-      "date": "2026-09-11 至 2026-09-13"
+      "date": "2026-09-11 至 2026-09-13",
+      "organizer_score": 4,
+      "scale": 3.5,
+      "influence": 3.0,
+      "weight_score": 3.55,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "beijing-aidc-2026",
@@ -836,7 +1087,13 @@
       "source_urls": [
         "https://www.jufair.com/exhibition/19526.html"
       ],
-      "date": "2026-09-15 至 2026-09-16"
+      "date": "2026-09-15 至 2026-09-16",
+      "organizer_score": 2,
+      "scale": 3.0,
+      "influence": 2.0,
+      "weight_score": 2.3,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "北京PT展/北京国际信息通信展",
@@ -848,11 +1105,16 @@
       ],
       "pricing": "付费",
       "description": "中国ICT领域最具影响力的国际展会，展示通信与AI融合成果",
-      "scale": "展览面积4万㎡，展商400家，观众6万人",
+      "scale": 4.0,
       "start_date": "2026-09-22",
       "end_date": "2026-09-24",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/3209.html"
+      "register_url": "https://www.jufair.com/exhibition/3209.html",
+      "organizer_score": 5,
+      "influence": 4.0,
+      "weight_score": 4.4,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "id": "wuhan-computing-2026",
@@ -874,9 +1136,14 @@
       "source_urls": [
         "https://beijing0643208.11467.com/m/news/15714386.asp"
       ],
-      "scale": "40000㎡，500+企业，45000+观众",
+      "scale": 3.0,
       "source": "武汉国际博览中心",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 3,
+      "influence": 2.0,
+      "weight_score": 2.7,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "杭州全球数字贸易博览会",
@@ -888,11 +1155,16 @@
       ],
       "pricing": "免费",
       "description": "展示数字贸易与数字经济新业态的专业盛会",
-      "scale": "展览面积15.5万㎡，展商1546家，观众20万人",
+      "scale": 4.5,
       "start_date": "2026-09-23",
       "end_date": "2026-09-27",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/2269.html"
+      "register_url": "https://www.jufair.com/exhibition/2269.html",
+      "organizer_score": 5,
+      "influence": 4.0,
+      "weight_score": 4.55,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "上海国际新一代信息技术与应用展览会",
@@ -904,10 +1176,15 @@
       ],
       "pricing": "付费",
       "description": "展示新一代信息技术与行业应用解决方案",
-      "scale": "展览面积28.79万㎡，展商2665家",
+      "scale": 5.0,
       "start_date": "2026-10-12",
       "end_date": "2026-10-16",
-      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1"
+      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
+      "organizer_score": 4,
+      "influence": 4.0,
+      "weight_score": 4.3,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026第十四届中国国际工业博览会 (CIIF 2026)",
@@ -922,7 +1199,13 @@
       "source": "中国工博会官网",
       "start_date": "2026-10-12",
       "end_date": "2026-10-16",
-      "register_url": "http://www.ciif.com.cn/"
+      "register_url": "http://www.ciif.com.cn/",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "id": "gops-shanghai-2026",
@@ -945,7 +1228,13 @@
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
       "source": "百格活动",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 2,
+      "scale": 3.5,
+      "influence": 3.0,
+      "weight_score": 2.75,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "2026中国计算机大会 (CNCC2026)",
@@ -961,7 +1250,13 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-24",
       "updated_at": "2026-06-28",
-      "register_url": "https://ccf.org.cn/"
+      "register_url": "https://ccf.org.cn/",
+      "organizer_score": 4,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 4.6,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "QCon 2026 全球软件开发大会（上海站）",
@@ -976,7 +1271,13 @@
       "start_date": "2026-10-23",
       "end_date": "2026-10-25",
       "updated_at": "2026-06-28",
-      "register_url": "https://qcon.infoq.cn/2026/shanghai"
+      "register_url": "https://qcon.infoq.cn/2026/shanghai",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "2026世界互联网大会乌镇峰会",
@@ -992,7 +1293,13 @@
       "start_date": "2026-11-01",
       "end_date": "2026-11-04",
       "updated_at": "2026-06-28",
-      "register_url": "https://cn.wicinternet.org/"
+      "register_url": "https://cn.wicinternet.org/",
+      "organizer_score": 5,
+      "scale": 5.0,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026互联网之光博览会",
@@ -1008,7 +1315,13 @@
       "start_date": "2026-11-01",
       "end_date": "2026-11-04",
       "updated_at": "2026-06-28",
-      "register_url": "https://cn.wicinternet.org/"
+      "register_url": "https://cn.wicinternet.org/",
+      "organizer_score": 5,
+      "scale": 4.0,
+      "influence": 3.0,
+      "weight_score": 4.1,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026国际区块链和Web3.0技术创新大会",
@@ -1023,7 +1336,13 @@
       "source": "杭州电子科技大学",
       "start_date": "2026-11-06",
       "end_date": "2026-11-08",
-      "register_url": "https://www.bwtac-cie.com/2026"
+      "register_url": "https://www.bwtac-cie.com/2026",
+      "organizer_score": 4,
+      "scale": 2.0,
+      "influence": 3.0,
+      "weight_score": 3.1,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "2026 Google DevFest 谷歌开发者节",
@@ -1037,7 +1356,13 @@
       "description": "Beyond the Model. Build for Real. 全球规模最大的社区主导型技术大会",
       "start_date": "2026-11-08",
       "end_date": "2026-11-08",
-      "register_url": "https://jiehuiying.huodongxing.com/event/7865513882600"
+      "register_url": "https://jiehuiying.huodongxing.com/event/7865513882600",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "id": "secon-shenzhen-2026",
@@ -1060,7 +1385,13 @@
         "https://www.bagevent.com/eventlist.html?f=1&tag=17"
       ],
       "source": "百格活动",
-      "updated_at": "2026-07-01"
+      "updated_at": "2026-07-01",
+      "organizer_score": 2,
+      "scale": 2.0,
+      "influence": 3.0,
+      "weight_score": 2.3,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "Hongqiao Tech Week 虹桥科技周",
@@ -1075,7 +1406,13 @@
       "source": "PRNewswire",
       "start_date": "2026-11-20",
       "end_date": "2026-11-22",
-      "register_url": "https://www.prnewswire.com/"
+      "register_url": "https://www.prnewswire.com/",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 3.0,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "2026北京国际消费电子技术博览会 (CET)",
@@ -1090,7 +1427,13 @@
       "source": "中国电子商会",
       "start_date": "2026-11-20",
       "end_date": "2026-11-22",
-      "register_url": "http://www.cecc.org.cn/"
+      "register_url": "http://www.cecc.org.cn/",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 2.0,
+      "weight_score": 2.7,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "深圳高交会",
@@ -1102,11 +1445,16 @@
       ],
       "pricing": "免费",
       "description": "中国规模最大、最具影响力的科技类展会，有中国科技第一展之称",
-      "scale": "展览面积40万㎡，展商5000家，观众45.1万人",
+      "scale": 5.0,
       "start_date": "2026-11-26",
       "end_date": "2026-11-28",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/7480.html"
+      "register_url": "https://www.jufair.com/exhibition/7480.html",
+      "organizer_score": 5,
+      "influence": 5.0,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "深圳高交会人工智能与机器人产业链展",
@@ -1118,11 +1466,16 @@
       ],
       "pricing": "免费",
       "description": "高交会核心展区之一，展示AI与机器人技术成果",
-      "scale": "展览面积14.2万㎡，展商3349家，观众45.1万人",
+      "scale": 4.0,
       "start_date": "2026-11-26",
       "end_date": "2026-11-28",
       "updated_at": "2026-06-28",
-      "register_url": "https://www.jufair.com/exhibition/9828.html"
+      "register_url": "https://www.jufair.com/exhibition/9828.html",
+      "organizer_score": 4,
+      "influence": 3.0,
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "深圳国际数据中心及云计算展",
@@ -1134,10 +1487,15 @@
       ],
       "pricing": "付费",
       "description": "聚焦数据中心基础设施与云计算技术应用的专业展会",
-      "scale": "展览面积7.2万㎡，展商1800家",
+      "scale": 2.0,
       "start_date": "2026-12-03",
       "end_date": "2026-12-05",
-      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1"
+      "register_url": "https://m.jufair.com/exhibition-28-86-1-0-0-0-1",
+      "organizer_score": 2,
+      "influence": 2.0,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "name": "DSID 2026 数据科学与决策智能国际学术会议",
@@ -1152,7 +1510,13 @@
       "source": "艾思科蓝",
       "start_date": "2026-12-11",
       "end_date": "2026-12-13",
-      "register_url": "https://www.icdsid.com/"
+      "register_url": "https://www.icdsid.com/",
+      "organizer_score": 3,
+      "scale": 2.0,
+      "influence": 2.0,
+      "weight_score": 2.4,
+      "tier": "一般",
+      "user_rating": null
     },
     {
       "id": "aicon-beijing-2026",
@@ -1174,7 +1538,14 @@
         "https://aicon.infoq.cn"
       ],
       "date": "2026-12-18 至 2026-12-19",
-      "updated_at": "2026-06-28"
+      "updated_at": "2026-06-28",
+      "organizer_score": 3,
+      "scale": 3.0,
+      "influence": 4.0,
+      "weight_score": 3.3,
+      "tier": "重要",
+      "user_rating": null
     }
-  ]
+  ],
+  "scoring_version": "v2"
 }
