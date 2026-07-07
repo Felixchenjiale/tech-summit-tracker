@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04 22:37",
+  "last_updated": "2026-07-07 10:17",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -566,6 +566,38 @@
       "weight_score": 3.55,
       "tier": "重要",
       "user_rating": null
+    },
+    {
+      "id": "google-io-connect-china-2026",
+      "name": "2026 Google 开发者大会 (Google I/O Connect China)",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-13",
+      "date": "2026-08-12 至 2026-08-13",
+      "city": "上海",
+      "venue": "上海世博中心",
+      "category": [
+        "AI",
+        "开发者",
+        "云"
+      ],
+      "pricing": "免费",
+      "organizer": "Google 大中华区",
+      "organizer_score": 5,
+      "scale": 4,
+      "influence": 5,
+      "weight_score": 4.7,
+      "tier": "顶会",
+      "user_rating": null,
+      "theme": "智体新境 - Beyond the Model, Build for Real",
+      "description": "Google 官方在中国大陆举办的年度顶级开发者盛会，覆盖 AI、Chrome、Cloud 及 Android 前沿技术，包含现场 Demo、实战工作坊与 Google 技术专家对话。需实名预约审核",
+      "status": "报名中",
+      "register_url": "https://ioconnectchina.googlecnapps.cn/",
+      "source_urls": [
+        "https://ioconnectchina.googlecnapps.cn/",
+        "https://m.weibo.cn/detail/5317734642227294"
+      ],
+      "source": "Google 官方微博/官网",
+      "updated_at": "2026-07-07"
     },
     {
       "name": "BigCom 2026 第十二届国际大数据会议",
@@ -1280,6 +1312,35 @@
       "user_rating": null
     },
     {
+      "id": "ai2a-wuxi-2026",
+      "name": "AI2A 2026 第六届人工智能、自动化与算法国际会议",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-25",
+      "date": "2026-10-23 至 2026-10-25",
+      "city": "无锡",
+      "venue": "江南大学",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "IEEE / 江南大学人工智能与计算机学院",
+      "organizer_score": 3,
+      "scale": 2,
+      "influence": 3,
+      "weight_score": 2.7,
+      "tier": "一般",
+      "user_rating": null,
+      "theme": "AI, Automation and Algorithms",
+      "description": "IEEE 主办、江南大学承办的国际学术会议，聚焦人工智能、自动化与算法在数字化转型中的应用，接受论文投稿，EI/Scopus 双检索",
+      "status": "征稿中",
+      "register_url": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=127474",
+      "source_urls": [
+        "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=127474"
+      ],
+      "source": "WikiCFP",
+      "updated_at": "2026-07-07"
+    },
+    {
       "name": "2026世界互联网大会乌镇峰会",
       "date": "2026-11-01 至 2026-11-04",
       "city": "乌镇",
@@ -1545,6 +1606,35 @@
       "weight_score": 3.3,
       "tier": "重要",
       "user_rating": null
+    },
+    {
+      "id": "agentic-ai-summit-shanghai-2026",
+      "name": "Agentic AI Summit 超级智能体系统架构峰会（上海站）",
+      "start_date": "2026-12-18",
+      "end_date": "2026-12-19",
+      "date": "2026-12-18 至 2026-12-19",
+      "city": "上海",
+      "venue": "上海黄浦（暂定）",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "DataFun",
+      "organizer_score": 2,
+      "scale": 2,
+      "influence": 3,
+      "weight_score": 2.3,
+      "tier": "一般",
+      "user_rating": null,
+      "theme": "超级智能体系统架构",
+      "description": "DataFun 主办的智能体系统架构专题峰会，聚焦 Agentic AI 系统架构、多智能体协同、Agent OS 等技术方向。￥2600 起",
+      "status": "报名中",
+      "register_url": "https://www.bagevent.com/event/9213066",
+      "source_urls": [
+        "https://www.bagevent.com/event/9213066"
+      ],
+      "source": "百格活动",
+      "updated_at": "2026-07-07"
     }
   ],
   "scoring_version": "v2"
