@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 10:17",
+  "last_updated": "2026-07-10 10:17",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -547,6 +547,37 @@
       "user_rating": null
     },
     {
+      "id": "cgdc-2026-shanghai",
+      "name": "2026 中国游戏开发者大会（CGDC）",
+      "start_date": "2026-07-31",
+      "end_date": "2026-08-01",
+      "date": "2026-07-31 至 2026-08-01",
+      "city": "上海",
+      "venue": "上海浦东嘉里大酒店",
+      "category": [
+        "开发者",
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "上海汉威信恒展览有限公司 / 中国音像与数字出版协会",
+      "organizer_score": 3,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null,
+      "theme": "全球主创亲述解法",
+      "description": "ChinaJoy 同期开发者大会，2天8个专场60+主题分享，聚焦全球游戏研发实战经验、AI+游戏、独立开发、出海策略。首批嘉宾覆盖《天外世界2》《幻兽帕鲁》《潜水员戴夫》等爆款主创",
+      "status": "报名中",
+      "register_url": "https://www.huodongxing.com/event/CGDC2026",
+      "source_urls": [
+        "http://news.17173.com/content/05222026/151320267.shtml",
+        "http://m.baokan.tv/games/75702.html"
+      ],
+      "source": "17173 / ChinaJoy 官方",
+      "updated_at": "2026-07-10"
+    },
+    {
       "name": "第五届CCF量子计算大会 (CQCC2026)",
       "date": "2026-08-03 至 2026-08-05",
       "city": "深圳",
@@ -600,6 +631,37 @@
       "updated_at": "2026-07-07"
     },
     {
+      "id": "ccf-cadcg-2026-suzhou",
+      "name": "CCF CAD/CG 2026 第29届全国计算机辅助设计与图形学学术会议",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-14",
+      "date": "2026-08-12 至 2026-08-14",
+      "city": "苏州",
+      "venue": "江苏苏州（南京大学/苏州大学联合承办）",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "organizer": "中国计算机学会（CCF）",
+      "organizer_score": 4,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 3.4,
+      "tier": "重要",
+      "user_rating": null,
+      "theme": "智绘无界，形韵江南",
+      "description": "CCF 主办的国内计算机辅助设计与图形学领域最高级别学术盛会，聚焦空间智能、三维视觉、具身智能、生成式AI、数字孪生等前沿方向，30余场专题论坛+精品课程+成果展览。CCF会员早鸟价1800元起",
+      "status": "报名中",
+      "register_url": "https://cadcg2026.nju.edu.cn/",
+      "source_urls": [
+        "https://cadcg2026.nju.edu.cn/",
+        "https://www.ccf.org.cn/Activities/Event_calendar/zw/2026-05-12/892005.shtml"
+      ],
+      "source": "CCF / 南京大学官网",
+      "updated_at": "2026-07-10"
+    },
+    {
       "name": "BigCom 2026 第十二届国际大数据会议",
       "date": "2026-08-14 至 2026-08-16",
       "city": "北京",
@@ -649,6 +711,35 @@
       "weight_score": 3.4,
       "tier": "重要",
       "user_rating": null
+    },
+    {
+      "id": "aipm-2026-suzhou",
+      "name": "2026 AI智造前沿峰会（AIPM）",
+      "start_date": "2026-08-17",
+      "end_date": "2026-08-18",
+      "date": "2026-08-17 至 2026-08-18",
+      "city": "苏州",
+      "venue": "苏州（暂定）",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "organizer": "易贸信息科技",
+      "organizer_score": 2,
+      "scale": 2,
+      "influence": 2,
+      "weight_score": 2.0,
+      "tier": "一般",
+      "user_rating": null,
+      "theme": "AI 赋能制造・引领产业未来",
+      "description": "由易贸信息科技打造的AI+制造专题峰会，1场主论坛+2大专题论坛（机器视觉与AI质检 / 柔性物流与智能仓储），聚焦工业大模型、AI Agent、具身智能、数字孪生等真实场景与量产案例。中国一汽、微软、英伟达、商汤等企业分享",
+      "status": "报名中",
+      "register_url": "https://www.csdn.net/article/2026-05-28/161489847",
+      "source_urls": [
+        "https://www.csdn.net/article/2026-05-28/161489847"
+      ],
+      "source": "易贸信息科技 / CSDN",
+      "updated_at": "2026-07-10"
     },
     {
       "name": "中国（杭州）国际数字安防及人工智能博览会",
