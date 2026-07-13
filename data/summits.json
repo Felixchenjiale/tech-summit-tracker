@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 10:17",
+  "last_updated": "2026-07-13 10:17",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -1093,6 +1093,39 @@
       "weight_score": 3.7,
       "tier": "重要",
       "user_rating": null
+    },
+    {
+      "id": "kubecon-openinfra-pytorch-china-2026",
+      "name": "KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China 2026",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-09",
+      "date": "2026-09-07 至 2026-09-09",
+      "city": "上海",
+      "venue": "上海国际会议中心（Shanghai International Convention Center）",
+      "category": [
+        "云",
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "organizer": "CNCF（云原生计算基金会）+ OpenInfra Foundation + PyTorch Foundation（Linux 基金会）",
+      "organizer_score": 5,
+      "scale": 4,
+      "influence": 5,
+      "weight_score": 4.7,
+      "tier": "顶会",
+      "user_rating": null,
+      "theme": "Unite in China to Scale AI",
+      "description": "全球云原生、开源基础设施、机器学习三大顶级社区首次在中国联合办会，覆盖 Kubernetes/CNCF、OpenStack/Kata Containers、PyTorch/vLLM 全栈，聚焦生产级 AI 基础设施、平台工程、AI 加速硬件、Agentic AI 与 MCP 协议。9/6-7 同期还有 AGNTCon + MCPCon China 智能体协议峰会",
+      "status": "报名中",
+      "register_url": "https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/register/",
+      "source_urls": [
+        "https://www.cncf.io/announcements/2026/06/18/kubecon-cloudnativecon-openinfra-summit-and-pytorch-conference-unite-in-china-to-scale-ai/",
+        "https://www.lfopensource.cn/kubecon-cloudnativecon-openinfra-summit-pytorch-conference-china/",
+        "https://www.techtradeasia.com/2026/06/schedule-announced-for-kubecon.html"
+      ],
+      "source": "CNCF 官方公告 / Linux Foundation",
+      "updated_at": "2026-07-13"
     },
     {
       "name": "深圳信息通信展",
