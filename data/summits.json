@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 10:17",
+  "last_updated": "2026-07-20 10:17",
   "summits": [
     {
       "id": "aws-china-summit-2026",
@@ -889,6 +889,29 @@
       "user_rating": null
     },
     {
+      "name": "AiDD 第十届 AI+ 研发数字峰会（北京站）",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-22",
+      "date": "2026-08-21 至 2026-08-22",
+      "city": "北京",
+      "venue": "北京",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://www.aidd.vip/2026bj",
+      "description": "聚焦AI驱动的研发变革与数字化升级，设15+分论坛，涵盖具身智能、工业软件研发、AI+出海等核心方向。",
+      "source": "跑会指南/TinTinCommunity",
+      "scale": "1000+人",
+      "organizer_score": 3,
+      "scale_score": 3,
+      "influence": 3,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
       "id": "agic-shenzhen-2026",
       "name": "AGIC 2026 深圳国际通用人工智能大会暨展览会",
       "start_date": "2026-08-26",
@@ -1071,27 +1094,6 @@
       "influence": 2.0,
       "weight_score": 2.0,
       "tier": "一般",
-      "user_rating": null
-    },
-    {
-      "name": "KubeCon+CloudNativeCon+OpenInfra+PyTorch China 2026",
-      "date": "2026-09-07 至 2026-09-09",
-      "city": "上海",
-      "venue": "上海国际会议中心",
-      "category": [
-        "云"
-      ],
-      "pricing": "付费",
-      "description": "三大全球开源社区首次联合举办，推动生产级AI规模化落地",
-      "source": "DOIT",
-      "start_date": "2026-09-07",
-      "end_date": "2026-09-09",
-      "register_url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-china/",
-      "organizer_score": 4,
-      "scale": 3.0,
-      "influence": 4.0,
-      "weight_score": 3.7,
-      "tier": "重要",
       "user_rating": null
     },
     {
