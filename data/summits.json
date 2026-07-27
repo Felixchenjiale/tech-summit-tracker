@@ -1,152 +1,6 @@
 {
-  "last_updated": "2026-07-20 10:17",
+  "last_updated": "2026-07-27 10:10",
   "summits": [
-    {
-      "id": "aws-china-summit-2026",
-      "name": "2026亚马逊云科技中国峰会",
-      "start_date": "2026-06-23",
-      "end_date": "2026-06-24",
-      "city": "上海",
-      "venue": "上海世博中心",
-      "category": [
-        "云"
-      ],
-      "pricing": "免费",
-      "organizer": "亚马逊云科技",
-      "theme": "Agentic Now, Go Build",
-      "description": "聚焦Agentic AI规模化落地与商业价值转化，Day1 Agentic Now，Day2 Go Build动手实操，限量免费专业门票",
-      "status": "upcoming",
-      "register_url": "https://www.amazonaws.cn/summit/cn/",
-      "source_urls": [
-        "https://www.amazonaws.cn/summit/cn/"
-      ],
-      "date": "2026-06-23 至 2026-06-24",
-      "organizer_score": 3,
-      "scale": 4.0,
-      "influence": 4.0,
-      "weight_score": 3.6,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "id": "volcengine-force-2026",
-      "name": "2026火山引擎FORCE原动力大会",
-      "start_date": "2026-06-23",
-      "end_date": "2026-06-24",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "云"
-      ],
-      "pricing": "付费",
-      "organizer": "字节跳动/火山引擎",
-      "theme": "智能体(Agent)驱动企业重构",
-      "description": "聚焦豆包大模型迭代升级、HiAgent/ArkClaw智能体规模化落地、AI云原生算力基建扩容，畅享票399元",
-      "status": "upcoming",
-      "register_url": "https://www.volcengine.com/events/force",
-      "source_urls": [
-        "https://www.volcengine.com/events/force"
-      ],
-      "date": "2026-06-23 至 2026-06-24",
-      "organizer_score": 3,
-      "scale": 4.0,
-      "influence": 4.0,
-      "weight_score": 3.6,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "id": "davos-summer-2026",
-      "name": "第十七届夏季达沃斯论坛",
-      "start_date": "2026-06-23",
-      "end_date": "2026-06-25",
-      "city": "大连",
-      "venue": "大连国际会议中心",
-      "category": [
-        "综合"
-      ],
-      "pricing": "付费",
-      "organizer": "世界经济论坛",
-      "theme": "规模化创新",
-      "description": "来自90多个国家和地区超过1700位嘉宾参会，设置200余场专题会议，仅限受邀嘉宾参加",
-      "status": "upcoming",
-      "register_url": "https://www.weforum.org",
-      "source_urls": [
-        "https://www.weforum.org"
-      ],
-      "date": "2026-06-23 至 2026-06-25",
-      "organizer_score": 5,
-      "scale": 5.0,
-      "influence": 5.0,
-      "weight_score": 5.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "name": "MWC上海世界移动通信大会 (MWC26上海)",
-      "date": "2026-06-24 至 2026-06-26",
-      "start_date": "2026-06-24",
-      "end_date": "2026-06-26",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "综合",
-        "AI"
-      ],
-      "pricing": "付费",
-      "register_url": "https://www.mwcshanghai.com/",
-      "description": "GSMA主办的全球移动通信盛会，亚洲最具影响力，聚焦6G、移动AI、卫星通信、具身智能、智慧医疗等前沿领域",
-      "scale": 5.0,
-      "source": "上观新闻",
-      "updated_at": "2026-06-28",
-      "organizer_score": 5,
-      "influence": 5.0,
-      "weight_score": 5.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "name": "开源中国·开源世界高峰论坛（第21届）",
-      "date": "2026-06-25 至 2026-06-26",
-      "city": "北京",
-      "venue": "北京中关村展示中心",
-      "category": [
-        "开发者"
-      ],
-      "pricing": "免费",
-      "description": "聚焦Agent智能体生态、算力创新发展、开源大模型技术的开源领域年度盛会",
-      "source": "OSC开源社区",
-      "start_date": "2026-06-25",
-      "end_date": "2026-06-26",
-      "register_url": "https://www.oschina.net/",
-      "organizer_score": 3,
-      "scale": 3.0,
-      "influence": 3.0,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "2026开放原子开源生态大会",
-      "date": "2026-06-25 至 2026-06-26",
-      "city": "北京",
-      "venue": "北京北人亦创国际会展中心",
-      "category": [
-        "开发者"
-      ],
-      "pricing": "免费",
-      "description": "以'开源赋能产业，生态共筑未来'为主题，涵盖AI、操作系统、具身智能等前沿方向",
-      "source": "开放原子基金会官网",
-      "start_date": "2026-06-25",
-      "end_date": "2026-06-26",
-      "register_url": "https://openatom.cn/",
-      "organizer_score": 4,
-      "scale": 4.0,
-      "influence": 4.0,
-      "weight_score": 4.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
     {
       "name": "西安西部数字经济博览会",
       "date": "2026-06-26 至 2026-06-28",
@@ -193,33 +47,6 @@
       "influence": 4.0,
       "weight_score": 3.3,
       "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "id": "rokid-dev-2026",
-      "name": "Rokid Open Day 2026 全球生态及开发者大会",
-      "start_date": "2026-06-26",
-      "end_date": "2026-06-26",
-      "city": "杭州",
-      "venue": "杭州",
-      "category": [
-        "开发者"
-      ],
-      "pricing": "免费",
-      "organizer": "Rokid",
-      "theme": "AR/VR、XR智能硬件",
-      "description": "分享AR/VR、XR智能硬件产品与开发者生态，CXR-L SDK发布",
-      "status": "upcoming",
-      "register_url": "https://developer.rokid.com/",
-      "source_urls": [
-        "https://developerdoc.rokid.com/sdk?lang=zh"
-      ],
-      "date": "2026-06-26 至 2026-06-26",
-      "organizer_score": 2,
-      "scale": 2.0,
-      "influence": 2.0,
-      "weight_score": 2.0,
-      "tier": "一般",
       "user_rating": null
     },
     {
@@ -1761,6 +1588,29 @@
       ],
       "source": "百格活动",
       "updated_at": "2026-07-07"
+    },
+    {
+      "name": "第二十届沙利文全球增长、科创与领导力峰会（GIL Summit）",
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-05",
+      "date": "2026-08-04 至 2026-08-05",
+      "city": "上海",
+      "venue": "静安香格里拉大酒店",
+      "category": [
+        "AI",
+        "综合"
+      ],
+      "pricing": "付费",
+      "register_url": "https://gilsummit.frost.com/",
+      "description": "弗若斯特沙利文主办的第20届GIL峰会，覆盖AI全产业链、半导体、新智生产力、生物医药等9大赛道，300+嘉宾，5000+参会者",
+      "source": "frost.com",
+      "organizer": "弗若斯特沙利文（Frost & Sullivan）",
+      "organizer_score": 2,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 2.6,
+      "tier": "重要",
+      "user_rating": null
     }
   ],
   "scoring_version": "v2"
