@@ -1,177 +1,6 @@
 {
-  "last_updated": "2026-08-03 10:08",
+  "last_updated": "2026-08-10 10:08",
   "summits": [
-    {
-      "id": "gdec-2026",
-      "name": "2026全球数字经济大会",
-      "start_date": "2026-07-02",
-      "end_date": "2026-07-05",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "免费",
-      "organizer": "北京市政府/工信部等",
-      "theme": "智惠无界、数联全球",
-      "description": "设置产业数字化、数字产业化、人工智能+、国际合作等专题论坛，展览面积超5万㎡，首次走进联合国总部设海外分会场，官网实名注册免费参会",
-      "status": "upcoming",
-      "register_url": "https://www.gdec.net.cn",
-      "source_urls": [
-        "https://www.gdec.net.cn"
-      ],
-      "date": "2026-07-02 至 2026-07-05",
-      "organizer_score": 5,
-      "scale": 5.0,
-      "influence": 5.0,
-      "weight_score": 5.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "id": "china-internet-conference-2026",
-      "name": "2026中国互联网大会",
-      "start_date": "2026-07-08",
-      "end_date": "2026-07-10",
-      "city": "北京",
-      "venue": "北京国家会议中心",
-      "category": [
-        "综合"
-      ],
-      "pricing": "付费",
-      "organizer": "中国互联网协会",
-      "theme": "智启新程·融创未来——以数智合力谱写'十五五'发展新篇章",
-      "description": "聚焦数智技术创新突破与数实深度融合，搭建政、产、学、研、用、国际多方交流合作的高端平台，涵盖论坛、展览、配套活动三大板块",
-      "status": "upcoming",
-      "register_url": "https://www.isc.org.cn/",
-      "source_urls": [
-        "https://cic.isc.org.cn/",
-        "https://www.isc.org.cn/"
-      ],
-      "date": "2026-07-08 至 2026-07-10",
-      "organizer_score": 4,
-      "scale": 4.0,
-      "influence": 4.0,
-      "weight_score": 4.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "name": "GAIC 全球人工智能大会北京峰会",
-      "date": "2026-07-08 至 2026-07-09",
-      "city": "北京",
-      "venue": "中关村国际技术交易中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "description": "汇聚全球AI领域头部企业，聚焦世界模型、具身智能、多智能体系统等前沿方向",
-      "source": "活动行",
-      "start_date": "2026-07-08",
-      "end_date": "2026-07-09",
-      "register_url": "https://shuidibaoxian.huodongxing.com/event/7844984605400",
-      "organizer_score": 2,
-      "scale": 2.0,
-      "influence": 2.0,
-      "weight_score": 2.0,
-      "tier": "一般",
-      "user_rating": null
-    },
-    {
-      "name": "2026第十一届西部企业数智发展大会",
-      "date": "2026-07-08 至 2026-07-09",
-      "city": "成都",
-      "venue": "锦宾国际酒店",
-      "category": [
-        "综合"
-      ],
-      "pricing": "免费",
-      "description": "智赋西部·数创未来，聚焦AI大模型与工业互联网融合应用",
-      "start_date": "2026-07-08",
-      "end_date": "2026-07-09",
-      "register_url": "https://shagualicai.huodongxing.com/event/3855745944000",
-      "organizer_score": 3,
-      "scale": 3.5,
-      "influence": 2.0,
-      "weight_score": 2.85,
-      "tier": "一般",
-      "user_rating": null
-    },
-    {
-      "name": "GAIC 2026 全球人工智能大会 AI+教育主题分论坛",
-      "date": "2026-07-08",
-      "city": "北京",
-      "venue": "中关村展示中心-会议中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "description": "智启新程·育见未来，聚焦AI在教育领域的应用与变革",
-      "start_date": "2026-07-08",
-      "end_date": "2026-07-08",
-      "register_url": "https://geekpark.huodongxing.com/event/4862361838000",
-      "organizer_score": 2,
-      "scale": 2.0,
-      "influence": 2.0,
-      "weight_score": 2.0,
-      "tier": "一般",
-      "user_rating": null
-    },
-    {
-      "id": "leap-east-2026",
-      "name": "香港AI科技及信息技术展览会 LEAP East 2026",
-      "start_date": "2026-07-08",
-      "end_date": "2026-07-10",
-      "city": "香港",
-      "venue": "香港会议展览中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "organizer": "Tahaluf / 香港特区政府创新科技及工业局",
-      "theme": "跨越新界·登陆香港",
-      "description": "LEAP国际盛会亚太首秀，300+全球展商、25000+专业观众、200+领袖演讲，覆盖人工智能、Web3、云计算等",
-      "status": "upcoming",
-      "register_url": "https://www.leapeast.com.cn/",
-      "source": "leapeast.com.cn/jufair",
-      "source_urls": [
-        "https://www.leapeast.com.cn/",
-        "https://www.jufair.com/exhibition/9751.html"
-      ],
-      "date": "2026-07-08 至 2026-07-10",
-      "organizer_score": 4,
-      "scale": 4.0,
-      "influence": 3.0,
-      "weight_score": 3.7,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "id": "forbes-ai-china-2026",
-      "name": "2026福布斯中国人工智能科技峰会",
-      "start_date": "2026-07-10",
-      "end_date": "2026-07-10",
-      "date": "2026-07-10 至 2026-07-10",
-      "city": "深圳",
-      "venue": "深圳前海国际会议中心",
-      "theme": "智源新纪·范式跃迁",
-      "status": "报名中",
-      "organizer": "福布斯中国",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "scale": 3.0,
-      "source": "福布斯中国官网",
-      "description": "汇聚图灵奖得主、零一万物、科大讯飞等顶尖嘉宾，发布2026福布斯中国AI科技企业TOP 50榜单",
-      "updated_at": "2026-06-28",
-      "register_url": "https://www.forbeschina.com/entrepreneur/71777",
-      "organizer_score": 3,
-      "influence": 4.0,
-      "weight_score": 3.3,
-      "tier": "重要",
-      "user_rating": null
-    },
     {
       "id": "ml-summit-shanghai-2026",
       "name": "2026奇点智能技术大会 (ML-Summit)",
@@ -378,6 +207,29 @@
       "user_rating": null
     },
     {
+      "name": "第二十届沙利文全球增长、科创与领导力峰会（GIL Summit）",
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-05",
+      "date": "2026-08-04 至 2026-08-05",
+      "city": "上海",
+      "venue": "静安香格里拉大酒店",
+      "category": [
+        "AI",
+        "综合"
+      ],
+      "pricing": "付费",
+      "register_url": "https://gilsummit.frost.com/",
+      "description": "弗若斯特沙利文主办的第20届GIL峰会，覆盖AI全产业链、半导体、新智生产力、生物医药等9大赛道，300+嘉宾，5000+参会者",
+      "source": "frost.com",
+      "organizer": "弗若斯特沙利文（Frost & Sullivan）",
+      "organizer_score": 2,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 2.6,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
       "id": "google-io-connect-china-2026",
       "name": "2026 Google 开发者大会 (Google I/O Connect China)",
       "start_date": "2026-08-12",
@@ -391,17 +243,17 @@
         "云"
       ],
       "pricing": "免费",
-      "organizer": "Google 大中华区",
-      "organizer_score": 5,
-      "scale": 4,
-      "influence": 5,
-      "weight_score": 4.7,
-      "tier": "顶会",
+      "organizer": "Google",
+      "organizer_score": 4,
+      "scale": 3,
+      "influence": 4,
+      "weight_score": 3.7,
+      "tier": "重要",
       "user_rating": null,
       "theme": "智体新境 - Beyond the Model, Build for Real",
       "description": "Google 官方在中国大陆举办的年度顶级开发者盛会，覆盖 AI、Chrome、Cloud 及 Android 前沿技术，包含现场 Demo、实战工作坊与 Google 技术专家对话。需实名预约审核",
       "status": "报名中",
-      "register_url": "https://ioconnectchina.googlecnapps.cn/",
+      "register_url": "https://developer.events.google.cn/ioconnect/",
       "source_urls": [
         "https://ioconnectchina.googlecnapps.cn/",
         "https://m.weibo.cn/detail/5317734642227294"
@@ -929,27 +781,6 @@
       "user_rating": null
     },
     {
-      "name": "2026云栖大会 (APSARA CONFERENCE)",
-      "date": "2026-09-09 至 2026-09-11",
-      "city": "杭州",
-      "venue": "杭州云栖小镇",
-      "category": [
-        "云"
-      ],
-      "pricing": "免费",
-      "description": "中国云计算与人工智能产业发展风向标，聚焦通义千问与AI生态",
-      "source": "中欧国际展览",
-      "start_date": "2026-09-09",
-      "end_date": "2026-09-11",
-      "register_url": "https://yunqi.aliyun.com/",
-      "organizer_score": 4,
-      "scale": 5.0,
-      "influence": 5.0,
-      "weight_score": 4.6,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
       "id": "ai-show-hangzhou-2026",
       "name": "2026杭州国际人工智能与机器人博览会（AI Show 2026）",
       "start_date": "2026-09-10",
@@ -1005,6 +836,28 @@
       "user_rating": null
     },
     {
+      "name": "SITS 2026 奇点智能技术大会（北京站）",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-12",
+      "date": "2026-09-11 至 2026-09-12",
+      "city": "北京",
+      "venue": "",
+      "category": [
+        "AI"
+      ],
+      "pricing": "付费",
+      "register_url": "https://ml-summit.org/",
+      "description": "CSDN与奇点智能研究院主办，设12大主题赛道，涵盖大语言模型、智能体系统、具身智能等热点，汇聚50+行业技术领袖与1000+跨行业精英",
+      "source": "TinTinLand CSDN Blog",
+      "organizer": "CSDN/奇点智能研究院",
+      "organizer_score": 3,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
       "id": "beijing-aidc-2026",
       "name": "北京AI算力产业大会暨展览会（AIDC 2026）",
       "start_date": "2026-09-15",
@@ -1031,6 +884,51 @@
       "weight_score": 2.3,
       "tier": "一般",
       "user_rating": null
+    },
+    {
+      "name": "华为全联接大会 2026 (Huawei Connect)",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-19",
+      "date": "09/17-09/19",
+      "city": "上海",
+      "venue": "上海世博展览馆 & 世博中心",
+      "category": [
+        "AI",
+        "云"
+      ],
+      "pricing": "免费",
+      "register_url": "https://www.huawei.com/cn/events/huaweiconnect/",
+      "description": "华为全球性科技产业盛会，围绕全面智能化战略，发布AI基础设施、行业解决方案与开发者工具平台",
+      "source": "华为官网/IT之家",
+      "organizer": "华为技术有限公司",
+      "organizer_score": 5,
+      "scale": 5,
+      "influence": 5,
+      "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null
+    },
+    {
+      "name": "2026云栖大会 (APSARA CONFERENCE)",
+      "date": "09/22-09/24",
+      "city": "杭州",
+      "venue": "杭州国际博览中心 & 云栖小镇国际会展中心",
+      "category": [
+        "云"
+      ],
+      "pricing": "免费",
+      "description": "阿里云年度技术盛会，设三大主论坛、140+场分论坛、超5万㎡展区，首发Agent Native参会方式",
+      "source": "阿里云官网/新华网",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-24",
+      "register_url": "https://yunqi.aliyun.com/2026/tickets-list",
+      "organizer_score": 4,
+      "scale": 5,
+      "influence": 5,
+      "weight_score": 4.6,
+      "tier": "顶会",
+      "user_rating": null,
+      "organizer": "杭州市人民政府 & 阿里巴巴集团"
     },
     {
       "name": "北京PT展/北京国际信息通信展",
@@ -1170,6 +1068,50 @@
       "scale": 3.5,
       "influence": 3.0,
       "weight_score": 2.75,
+      "tier": "一般",
+      "user_rating": null
+    },
+    {
+      "name": "GOSIM Shenzhen 2026 全球开源AI大会",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17",
+      "date": "10/16-10/17",
+      "city": "深圳",
+      "venue": "",
+      "category": [
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://shenzhen2026.gosim.org/",
+      "description": "全球开源AI大会，150+讲师、2000+开发者，涵盖Agentic AI、开源大模型、开源机器人等六大赛道",
+      "source": "GOSIM Official",
+      "organizer": "GOSIM/CSDN",
+      "organizer_score": 3,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
+      "name": "HIPM 产品创新力峰会",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17",
+      "date": "2026-10-16 至 2026-10-17",
+      "city": "深圳",
+      "venue": "",
+      "category": [
+        "综合"
+      ],
+      "pricing": "付费",
+      "register_url": "https://hipm.msup.com.cn/",
+      "description": "连接产品与商业的跨界学习峰会，聚焦多元产品创新场景，邀请行业优秀产品战略决策者分享爆款产品逻辑与前沿方法",
+      "source": "TinTinLand CSDN Blog",
+      "organizer": "msup",
+      "organizer_score": 3,
+      "scale": 2,
+      "influence": 2,
+      "weight_score": 2.4,
       "tier": "一般",
       "user_rating": null
     },
@@ -1402,6 +1344,51 @@
       "user_rating": null
     },
     {
+      "name": "CPP-Summit 2026 全球系统软件技术大会",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "date": "2026-11-20 至 2026-11-21",
+      "city": "上海",
+      "venue": "",
+      "category": [
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://cpp-summit.org/",
+      "description": "CSDN与奇点智能研究院主办，聚焦C++与系统级软件前沿，设12大主题赛道，涵盖现代C++实践、AI算力优化、嵌入式系统等，40+全球技术大师与1000+行业精英",
+      "source": "TinTinLand CSDN Blog",
+      "organizer": "CSDN/奇点智能研究院",
+      "organizer_score": 3,
+      "scale": 3,
+      "influence": 3,
+      "weight_score": 3.0,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
+      "name": "AiDD 第十一届 AI+研发数字峰会（深圳站）",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "date": "2026-11-20 至 2026-11-21",
+      "city": "深圳",
+      "venue": "",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://www.aidd.vip/2026sz",
+      "description": "AiDD峰会聚焦AI驱动的研发变革与数字化升级，覆盖软件研发全流程，助力企业突破技术瓶颈",
+      "source": "TinTinLand CSDN Blog",
+      "organizer": "AiDD/msup",
+      "organizer_score": 3,
+      "scale": 3,
+      "influence": 2,
+      "weight_score": 2.7,
+      "tier": "一般",
+      "user_rating": null
+    },
+    {
       "name": "深圳高交会",
       "date": "2026-11-26 至 2026-11-28",
       "city": "深圳",
@@ -1540,140 +1527,6 @@
       ],
       "source": "百格活动",
       "updated_at": "2026-07-07"
-    },
-    {
-      "name": "第二十届沙利文全球增长、科创与领导力峰会（GIL Summit）",
-      "start_date": "2026-08-04",
-      "end_date": "2026-08-05",
-      "date": "2026-08-04 至 2026-08-05",
-      "city": "上海",
-      "venue": "静安香格里拉大酒店",
-      "category": [
-        "AI",
-        "综合"
-      ],
-      "pricing": "付费",
-      "register_url": "https://gilsummit.frost.com/",
-      "description": "弗若斯特沙利文主办的第20届GIL峰会，覆盖AI全产业链、半导体、新智生产力、生物医药等9大赛道，300+嘉宾，5000+参会者",
-      "source": "frost.com",
-      "organizer": "弗若斯特沙利文（Frost & Sullivan）",
-      "organizer_score": 2,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 2.6,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "SITS 2026 奇点智能技术大会（北京站）",
-      "start_date": "2026-09-11",
-      "end_date": "2026-09-12",
-      "date": "2026-09-11 至 2026-09-12",
-      "city": "北京",
-      "venue": "",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "register_url": "https://ml-summit.org/",
-      "description": "CSDN与奇点智能研究院主办，设12大主题赛道，涵盖大语言模型、智能体系统、具身智能等热点，汇聚50+行业技术领袖与1000+跨行业精英",
-      "source": "TinTinLand CSDN Blog",
-      "organizer": "CSDN/奇点智能研究院",
-      "organizer_score": 3,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "GOSIM Shenzhen 2026 全球开源AI大会",
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-18",
-      "date": "2026-10-16 至 2026-10-18",
-      "city": "深圳",
-      "venue": "",
-      "category": [
-        "开发者"
-      ],
-      "pricing": "付费",
-      "register_url": "https://www.bagevent.com/event/gosimshenzhen2026",
-      "description": "GOSIM全球开源创新汇主办，聚焦Agentic AI、开源模型、开源机器人、边缘智能体等前沿议题，150+国际讲师，2000+全球开发者",
-      "source": "GOSIM Official",
-      "organizer": "GOSIM/CSDN",
-      "organizer_score": 3,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "HIPM 产品创新力峰会",
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-17",
-      "date": "2026-10-16 至 2026-10-17",
-      "city": "深圳",
-      "venue": "",
-      "category": [
-        "综合"
-      ],
-      "pricing": "付费",
-      "register_url": "https://hipm.msup.com.cn/",
-      "description": "连接产品与商业的跨界学习峰会，聚焦多元产品创新场景，邀请行业优秀产品战略决策者分享爆款产品逻辑与前沿方法",
-      "source": "TinTinLand CSDN Blog",
-      "organizer": "msup",
-      "organizer_score": 3,
-      "scale": 2,
-      "influence": 2,
-      "weight_score": 2.4,
-      "tier": "一般",
-      "user_rating": null
-    },
-    {
-      "name": "CPP-Summit 2026 全球系统软件技术大会",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-21",
-      "date": "2026-11-20 至 2026-11-21",
-      "city": "上海",
-      "venue": "",
-      "category": [
-        "开发者"
-      ],
-      "pricing": "付费",
-      "register_url": "https://cpp-summit.org/",
-      "description": "CSDN与奇点智能研究院主办，聚焦C++与系统级软件前沿，设12大主题赛道，涵盖现代C++实践、AI算力优化、嵌入式系统等，40+全球技术大师与1000+行业精英",
-      "source": "TinTinLand CSDN Blog",
-      "organizer": "CSDN/奇点智能研究院",
-      "organizer_score": 3,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "AiDD 第十一届 AI+研发数字峰会（深圳站）",
-      "start_date": "2026-11-20",
-      "end_date": "2026-11-21",
-      "date": "2026-11-20 至 2026-11-21",
-      "city": "深圳",
-      "venue": "",
-      "category": [
-        "AI",
-        "开发者"
-      ],
-      "pricing": "付费",
-      "register_url": "https://www.aidd.vip/2026sz",
-      "description": "AiDD峰会聚焦AI驱动的研发变革与数字化升级，覆盖软件研发全流程，助力企业突破技术瓶颈",
-      "source": "TinTinLand CSDN Blog",
-      "organizer": "AiDD/msup",
-      "organizer_score": 3,
-      "scale": 3,
-      "influence": 2,
-      "weight_score": 2.7,
-      "tier": "一般",
-      "user_rating": null
     }
   ],
   "scoring_version": "v2"
