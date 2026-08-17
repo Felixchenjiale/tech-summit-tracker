@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-08-10 10:08",
+  "last_updated": "2026-08-17 10:08",
+  "scoring_version": "v2",
   "summits": [
-    {
-      "id": "ml-summit-shanghai-2026",
-      "name": "2026奇点智能技术大会 (ML-Summit)",
-      "start_date": "2026-07-15",
-      "end_date": "2026-07-17",
-      "date": "2026-07-15 至 2026-07-17",
-      "city": "上海",
-      "venue": "上海世博中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "organizer": "CSDN & Boolan",
-      "theme": "智构·共生·跃迁",
-      "description": "50+AI大咖齐聚，覆盖类脑芯片、多模态大模型、可信AI治理、工业级Agent编排等主题，主论坛发布《2026全球大模型可信部署白皮书》",
-      "status": "报名中",
-      "register_url": "https://ml-summit.org/",
-      "source_urls": [
-        "https://ml-summit.org/",
-        "https://blog.csdn.net/QuickCode/article/details/160020449"
-      ],
-      "source": "CSDN",
-      "updated_at": "2026-07-01",
-      "organizer_score": 3,
-      "scale": 3.0,
-      "influence": 3.0,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null
-    },
     {
       "id": "waic-2026",
       "name": "2026世界人工智能大会（WAIC）",
@@ -858,6 +829,28 @@
       "user_rating": null
     },
     {
+      "name": "2026浦江创新论坛",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-14",
+      "date": "2026-09-11 至 2026-09-14",
+      "city": "上海",
+      "venue": "上海",
+      "category": [
+        "综合"
+      ],
+      "pricing": "免费",
+      "register_url": "https://www.shanghai.gov.cn/nw17239/20260812/8146c970af7d4d72b28e0ceb48d3028b.html",
+      "description": "科技部和上海市政府共同主办的第十九届浦江创新论坛，聚焦AI for Science、量子智算、类脑智能等，设1+1+24+N场活动。",
+      "source": "上海发布/上海市科委",
+      "organizer": "科学技术部、上海市人民政府",
+      "organizer_score": 5,
+      "scale": 4,
+      "influence": 4,
+      "weight_score": 4.3,
+      "tier": "顶会",
+      "user_rating": null
+    },
+    {
       "id": "beijing-aidc-2026",
       "name": "北京AI算力产业大会暨展览会（AIDC 2026）",
       "start_date": "2026-09-15",
@@ -906,6 +899,28 @@
       "influence": 5,
       "weight_score": 5.0,
       "tier": "顶会",
+      "user_rating": null
+    },
+    {
+      "name": "2026第二届上海AI应用生态大会",
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-22",
+      "date": "2026-09-21 至 2026-09-22",
+      "city": "上海",
+      "venue": "上海龙之梦万丽酒店",
+      "category": [
+        "AI"
+      ],
+      "pricing": "免费",
+      "register_url": "https://ai.app.aitocoder.com",
+      "description": "上海现代服务业联合会主办，聚焦企业智能体技术实践、应用场景生态共建，千余名嘉宾、500余家单位参与。",
+      "source": "人民网/新浪财经",
+      "organizer": "上海现代服务业联合会",
+      "organizer_score": 2,
+      "scale": 3,
+      "influence": 2,
+      "weight_score": 2.3,
+      "tier": "一般",
       "user_rating": null
     },
     {
@@ -1186,6 +1201,29 @@
       ],
       "source": "WikiCFP",
       "updated_at": "2026-07-07"
+    },
+    {
+      "name": "GDPS 2026全球开发者先锋大会",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-25",
+      "date": "2026-10-23 至 2026-10-25",
+      "city": "上海",
+      "venue": "上海张江科学会堂",
+      "category": [
+        "开发者",
+        "AI"
+      ],
+      "pricing": "免费",
+      "register_url": "https://gdps.pudong.gov.cn",
+      "description": "上海市人工智能行业协会主办，第六届。含国际具身智能技能大赛和全球具身智能产业博览会，姚期智院士任专家指导委员会主席。",
+      "source": "新民晚报/上观新闻",
+      "organizer": "上海市人工智能行业协会",
+      "organizer_score": 4,
+      "scale": 4,
+      "influence": 4,
+      "weight_score": 4.0,
+      "tier": "顶会",
+      "user_rating": null
     },
     {
       "name": "2026世界互联网大会乌镇峰会",
@@ -1528,6 +1566,5 @@
       "source": "百格活动",
       "updated_at": "2026-07-07"
     }
-  ],
-  "scoring_version": "v2"
+  ]
 }
