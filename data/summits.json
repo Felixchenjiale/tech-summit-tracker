@@ -1,55 +1,7 @@
 {
-  "last_updated": "2026-08-17 10:08",
+  "last_updated": "2026-08-24 10:08",
   "scoring_version": "v2",
   "summits": [
-    {
-      "id": "waic-2026",
-      "name": "2026世界人工智能大会（WAIC）",
-      "start_date": "2026-07-17",
-      "end_date": "2026-07-20",
-      "city": "上海",
-      "venue": "世博展览馆+张江科学会堂+西岸国际会展中心",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "organizer": "外交部/科技部/工信部等与上海市政府",
-      "theme": "智能伙伴，共创未来",
-      "description": "140余场主题论坛，1400余位国际嘉宾，展览超10万㎡，1100+企业参展，3000+项展品，展期票约360元，单日票约298元，Hi WAIC APP购票",
-      "status": "upcoming",
-      "register_url": "https://reg.worldaic.com.cn/",
-      "source_urls": [
-        "https://www.worldaic.com.cn"
-      ],
-      "date": "2026-07-17 至 2026-07-20",
-      "organizer_score": 5,
-      "scale": 5.0,
-      "influence": 5.0,
-      "weight_score": 5.0,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "name": "CSIAM第七届大数据与人工智能科学大会",
-      "date": "2026-07-17 至 2026-07-19",
-      "city": "厦门",
-      "venue": "厦门佰翔五通酒店",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "description": "中国工业与应用数学学会主办，聚焦大数据与人工智能领域当前研究热点",
-      "source": "中国工业与应用数学学会",
-      "start_date": "2026-07-17",
-      "end_date": "2026-07-19",
-      "register_url": "http://bdai2026.icrp.xjtu.edu.cn",
-      "organizer_score": 4,
-      "scale": 2.5,
-      "influence": 3.0,
-      "weight_score": 3.25,
-      "tier": "重要",
-      "user_rating": null
-    },
     {
       "id": "suzhou-aipae-2026",
       "name": "2026人工智能产品应用博览会（苏州智博会）",
@@ -1565,6 +1517,29 @@
       ],
       "source": "百格活动",
       "updated_at": "2026-07-07"
+    },
+    {
+      "name": "AGNTCon + MCPCon China 2026",
+      "start_date": "2026-09-06",
+      "end_date": "2026-09-07",
+      "date": "2026-09-06 至 2026-09-07",
+      "city": "上海",
+      "venue": "上海国际会议中心",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://events.linuxfoundation.org/agntcon-mcpcon-china/register/",
+      "description": "Linux Foundation旗下Agentic AI Foundation主办的旗舰中国区大会，聚焦AI Agent协议栈、MCP协议、编排、基础设施与生产系统。",
+      "source": "events.linuxfoundation.org",
+      "scale": 2,
+      "organizer": "Agentic AI Foundation (Linux Foundation)",
+      "organizer_score": 4,
+      "influence": 4,
+      "weight_score": 3.4,
+      "tier": "重要",
+      "user_rating": null
     }
   ]
 }
