@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24 10:08",
+  "last_updated": "2026-08-31 10:08",
   "scoring_version": "v2",
   "summits": [
     {
@@ -55,26 +55,6 @@
       "influence": 5.0,
       "weight_score": 4.6,
       "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "name": "2026中国人工智能创新生态大会",
-      "date": "2026-07-31",
-      "city": "线上",
-      "venue": "线上活动",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "description": "智能无界·价值共生——AI大模型行业落地新范式",
-      "start_date": "2026-07-31",
-      "end_date": "2026-07-31",
-      "register_url": "https://luojisiwei.huodongxing.com/event/9861370981600",
-      "organizer_score": 2,
-      "scale": 2.0,
-      "influence": 2.0,
-      "weight_score": 2.0,
-      "tier": "一般",
       "user_rating": null
     },
     {
@@ -651,6 +631,29 @@
       "user_rating": null
     },
     {
+      "name": "AGNTCon + MCPCon China 2026",
+      "start_date": "2026-09-06",
+      "end_date": "2026-09-07",
+      "date": "2026-09-06 至 2026-09-07",
+      "city": "上海",
+      "venue": "上海国际会议中心",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://events.linuxfoundation.org/agntcon-mcpcon-china/register/",
+      "description": "Linux Foundation旗下Agentic AI Foundation主办的旗舰中国区大会，聚焦AI Agent协议栈、MCP协议、编排、基础设施与生产系统。",
+      "source": "events.linuxfoundation.org",
+      "scale": 2,
+      "organizer": "Agentic AI Foundation (Linux Foundation)",
+      "organizer_score": 4,
+      "influence": 4,
+      "weight_score": 3.4,
+      "tier": "重要",
+      "user_rating": null
+    },
+    {
       "id": "kubecon-openinfra-pytorch-china-2026",
       "name": "KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China 2026",
       "start_date": "2026-09-07",
@@ -702,6 +705,35 @@
       "weight_score": 4.3,
       "tier": "顶会",
       "user_rating": null
+    },
+    {
+      "id": "inclusion-conf-2026",
+      "name": "2026 Inclusion·外滩大会",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-12",
+      "date": "2026-09-09 至 2026-09-12",
+      "city": "上海",
+      "venue": "上海黄浦世博园区",
+      "category": [
+        "AI",
+        "综合"
+      ],
+      "pricing": "免费",
+      "organizer": "外滩大会组委会",
+      "organizer_score": 3,
+      "scale": 4,
+      "influence": 4,
+      "weight_score": 3.6,
+      "tier": "重要",
+      "user_rating": null,
+      "description": "全球高级别前沿科技与金融科技盛会，聚焦AI从'生成'迈向'执行'的关键跃迁，设40余场见解论坛、近1.5万平米科技展览，主题'共创AI新经济'，涵盖AI安全、金融科技、创投Meetup、AI艺术节等板块",
+      "register_url": "https://www.inclusionconf.com/",
+      "source": "https://www.inclusionconf.com/home",
+      "source_urls": [
+        "https://www.inclusionconf.com/home",
+        "https://www.shio.gov.cn/TrueCMS/shxwbgs/ywts/content/5075577f-f1a9-44e8-afb3-4b034163d3d5.htm"
+      ],
+      "status": "upcoming"
     },
     {
       "id": "ai-show-hangzhou-2026",
@@ -1517,29 +1549,6 @@
       ],
       "source": "百格活动",
       "updated_at": "2026-07-07"
-    },
-    {
-      "name": "AGNTCon + MCPCon China 2026",
-      "start_date": "2026-09-06",
-      "end_date": "2026-09-07",
-      "date": "2026-09-06 至 2026-09-07",
-      "city": "上海",
-      "venue": "上海国际会议中心",
-      "category": [
-        "AI",
-        "开发者"
-      ],
-      "pricing": "付费",
-      "register_url": "https://events.linuxfoundation.org/agntcon-mcpcon-china/register/",
-      "description": "Linux Foundation旗下Agentic AI Foundation主办的旗舰中国区大会，聚焦AI Agent协议栈、MCP协议、编排、基础设施与生产系统。",
-      "source": "events.linuxfoundation.org",
-      "scale": 2,
-      "organizer": "Agentic AI Foundation (Linux Foundation)",
-      "organizer_score": 4,
-      "influence": 4,
-      "weight_score": 3.4,
-      "tier": "重要",
-      "user_rating": null
     }
   ]
 }
