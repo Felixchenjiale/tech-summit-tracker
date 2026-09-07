@@ -1,137 +1,7 @@
 {
-  "last_updated": "2026-08-31 10:08",
+  "last_updated": "2026-09-07 10:10",
   "scoring_version": "v2",
   "summits": [
-    {
-      "id": "suzhou-aipae-2026",
-      "name": "2026人工智能产品应用博览会（苏州智博会）",
-      "start_date": "2026-07-30",
-      "end_date": "2026-08-01",
-      "city": "苏州",
-      "venue": "苏州国际博览中心（B1/C1馆）",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "organizer": "苏州工业园区管委会",
-      "theme": "一元复始，万象AI",
-      "description": "聚焦新型工业化、大模型与AI算力产业链、OPC创业与TOKEN经济三大维度，200+展商、400+款AI产品",
-      "status": "upcoming",
-      "register_url": "https://m.sohu.com/a/1045307162_121124379/",
-      "source": "搜狐/苏州工业园区管委会",
-      "source_urls": [
-        "https://m.sohu.com/a/1045307162_121124379/"
-      ],
-      "date": "2026-07-30 至 2026-08-01",
-      "organizer_score": 4,
-      "scale": 3.0,
-      "influence": 3.0,
-      "weight_score": 3.4,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "id": "chinajoy-2026",
-      "name": "ChinaJoy 2026 中国国际数码互动娱乐展览会",
-      "start_date": "2026-07-31",
-      "end_date": "2026-08-03",
-      "city": "上海",
-      "venue": "上海新国际博览中心",
-      "category": [
-        "综合"
-      ],
-      "pricing": "付费",
-      "organizer": "ChinaJoy组委会",
-      "theme": "与AI同游",
-      "description": "全球最具影响力的数字娱乐盛会之一，聚焦游戏、AI生态、数字消费场景，设6大行业峰会、14万㎡展览面积，近900家企业参展，包括全球电竞大会、第二届中国国际游戏开发者大会等",
-      "status": "upcoming",
-      "register_url": "https://www.chinajoy.net/",
-      "source_urls": [
-        "https://www.chinajoy.net/"
-      ],
-      "date": "2026-07-31 至 2026-08-03",
-      "organizer_score": 4,
-      "scale": 5.0,
-      "influence": 5.0,
-      "weight_score": 4.6,
-      "tier": "顶会",
-      "user_rating": null
-    },
-    {
-      "id": "cgdc-2026-shanghai",
-      "name": "2026 中国游戏开发者大会（CGDC）",
-      "start_date": "2026-07-31",
-      "end_date": "2026-08-01",
-      "date": "2026-07-31 至 2026-08-01",
-      "city": "上海",
-      "venue": "上海浦东嘉里大酒店",
-      "category": [
-        "开发者",
-        "AI"
-      ],
-      "pricing": "付费",
-      "organizer": "上海汉威信恒展览有限公司 / 中国音像与数字出版协会",
-      "organizer_score": 3,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 3.0,
-      "tier": "重要",
-      "user_rating": null,
-      "theme": "全球主创亲述解法",
-      "description": "ChinaJoy 同期开发者大会，2天8个专场60+主题分享，聚焦全球游戏研发实战经验、AI+游戏、独立开发、出海策略。首批嘉宾覆盖《天外世界2》《幻兽帕鲁》《潜水员戴夫》等爆款主创",
-      "status": "报名中",
-      "register_url": "https://www.huodongxing.com/event/CGDC2026",
-      "source_urls": [
-        "http://news.17173.com/content/05222026/151320267.shtml",
-        "http://m.baokan.tv/games/75702.html"
-      ],
-      "source": "17173 / ChinaJoy 官方",
-      "updated_at": "2026-07-10"
-    },
-    {
-      "name": "第五届CCF量子计算大会 (CQCC2026)",
-      "date": "2026-08-03 至 2026-08-05",
-      "city": "深圳",
-      "venue": "深圳华侨城洲际大酒店",
-      "category": [
-        "AI"
-      ],
-      "pricing": "付费",
-      "description": "以'未来=量子计算+人工智能？'为主题，国内规模最大量子计算年度盛会",
-      "source": "CCF官网",
-      "start_date": "2026-08-03",
-      "end_date": "2026-08-05",
-      "register_url": "https://ccf.org.cn/CQCC2026",
-      "organizer_score": 4,
-      "scale": 3.5,
-      "influence": 3.0,
-      "weight_score": 3.55,
-      "tier": "重要",
-      "user_rating": null
-    },
-    {
-      "name": "第二十届沙利文全球增长、科创与领导力峰会（GIL Summit）",
-      "start_date": "2026-08-04",
-      "end_date": "2026-08-05",
-      "date": "2026-08-04 至 2026-08-05",
-      "city": "上海",
-      "venue": "静安香格里拉大酒店",
-      "category": [
-        "AI",
-        "综合"
-      ],
-      "pricing": "付费",
-      "register_url": "https://gilsummit.frost.com/",
-      "description": "弗若斯特沙利文主办的第20届GIL峰会，覆盖AI全产业链、半导体、新智生产力、生物医药等9大赛道，300+嘉宾，5000+参会者",
-      "source": "frost.com",
-      "organizer": "弗若斯特沙利文（Frost & Sullivan）",
-      "organizer_score": 2,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 2.6,
-      "tier": "重要",
-      "user_rating": null
-    },
     {
       "id": "google-io-connect-china-2026",
       "name": "2026 Google 开发者大会 (Google I/O Connect China)",
@@ -162,7 +32,8 @@
         "https://m.weibo.cn/detail/5317734642227294"
       ],
       "source": "Google 官方微博/官网",
-      "updated_at": "2026-07-07"
+      "updated_at": "2026-07-07",
+      "scale_score": 3
     },
     {
       "id": "ccf-cadcg-2026-suzhou",
@@ -193,7 +64,8 @@
         "https://www.ccf.org.cn/Activities/Event_calendar/zw/2026-05-12/892005.shtml"
       ],
       "source": "CCF / 南京大学官网",
-      "updated_at": "2026-07-10"
+      "updated_at": "2026-07-10",
+      "scale_score": 3
     },
     {
       "name": "BigCom 2026 第十二届国际大数据会议",
@@ -214,7 +86,9 @@
       "influence": 2.0,
       "weight_score": 2.55,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "id": "ccf-chinaosc-2026",
@@ -244,7 +118,8 @@
       "influence": 3.0,
       "weight_score": 3.4,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "id": "aipm-2026-suzhou",
@@ -273,7 +148,8 @@
         "https://www.csdn.net/article/2026-05-28/161489847"
       ],
       "source": "易贸信息科技 / CSDN",
-      "updated_at": "2026-07-10"
+      "updated_at": "2026-07-10",
+      "scale_score": 3
     },
     {
       "name": "中国（杭州）国际数字安防及人工智能博览会",
@@ -294,7 +170,10 @@
       "influence": 2.0,
       "weight_score": 2.45,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "wrc-2026",
@@ -322,7 +201,8 @@
       "influence": 5.0,
       "weight_score": 5.0,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "广州国际智能产业博览会",
@@ -343,7 +223,10 @@
       "influence": 3.0,
       "weight_score": 3.7,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "aicon-shenzhen-2026",
@@ -371,7 +254,9 @@
       "influence": 4.0,
       "weight_score": 3.3,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": ""
     },
     {
       "name": "CCF大数据学术会议 2026",
@@ -392,7 +277,9 @@
       "influence": 3.0,
       "weight_score": 3.55,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "id": "ai4science-congress-2026",
@@ -420,7 +307,8 @@
       "influence": 4.0,
       "weight_score": 3.7,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "AiDD 第十届 AI+ 研发数字峰会（北京站）",
@@ -443,7 +331,8 @@
       "influence": 3,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "organizer": ""
     },
     {
       "id": "agic-shenzhen-2026",
@@ -473,7 +362,8 @@
       "influence": 3.0,
       "weight_score": 3.3,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "深圳国际物联网展览会",
@@ -493,7 +383,10 @@
       "influence": 2.0,
       "weight_score": 2.45,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "深圳国际智能装备产业展",
@@ -513,7 +406,10 @@
       "influence": 2.0,
       "weight_score": 2.3,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "深圳国际智慧显示系统产业应用展览会",
@@ -533,7 +429,10 @@
       "influence": 2.0,
       "weight_score": 2.0,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "2026全球AI风控领袖峰会（合肥站）暨第八届数字化转型与创新峰会",
@@ -553,7 +452,10 @@
       "influence": 2.0,
       "weight_score": 2.0,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "深圳国际消费电子及家用电器展",
@@ -573,7 +475,10 @@
       "influence": 2.0,
       "weight_score": 2.6,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "cice-ai-qingdao-2026",
@@ -599,7 +504,8 @@
       "influence": 3.0,
       "weight_score": 3.7,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "id": "qecon-shanghai-2026",
@@ -628,7 +534,8 @@
       "influence": 2.0,
       "weight_score": 2.0,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "AGNTCon + MCPCon China 2026",
@@ -651,7 +558,8 @@
       "influence": 4,
       "weight_score": 3.4,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "id": "kubecon-openinfra-pytorch-china-2026",
@@ -660,7 +568,7 @@
       "end_date": "2026-09-09",
       "date": "2026-09-07 至 2026-09-09",
       "city": "上海",
-      "venue": "上海国际会议中心（Shanghai International Convention Center）",
+      "venue": "上海国际会议中心",
       "category": [
         "云",
         "AI",
@@ -684,7 +592,8 @@
         "https://www.techtradeasia.com/2026/06/schedule-announced-for-kubecon.html"
       ],
       "source": "CNCF 官方公告 / Linux Foundation",
-      "updated_at": "2026-07-13"
+      "updated_at": "2026-07-13",
+      "scale_score": 3
     },
     {
       "name": "深圳信息通信展",
@@ -704,7 +613,10 @@
       "influence": 4.0,
       "weight_score": 4.3,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "inclusion-conf-2026",
@@ -720,20 +632,21 @@
       ],
       "pricing": "免费",
       "organizer": "外滩大会组委会",
-      "organizer_score": 3,
+      "organizer_score": 4,
       "scale": 4,
-      "influence": 4,
-      "weight_score": 3.6,
-      "tier": "重要",
+      "influence": 5,
+      "weight_score": 4.3,
+      "tier": "顶会",
       "user_rating": null,
       "description": "全球高级别前沿科技与金融科技盛会，聚焦AI从'生成'迈向'执行'的关键跃迁，设40余场见解论坛、近1.5万平米科技展览，主题'共创AI新经济'，涵盖AI安全、金融科技、创投Meetup、AI艺术节等板块",
-      "register_url": "https://www.inclusionconf.com/",
+      "register_url": "https://www.inclusionconf.com/home",
       "source": "https://www.inclusionconf.com/home",
       "source_urls": [
         "https://www.inclusionconf.com/home",
         "https://www.shio.gov.cn/TrueCMS/shxwbgs/ywts/content/5075577f-f1a9-44e8-afb3-4b034163d3d5.htm"
       ],
-      "status": "upcoming"
+      "status": "upcoming",
+      "scale_score": 4
     },
     {
       "id": "ai-show-hangzhou-2026",
@@ -759,7 +672,8 @@
       "influence": 2.0,
       "weight_score": 2.7,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "id": "cise-2026-zhengzhou",
@@ -788,7 +702,8 @@
       "influence": 3.0,
       "weight_score": 3.55,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "SITS 2026 奇点智能技术大会（北京站）",
@@ -810,7 +725,8 @@
       "influence": 3,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "2026浦江创新论坛",
@@ -832,7 +748,8 @@
       "influence": 4,
       "weight_score": 4.3,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "id": "beijing-aidc-2026",
@@ -860,7 +777,8 @@
       "influence": 2.0,
       "weight_score": 2.3,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "华为全联接大会 2026 (Huawei Connect)",
@@ -883,7 +801,8 @@
       "influence": 5,
       "weight_score": 5.0,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "2026第二届上海AI应用生态大会",
@@ -905,13 +824,14 @@
       "influence": 2,
       "weight_score": 2.3,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "2026云栖大会 (APSARA CONFERENCE)",
-      "date": "09/22-09/24",
+      "date": "2026-09-22 至 2026-09-24",
       "city": "杭州",
-      "venue": "杭州国际博览中心 & 云栖小镇国际会展中心",
+      "venue": "杭州国际博览中心",
       "category": [
         "云"
       ],
@@ -920,14 +840,15 @@
       "source": "阿里云官网/新华网",
       "start_date": "2026-09-22",
       "end_date": "2026-09-24",
-      "register_url": "https://yunqi.aliyun.com/2026/tickets-list",
+      "register_url": "https://yunqi.aliyun.com/2026/ticket",
       "organizer_score": 4,
       "scale": 5,
       "influence": 5,
       "weight_score": 4.6,
       "tier": "顶会",
       "user_rating": null,
-      "organizer": "杭州市人民政府 & 阿里巴巴集团"
+      "organizer": "杭州市人民政府 & 阿里巴巴集团",
+      "scale_score": 3
     },
     {
       "name": "北京PT展/北京国际信息通信展",
@@ -948,7 +869,10 @@
       "influence": 4.0,
       "weight_score": 4.4,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "wuhan-computing-2026",
@@ -977,7 +901,8 @@
       "influence": 2.0,
       "weight_score": 2.7,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "杭州全球数字贸易博览会",
@@ -998,7 +923,10 @@
       "influence": 4.0,
       "weight_score": 4.55,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "上海国际新一代信息技术与应用展览会",
@@ -1018,7 +946,10 @@
       "influence": 4.0,
       "weight_score": 4.3,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "2026第十四届中国国际工业博览会 (CIIF 2026)",
@@ -1038,6 +969,32 @@
       "scale": 5.0,
       "influence": 5.0,
       "weight_score": 5.0,
+      "tier": "顶会",
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
+    },
+    {
+      "name": "2026 NVIDIA 中国开发者日",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-16",
+      "date": "2026-10-15 至 2026-10-16",
+      "city": "苏州",
+      "venue": "苏州金鸡湖国际会议中心 A 馆",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "免费",
+      "register_url": "https://scrm.nvidia.cn/events/developer-day-2026",
+      "description": "NVIDIA年度线下技术盛会，覆盖大语言模型训练与推理、AI模型与运行时、机器人和物理AI、AI基础设施四大主线，提供免费培训与认证考试",
+      "source": "nvidia.com",
+      "scale": "数千人级年度品牌活动",
+      "organizer": "NVIDIA",
+      "organizer_score": 5,
+      "scale_score": 4,
+      "influence": 4,
+      "weight_score": 4.5,
       "tier": "顶会",
       "user_rating": null
     },
@@ -1068,7 +1025,8 @@
       "influence": 3.0,
       "weight_score": 2.75,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "GOSIM Shenzhen 2026 全球开源AI大会",
@@ -1090,7 +1048,8 @@
       "influence": 3,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "HIPM 产品创新力峰会",
@@ -1112,7 +1071,8 @@
       "influence": 2,
       "weight_score": 2.4,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "2026中国计算机大会 (CNCC2026)",
@@ -1134,11 +1094,13 @@
       "influence": 5.0,
       "weight_score": 4.6,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "QCon 2026 全球软件开发大会（上海站）",
-      "date": "2026-10-23 至 2026-10-25",
+      "date": "2026-10-23 至 2026-10-24",
       "city": "上海",
       "venue": "上海",
       "category": [
@@ -1147,7 +1109,7 @@
       "pricing": "付费",
       "description": "InfoQ主办的综合性技术盛会，分享技术创新和实践",
       "start_date": "2026-10-23",
-      "end_date": "2026-10-25",
+      "end_date": "2026-10-24",
       "updated_at": "2026-06-28",
       "register_url": "https://qcon.infoq.cn/2026/shanghai",
       "organizer_score": 3,
@@ -1155,7 +1117,10 @@
       "influence": 4.0,
       "weight_score": 3.3,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "ai2a-wuxi-2026",
@@ -1184,7 +1149,8 @@
         "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=127474"
       ],
       "source": "WikiCFP",
-      "updated_at": "2026-07-07"
+      "updated_at": "2026-07-07",
+      "scale_score": 3
     },
     {
       "name": "GDPS 2026全球开发者先锋大会",
@@ -1207,7 +1173,8 @@
       "influence": 4,
       "weight_score": 4.0,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "2026世界互联网大会乌镇峰会",
@@ -1229,7 +1196,9 @@
       "influence": 5.0,
       "weight_score": 5.0,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "2026互联网之光博览会",
@@ -1251,7 +1220,9 @@
       "influence": 3.0,
       "weight_score": 4.1,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "2026国际区块链和Web3.0技术创新大会",
@@ -1272,7 +1243,9 @@
       "influence": 3.0,
       "weight_score": 3.1,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "2026 Google DevFest 谷歌开发者节",
@@ -1292,7 +1265,10 @@
       "influence": 3.0,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "id": "secon-shenzhen-2026",
@@ -1321,7 +1297,8 @@
       "influence": 3.0,
       "weight_score": 2.3,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "Hongqiao Tech Week 虹桥科技周",
@@ -1342,7 +1319,9 @@
       "influence": 3.0,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "2026北京国际消费电子技术博览会 (CET)",
@@ -1363,7 +1342,9 @@
       "influence": 2.0,
       "weight_score": 2.7,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "name": "CPP-Summit 2026 全球系统软件技术大会",
@@ -1385,7 +1366,8 @@
       "influence": 3,
       "weight_score": 3.0,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "AiDD 第十一届 AI+研发数字峰会（深圳站）",
@@ -1408,7 +1390,8 @@
       "influence": 2,
       "weight_score": 2.7,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3
     },
     {
       "name": "深圳高交会",
@@ -1429,7 +1412,10 @@
       "influence": 5.0,
       "weight_score": 5.0,
       "tier": "顶会",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "深圳高交会人工智能与机器人产业链展",
@@ -1450,7 +1436,10 @@
       "influence": 3.0,
       "weight_score": 3.7,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "深圳国际数据中心及云计算展",
@@ -1470,7 +1459,10 @@
       "influence": 2.0,
       "weight_score": 2.0,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": "",
+      "organizer": ""
     },
     {
       "name": "DSID 2026 数据科学与决策智能国际学术会议",
@@ -1491,7 +1483,9 @@
       "influence": 2.0,
       "weight_score": 2.4,
       "tier": "一般",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "organizer": ""
     },
     {
       "id": "aicon-beijing-2026",
@@ -1519,7 +1513,9 @@
       "influence": 4.0,
       "weight_score": 3.3,
       "tier": "重要",
-      "user_rating": null
+      "user_rating": null,
+      "scale_score": 3,
+      "source": ""
     },
     {
       "id": "agentic-ai-summit-shanghai-2026",
@@ -1548,7 +1544,8 @@
         "https://www.bagevent.com/event/9213066"
       ],
       "source": "百格活动",
-      "updated_at": "2026-07-07"
+      "updated_at": "2026-07-07",
+      "scale_score": 3
     }
   ]
 }
