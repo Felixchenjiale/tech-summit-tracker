@@ -1,72 +1,7 @@
 {
-  "last_updated": "2026-09-07 10:10",
+  "last_updated": "2026-09-15 00:00",
   "scoring_version": "v2",
   "summits": [
-    {
-      "id": "google-io-connect-china-2026",
-      "name": "2026 Google 开发者大会 (Google I/O Connect China)",
-      "start_date": "2026-08-12",
-      "end_date": "2026-08-13",
-      "date": "2026-08-12 至 2026-08-13",
-      "city": "上海",
-      "venue": "上海世博中心",
-      "category": [
-        "AI",
-        "开发者",
-        "云"
-      ],
-      "pricing": "免费",
-      "organizer": "Google",
-      "organizer_score": 4,
-      "scale": 3,
-      "influence": 4,
-      "weight_score": 3.7,
-      "tier": "重要",
-      "user_rating": null,
-      "theme": "智体新境 - Beyond the Model, Build for Real",
-      "description": "Google 官方在中国大陆举办的年度顶级开发者盛会，覆盖 AI、Chrome、Cloud 及 Android 前沿技术，包含现场 Demo、实战工作坊与 Google 技术专家对话。需实名预约审核",
-      "status": "报名中",
-      "register_url": "https://developer.events.google.cn/ioconnect/",
-      "source_urls": [
-        "https://ioconnectchina.googlecnapps.cn/",
-        "https://m.weibo.cn/detail/5317734642227294"
-      ],
-      "source": "Google 官方微博/官网",
-      "updated_at": "2026-07-07",
-      "scale_score": 3
-    },
-    {
-      "id": "ccf-cadcg-2026-suzhou",
-      "name": "CCF CAD/CG 2026 第29届全国计算机辅助设计与图形学学术会议",
-      "start_date": "2026-08-12",
-      "end_date": "2026-08-14",
-      "date": "2026-08-12 至 2026-08-14",
-      "city": "苏州",
-      "venue": "江苏苏州（南京大学/苏州大学联合承办）",
-      "category": [
-        "AI",
-        "开发者"
-      ],
-      "pricing": "付费",
-      "organizer": "中国计算机学会（CCF）",
-      "organizer_score": 4,
-      "scale": 3,
-      "influence": 3,
-      "weight_score": 3.4,
-      "tier": "重要",
-      "user_rating": null,
-      "theme": "智绘无界，形韵江南",
-      "description": "CCF 主办的国内计算机辅助设计与图形学领域最高级别学术盛会，聚焦空间智能、三维视觉、具身智能、生成式AI、数字孪生等前沿方向，30余场专题论坛+精品课程+成果展览。CCF会员早鸟价1800元起",
-      "status": "报名中",
-      "register_url": "https://cadcg2026.nju.edu.cn/",
-      "source_urls": [
-        "https://cadcg2026.nju.edu.cn/",
-        "https://www.ccf.org.cn/Activities/Event_calendar/zw/2026-05-12/892005.shtml"
-      ],
-      "source": "CCF / 南京大学官网",
-      "updated_at": "2026-07-10",
-      "scale_score": 3
-    },
     {
       "name": "BigCom 2026 第十二届国际大数据会议",
       "date": "2026-08-14 至 2026-08-16",
@@ -927,6 +862,30 @@
       "scale_score": 3,
       "source": "",
       "organizer": ""
+    },
+    {
+      "id": "ubicomp-iswc-2026",
+      "name": "UbiComp / ISWC 2026 ACM普适计算与可穿戴计算国际联合会议",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-15",
+      "date": "2026-10-11 至 2026-10-15",
+      "city": "上海",
+      "venue": "上海国际会议中心（SICC）",
+      "category": [
+        "AI",
+        "开发者"
+      ],
+      "pricing": "付费",
+      "register_url": "https://www.ubicomp.org/ubicomp-iswc-2026/registration/",
+      "description": "ACM旗舰会议，聚焦普适计算、可穿戴计算、物联网与智能交互领域，Google为Bronze赞助商",
+      "source": "ubicomp.org",
+      "scale": 3,
+      "organizer_score": 4,
+      "influence": 4,
+      "organizer": "ACM SIGCHI & SIGMOBILE",
+      "weight_score": 3.7,
+      "tier": "重要",
+      "user_rating": null
     },
     {
       "name": "上海国际新一代信息技术与应用展览会",
