@@ -218,7 +218,7 @@ function buildFilters(){
     const a=state.st===v?'active':'';
     h+=`<button class="chip ${a}" data-type="st" data-val="${v}">${l}</button>`;
   });
-  h+=`</div><button class="btn-clear" onclick="clearFilters()">清除筛选 ✕</button>`;
+  h+=`</div><button id="btn-clear" class="btn-clear" onclick="clearFilters()">清除筛选 ✕</button>`;
   $('filters').innerHTML=h;
   $('filters').querySelectorAll('*').forEach(el=>{
     if(el.dataset&&el.dataset.type){
@@ -298,7 +298,7 @@ function cardHTML(s){
 // ===== 搜索 =====
 function onInput(v){
   state.q=v.trim();
-  $('clear-btn') && null;
+  
   document.querySelector('.search-wrap .clear').style.display = v?'block':'none';
   render();
 }
