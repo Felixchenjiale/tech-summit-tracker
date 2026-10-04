@@ -169,7 +169,7 @@ let allSummits = [];
 let months = [], cities = [];
 const CATS = ['AI','云','开发者','硬件·芯片','综合'];
 const CAT_CLS = {'AI':'cat-ai','云':'cat-cloud','开发者':'cat-dev','硬件·芯片':'cat-hw','综合':'cat-misc'};
-const state = { q:'', month:null, city:null, cat:null, st:null };
+const state = { q:'', month:null, city:null, cat:null, st:null, showEnded:false };
 
 // ===== 工具 =====
 const $ = id => document.getElementById(id);
@@ -218,6 +218,8 @@ function buildFilters(){
     const a=state.st===v?'active':'';
     h+=`<button class="chip ${a}" data-type="st" data-val="${v}">${l}</button>`;
   });
+  const seCls = state.showEnded?'active':'';
+  h+=`<button class="chip ${seCls}" data-type="showEnded" data-val="1">⌁ 含已结束</button>`;
   h+=`</div><button id="btn-clear" class="btn-clear" onclick="clearFilters()">清除筛选 ✕</button>`;
   $('filters').innerHTML=h;
   $('filters').querySelectorAll('*').forEach(el=>{
@@ -228,6 +230,11 @@ function buildFilters(){
   $('btnRefresh').onclick=loadData;
 }
 function toggleFilter(type,val){
+  if(type==='showEnded'){
+    state.showEnded = !state.showEnded;
+    buildFilters(); render();
+    return;
+  }
   const k={city:'city',month:'month',cat:'cat',st:'st'}[type];
   state[k]= (state[k]===val)?null:val;
   buildFilters(); render();
@@ -243,7 +250,14 @@ function filtered(){
     const mm = state.month==null || monthOf(s.start_date)===state.month;
     const mc = state.city==null || s.city===state.city;
     const mcat = state.cat==null || s.category.includes(state.cat);
-    const mst = state.st==null || deriveStatus(s)===state.st;
+    // 默认隐藏已结束；除非：①显式选了状态 或 ②打开了 showEnded 开关
+    const stVal = deriveStatus(s);
+    let mst;
+    if(state.st!=null){
+      mst = stVal===state.st;                 // 显式选择状态则按选择
+    } else {
+      mst = state.showEnded ? true : stVal!=='ended';  // 否则默认排除已结束
+    }
     return mq&&mm&&mc&&mcat&&mst;
   });
 }
@@ -251,7 +265,7 @@ function render(){
   const list=filtered();
   $('count').innerHTML=`共找到 <b>${list.length}</b> 场峰会`;
   const cls=$('btn-clear');
-  if(state.q||state.month||state.city||state.cat||state.st){cls.style.display='inline-block';}else{cls.style.display='none';}
+  if(state.q||state.month||state.city||state.cat||state.st||state.showEnded){cls.style.display='inline-block';}else{cls.style.display='none';}
   if(!list.length){
     $('content').innerHTML=`<div class="state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg>
@@ -306,7 +320,7 @@ function clearSearch(){ const i=$('search'); i.value=''; state.q=''; document.qu
 
 // ===== 筛选 =====
 function clearFilters(){
-  state.q=''; state.month=null; state.city=null; state.cat=null; state.st=null;
+  state.q=''; state.month=null; state.city=null; state.cat=null; state.st=null; state.showEnded=false;
   $('search').value='';
   document.querySelector('.search-wrap .clear').style.display='none';
   buildFilters(); render();
